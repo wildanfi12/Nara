@@ -958,3 +958,50 @@ section {
   background: #ede9e1 !important;
   border: 1px solid #dcd6cb !important;
 }
+
+/* ── TOOLS & STACK SECTION & CARDS OVERRIDE ── */
+.tools-section,
+#tools {
+  background: #f5f1e9 !important;
+}
+
+.tech-card {
+  background: #ede9e1 !important;
+  border: 1px solid #dcd6cb !important;
+  box-shadow: none !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tech-card:hover {
+    background: #e2ddd5 !important;
+    border-color: #8b6842 !important;
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 24px rgba(40, 40, 33, 0.08) !important;
+  }
+}
+
+.tech-name {
+  color: #282821 !important;
+  font-weight: 600 !important;
+}
+
+.tech-role {
+  color: #6b6860 !important;
+}
+
+.faq-section,
+#faq {
+  background: #f5f1e9 !important;
+}
+
+.faq-item {
+  border-bottom: 1px solid #dcd6cb !important;
+}
+
+.faq-question {
+  color: #282821 !important;
+}
+
+.faq-answer {
+  color: #6b6860 !important;
+}
