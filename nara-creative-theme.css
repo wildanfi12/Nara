@@ -1,19 +1,19 @@
 ﻿/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-   NARA CREATIVE THEME â€” v2 (complete precision rewrite)
+   NARA CREATIVE THEME — v2 (complete precision rewrite)
    Warm cream editorial aesthetic, fully aligned with Nara-Creative
    â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 1 â€” DESIGN TOKENS (override Nara's inline :root)
-        Nara original â†’ Nara-Creative mapping:
-        #ffffff / #f9f9f8  â†’ #f5f1e9  (cream)
-        #0a0a0a / #111111  â†’ #282821  (ink)
-        #8d8d8d            â†’ #6b6860  (muted)
-        #b6b6b6            â†’ #9b9488  (subtle)
-        #e6e5e2            â†’ #dcd6cb  (line)
-        #f1f0ee            â†’ #ede9e1  (surface)
-        #e3e2df            â†’ #e2ddd5  (surface-2)
-        #b15f2c / #cf8047  â†’ #8b6842  (accent)
+   § 1 — DESIGN TOKENS (override Nara's inline :root)
+        Nara original → Nara-Creative mapping:
+        #ffffff / #f9f9f8  → #f5f1e9  (cream)
+        #0a0a0a / #111111  → #282821  (ink)
+        #8d8d8d            → #6b6860  (muted)
+        #b6b6b6            → #9b9488  (subtle)
+        #e6e5e2            → #dcd6cb  (line)
+        #f1f0ee            → #ede9e1  (surface)
+        #e3e2df            → #e2ddd5  (surface-2)
+        #b15f2c / #cf8047  → #8b6842  (accent)
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 :root {
   --background:  #f5f1e9 !important;
@@ -43,7 +43,7 @@
 @media (max-width: 640px) { :root { --header-h: 68px !important; } }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 2 â€” GLOBAL BASE
+   § 2 — GLOBAL BASE
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 html {
   scroll-behavior: smooth;
@@ -58,7 +58,7 @@ body {
   line-height: 1.65 !important;
 }
 
-/* All headings â†’ Georgia serif, like Nara-Creative */
+/* All headings → Georgia serif, like Nara-Creative */
 h1, h2, h3, h4,
 .hero-title,
 .about-h2,
@@ -82,7 +82,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 3 â€” CUSTOM CURSOR
+   § 3 — CUSTOM CURSOR
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .nc-cursor,
 .nc-cursor-ring {
@@ -116,7 +116,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 4 â€” SCROLL PROGRESS BAR
+   § 4 — SCROLL PROGRESS BAR
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #nc-scroll-progress {
   position: fixed;
@@ -134,7 +134,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 5 â€” HEADER  (floating pill â†’ solid editorial bar)
+   § 5 — HEADER  (floating pill → solid editorial bar)
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #main-header {
   position: fixed !important;
@@ -187,7 +187,7 @@ a { color: inherit; text-decoration: none; }
   display: none !important;
 }
 
-/* Brand / Logo â†’ NARA serif with spacing animation */
+/* Brand / Logo → NARA serif with spacing animation */
 .floating-brand-btn {
   margin-right: auto !important;
   background: transparent !important;
@@ -216,7 +216,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 9px !important;
 }
 
-/* Nav links â†’ Nara-Creative uppercase underline style */
+/* Nav links → Nara-Creative uppercase underline style */
 .floating-nav-list {
   display: flex !important;
   align-items: center !important;
@@ -262,7 +262,7 @@ a { color: inherit; text-decoration: none; }
   background: transparent !important;
 }
 
-/* CTA Contact â†’ pill outline Nara-Creative */
+/* CTA Contact → pill outline Nara-Creative */
 .floating-actions { gap: 0 !important; }
 .floating-contact-btn {
   display: inline-flex !important;
@@ -327,7 +327,7 @@ section[id], footer {
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 6 â€” HERO SECTION  (dark cinematic â€” #29271e)
+   § 6 — HERO SECTION  (dark cinematic — #29271e)
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #home {
   background: #29271e !important;
@@ -336,7 +336,7 @@ section[id], footer {
   padding-top: var(--header-h) !important;
 }
 
-/* Radial gradient overlay â€” warm, like NC */
+/* Radial gradient overlay — warm, like NC */
 #home::before {
   background: radial-gradient(circle at 75% 25%, rgba(139,104,66,.12) 0%, transparent 55%),
               radial-gradient(circle at 15% 75%, rgba(139,104,66,.07) 0%, transparent 50%) !important;
@@ -364,7 +364,7 @@ section[id], footer {
   color: rgba(255, 255, 255, .03) !important;
 }
 
-/* Skill pills â†’ ghost on dark */
+/* Skill pills → ghost on dark */
 .skill-pill {
   background: rgba(255, 255, 255, .06) !important;
   border-color: rgba(255, 255, 255, .12) !important;
@@ -399,13 +399,13 @@ section[id], footer {
   color: #f5f1e9 !important;
 }
 
-/* Portrait card â€” warm shadow on dark */
+/* Portrait card — warm shadow on dark */
 .portrait-card-flip {
   box-shadow: 0 28px 64px -12px rgba(0, 0, 0, .5),
               0 0 0 1px rgba(255, 255, 255, .06) !important;
 }
 
-/* Partner pills in hero â†’ subtle ghost */
+/* Partner pills in hero → subtle ghost */
 .partner-pill {
   background: rgba(255, 255, 255, .06) !important;
   border-color: rgba(255, 255, 255, .12) !important;
@@ -426,7 +426,7 @@ section[id], footer {
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 7 â€” ABOUT SECTION
+   § 7 — ABOUT SECTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #about {
   background: #f5f1e9 !important;
@@ -454,7 +454,7 @@ section[id], footer {
 .about-footer-row { border-top-color: #dcd6cb !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 8 â€” CREATE BAND / TILES
+   § 8 — CREATE BAND / TILES
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .create-band-section {
   background: #f5f1e9 !important;
@@ -474,7 +474,7 @@ section[id], footer {
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 9 â€” SERVICES SECTION
+   § 9 — SERVICES SECTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #services {
   background: #f5f1e9 !important;
@@ -523,7 +523,7 @@ section[id], footer {
 .service-icon-wrap { border-radius: 5px !important; overflow: hidden; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 10 â€” STATS SECTION
+   § 10 — STATS SECTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .stats-section {
   background: #282821 !important;
@@ -537,7 +537,7 @@ section[id], footer {
 .stats-section hr            { border-color: rgba(255, 255, 255, .08) !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 11 â€” WORKS / PORTFOLIO SECTION
+   § 11 — WORKS / PORTFOLIO SECTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #works {
   background: #f5f1e9 !important;
@@ -666,7 +666,7 @@ section[id], footer {
 #image-zoom-modal { background: rgba(18, 17, 14, .98) !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 12 â€” TESTIMONIALS SECTION
+   § 12 — TESTIMONIALS SECTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #testimonials {
   background: #282821 !important;
@@ -694,7 +694,7 @@ section[id], footer {
 .testimonial-card .stars { color: #c49a6c !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 13 â€” MARQUEE / CLIENT LOGOS
+   § 13 — MARQUEE / CLIENT LOGOS
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .marquee-section {
   background: #f5f1e9 !important;
@@ -708,7 +708,7 @@ section[id], footer {
 .marquee-logo-item:hover { filter: grayscale(0) opacity(1) !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 14 â€” CONTACT / CTA SECTION
+   § 14 — CONTACT / CTA SECTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #contact,
 .cta-section,
@@ -778,7 +778,7 @@ label {
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 15 â€” FOOTER
+   § 15 — FOOTER
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 footer,
 #site-footer {
@@ -798,7 +798,7 @@ footer a, #site-footer a { color: #6b6860 !important; }
 footer a:hover, #site-footer a:hover { color: #282821 !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 16 â€” BACK TO TOP
+   § 16 — BACK TO TOP
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 [id*="back-top"],
 [class*="back-top"] {
@@ -815,7 +815,7 @@ footer a:hover, #site-footer a:hover { color: #282821 !important; }
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 17 â€” GENERAL SECTIONS & EYEBROWS
+   § 17 — GENERAL SECTIONS & EYEBROWS
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 /* Default all sections to cream */
 section {
@@ -886,7 +886,7 @@ section {
 .text-link:hover::after { transform: scaleX(1); transform-origin: left; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 18 â€” SCROLL REVEAL
+   § 18 — SCROLL REVEAL
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .nc-reveal {
   opacity: 0;
@@ -899,7 +899,7 @@ section {
 .nc-reveal.in { opacity: 1; transform: translate(0, 0); }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 19 â€” SKIP LINK
+   § 19 — SKIP LINK
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .skip-link {
   background: #282821 !important;
@@ -908,7 +908,7 @@ section {
 }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
-   Â§ 20 â€” REDUCED MOTION
+   § 20 — REDUCED MOTION
    â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (prefers-reduced-motion: reduce) {
   .nc-cursor, .nc-cursor-ring { display: none !important; }
@@ -1004,4 +1004,226 @@ section {
 
 .faq-answer {
   color: #6b6860 !important;
+}
+
+
+/* ── ROBUST RESPONSIVE HEADER & MOBILE NAV STYLING ── */
+#main-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 72px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 5% !important;
+  background: #f5f1e9 !important;
+  border-bottom: 1px solid #dcd6cb !important;
+  box-shadow: none !important;
+  z-index: 200 !important;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease !important;
+}
+
+#main-header.scrolled {
+  box-shadow: 0 4px 20px rgba(40, 40, 33, 0.08) !important;
+}
+
+#main-header.header-hidden {
+  transform: translateY(-100%) !important;
+}
+
+.floating-header-island {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.floating-brand-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.floating-brand-name {
+  display: inline-block !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-size: 24px !important;
+  letter-spacing: 4px !important;
+  color: #282821 !important;
+  text-transform: uppercase !important;
+  transition: letter-spacing 0.3s ease !important;
+}
+
+.floating-brand-btn:hover .floating-brand-name {
+  letter-spacing: 7px !important;
+}
+
+.floating-nav {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.floating-nav-list {
+  display: flex !important;
+  align-items: center !important;
+  gap: 28px !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.floating-nav-link {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 11px !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  color: #282821 !important;
+  background: transparent !important;
+  border: none !important;
+  padding-bottom: 3px !important;
+  cursor: pointer !important;
+  position: relative !important;
+}
+
+.floating-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: #282821;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.floating-nav-link:hover::after,
+.floating-nav-link.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.floating-contact-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  border: 1px solid #8e897f !important;
+  border-radius: 40px !important;
+  padding: 8px 18px !important;
+  background: transparent !important;
+  color: #282821 !important;
+  font-size: 11px !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.floating-contact-btn:hover {
+  background: #282821 !important;
+  color: #f5f1e9 !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Hide hamburger on desktop */
+.floating-menu-btn {
+  display: none !important;
+}
+
+/* Tablet & Mobile Adjustments (<= 860px) */
+@media (max-width: 860px) {
+  .floating-nav {
+    display: none !important;
+  }
+  .floating-contact-btn {
+    display: none !important;
+  }
+  .floating-menu-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    border: 1px solid #dcd6cb !important;
+    border-radius: 50% !important;
+    width: 42px !important;
+    height: 42px !important;
+    cursor: pointer !important;
+    color: #282821 !important;
+    padding: 0 !important;
+  }
+  .floating-menu-inner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .floating-menu-text {
+    display: none !important;
+  }
+  .floating-menu-inner svg {
+    width: 20px !important;
+    height: 20px !important;
+    stroke: #282821 !important;
+  }
+}
+
+/* Fullscreen Nav Overlay styling in Nara-Creative dark aesthetic */
+#nav-overlay {
+  background: #282821 !important;
+  color: #f5f1e9 !important;
+}
+.overlay-nav-btn {
+  color: #f5f1e9 !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+}
+.overlay-close-btn {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: transparent !important;
+  color: #f5f1e9 !important;
+  border-radius: 40px !important;
+}
+
+/* RESPONSIVE PORTFOLIO GRID */
+#works .portfolio-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 32px 22px !important;
+}
+
+@media (max-width: 1024px) and (min-width: 641px) {
+  #works .portfolio-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 26px 18px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  #works .portfolio-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+}
+
+/* MODAL MOBILE OPTIMIZATION */
+@media (max-width: 640px) {
+  #project-modal .modal-content {
+    padding: 18px 14px !important;
+    border-radius: 14px !important;
+  }
+  #project-modal .modal-project-title {
+    font-size: 24px !important;
+  }
+  .modal-two-col-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
 }
