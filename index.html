@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wildan — Creative Designer, Video Editor & AI Creator</title>
+  <title>Wildan â€” Creative Designer, Video Editor & AI Creator</title>
   <meta name="description" content="Wildan is an independent creative designer, video editor, motion graphics artist, and AI content creator crafting visual experiences that move people." />
   <meta name="author" content="Wildan Firdaus" />
   <meta name="keywords" content="Wildan Firdaus, video editor, content creator, motion designer, graphic designer, AI creative, social media specialist, portfolio, Indonesia" />
@@ -17,14 +17,14 @@
   <meta property="og:url" content="https://portfoliowildanf2.vercel.app/" />
   <meta property="og:site_name" content="Wildan Portfolio" />
   <meta property="og:locale" content="id_ID" />
-  <meta property="og:title" content="Wildan — Creative Designer, Video Editor & AI Creator" />
+  <meta property="og:title" content="Wildan â€” Creative Designer, Video Editor & AI Creator" />
   <meta property="og:description" content="Commercial video editing, generative AI motion design, high-converting advertising creatives, and brand identity projects." />
   <meta property="og:image" content="https://portfoliowildanf2.vercel.app/assets/wildan-profile.jpg" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://portfoliowildanf2.vercel.app/" />
-  <meta name="twitter:title" content="Wildan — Creative Designer, Video Editor & AI Creator" />
+  <meta name="twitter:title" content="Wildan â€” Creative Designer, Video Editor & AI Creator" />
   <meta name="twitter:description" content="Commercial video editing, generative AI motion design, high-converting advertising creatives, and brand identity projects." />
   <meta name="twitter:image" content="https://portfoliowildanf2.vercel.app/assets/wildan-profile.jpg" />
 
@@ -39,6 +39,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Nara Creative Theme -->
+  <link rel="stylesheet" href="nara-creative-theme.css">
 
   <style>
     /* ==========================================================================
@@ -888,13 +891,13 @@
       border: 1px solid rgba(17, 17, 17, 0.08);
     }
 
-    /* Front Face (0°) */
+    /* Front Face (0Â°) */
     .portrait-face.front {
       transform: rotateY(0deg);
       z-index: 2;
     }
 
-    /* Back Face (180°) */
+    /* Back Face (180Â°) */
     .portrait-face.back {
       transform: rotateY(180deg);
       z-index: 1;
@@ -2582,7 +2585,7 @@
     }
     .footer-cta-h2 {
       max-width: 14ch;
-      font-size: clamp(1.85rem, 8.2vw, 2.35rem); /* ~30px–38px */
+      font-size: clamp(1.85rem, 8.2vw, 2.35rem); /* ~30pxâ€“38px */
       font-weight: 600;
       line-height: 1.1;
       letter-spacing: -0.02em;
@@ -2704,7 +2707,7 @@
         align-items: center;
       }
       .footer-social-links li:not(:last-child)::after {
-        content: '·';
+        content: 'Â·';
         color: rgba(255, 255, 255, 0.3);
         margin-left: 0.85rem;
         font-weight: 700;
@@ -4129,6 +4132,13 @@
   <link rel="stylesheet" href="portfolio-gallery.css?v=4.0">
 </head>
 <body>
+<!-- Nara Creative: Custom Cursor -->
+<div class="nc-cursor" id="nc-cursor"></div>
+<div class="nc-cursor-ring" id="nc-cursor-ring"></div>
+
+<!-- Nara Creative: Scroll Progress -->
+<div id="nc-scroll-progress"><div id="nc-scroll-bar"></div></div>
+
 
   <!-- Accessible Skip to Content -->
   <!-- ==========================================================================
@@ -4221,14 +4231,14 @@
           <div class="portrait-box reveal-fade-up" id="heroPortraitStage" style="transition-delay: 350ms;">
             <div class="portrait-card-flip" id="heroPortraitFlip" title="Click to flip portrait card">
               
-              <!-- FRONT FACE (0°) - Cafe Portrait (Foto 1) -->
+              <!-- FRONT FACE (0Â°) - Cafe Portrait (Foto 1) -->
               <div class="portrait-face front">
-                <img src="assets/1.jpg" alt="Wildan — Cafe Portrait (1)" class="portrait-photo" id="frontPortraitPhoto" fetchpriority="high">
+                <img src="assets/1.jpg" alt="Wildan â€” Cafe Portrait (1)" class="portrait-photo" id="frontPortraitPhoto" fetchpriority="high">
               </div>
 
-              <!-- BACK FACE (180°) - Office Portrait (Foto 2) -->
+              <!-- BACK FACE (180Â°) - Office Portrait (Foto 2) -->
               <div class="portrait-face back">
-                <img src="assets/2.jpg" alt="Wildan Firdaus — Office Portrait (2)" class="portrait-photo" id="backPortraitPhoto">
+                <img src="assets/2.jpg" alt="Wildan Firdaus â€” Office Portrait (2)" class="portrait-photo" id="backPortraitPhoto">
               </div>
 
             </div>
@@ -4325,7 +4335,7 @@
                   <div class="service-expand-footer">
                     <div class="service-expand-focus">
                       <span class="service-focus-label">Focus:</span>
-                      <span class="service-focus-items">Social Media Reels · Product Videos · Commercial Content · YouTube</span>
+                      <span class="service-focus-items">Social Media Reels Â· Product Videos Â· Commercial Content Â· YouTube</span>
                     </div>
                     <a href="#works" class="service-explore-link service-filter-link" data-filter="video">
                       <span>View video works</span>
@@ -4355,7 +4365,7 @@
                   <div class="service-expand-footer">
                     <div class="service-expand-focus">
                       <span class="service-focus-label">Focus:</span>
-                      <span class="service-focus-items">Social Media · Branding · Promotional Materials · Product Visuals</span>
+                      <span class="service-focus-items">Social Media Â· Branding Â· Promotional Materials Â· Product Visuals</span>
                     </div>
                     <a href="#works" class="service-explore-link service-filter-link" data-filter="design">
                       <span>View design works</span>
@@ -4385,7 +4395,7 @@
                   <div class="service-expand-footer">
                     <div class="service-expand-focus">
                       <span class="service-focus-label">Focus:</span>
-                      <span class="service-focus-items">AI Art · Product Visualization · Creative Concepts · Digital Assets</span>
+                      <span class="service-focus-items">AI Art Â· Product Visualization Â· Creative Concepts Â· Digital Assets</span>
                     </div>
                     <a href="#works" class="service-explore-link service-filter-link" data-filter="ai">
                       <span>View AI works</span>
@@ -4415,7 +4425,7 @@
                   <div class="service-expand-footer">
                     <div class="service-expand-focus">
                       <span class="service-focus-label">Focus:</span>
-                      <span class="service-focus-items">Kinetic Typography · Logo Animation · Product Motion · 2D Effects</span>
+                      <span class="service-focus-items">Kinetic Typography Â· Logo Animation Â· Product Motion Â· 2D Effects</span>
                     </div>
                     <a href="#works" class="service-explore-link service-filter-link" data-filter="motion">
                       <span>View motion works</span>
@@ -4445,7 +4455,7 @@
                   <div class="service-expand-footer">
                     <div class="service-expand-focus">
                       <span class="service-focus-label">Focus:</span>
-                      <span class="service-focus-items">Meta Ads · TikTok Ads · Product Campaigns · Promotional Creatives</span>
+                      <span class="service-focus-items">Meta Ads Â· TikTok Ads Â· Product Campaigns Â· Promotional Creatives</span>
                     </div>
                     <a href="#works" class="service-explore-link service-filter-link" data-filter="ads">
                       <span>View advertising works</span>
@@ -4475,7 +4485,7 @@
                   <div class="service-expand-footer">
                     <div class="service-expand-focus">
                       <span class="service-focus-label">Focus:</span>
-                      <span class="service-focus-items">Long-form Editing · Storytelling · Thumbnails · Content Production</span>
+                      <span class="service-focus-items">Long-form Editing Â· Storytelling Â· Thumbnails Â· Content Production</span>
                     </div>
                     <a href="#works" class="service-explore-link service-filter-link" data-filter="youtube">
                       <span>View YouTube works</span>
@@ -4854,7 +4864,7 @@
                 <svg class="icon" viewBox="0 0 24 24"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg>
                 <svg class="icon" viewBox="0 0 24 24"><path d="M12 2.5l2.9 5.88 6.49.94-4.7 4.58 1.11 6.46L12 17.9l-5.8 3.05 1.1-6.46-4.69-4.58 6.49-.94L12 2.5z"/></svg>
               </div>
-              <p class="testimonial-quote">"Hallo bang, aku masih ksih testi nihh. Btw aku suka bgt sama kualitasnya super HD bgt bener-bener sesuai ekspektasi akuu😍 gambarnya bener-bener detail jadi keliatan kaya bukan editan asli keren bgtt!"</p>
+              <p class="testimonial-quote">"Hallo bang, aku masih ksih testi nihh. Btw aku suka bgt sama kualitasnya super HD bgt bener-bener sesuai ekspektasi akuuðŸ˜ gambarnya bener-bener detail jadi keliatan kaya bukan editan asli keren bgtt!"</p>
             </div>
             <div class="client-info">
               <img src="assets/testimonials/indah.png" alt="Indah Avatar" class="client-avatar" loading="lazy">
@@ -5125,12 +5135,12 @@
           </div>
           <div class="overlay-contact-item">
             <span class="overlay-contact-label">Location</span>
-            <span>Indonesia • Remote Worldwide</span>
+            <span>Indonesia â€¢ Remote Worldwide</span>
           </div>
           <div class="overlay-contact-item">
             <span class="overlay-contact-label">Socials</span>
             <div style="display:flex; gap:0.75rem;">
-              <a href="https://instagram.com/wildanfii/" target="_blank" rel="noopener" style="color:var(--accent-from);">Instagram ↗</a>
+              <a href="https://instagram.com/wildanfii/" target="_blank" rel="noopener" style="color:var(--accent-from);">Instagram â†—</a>
             </div>
           </div>
         </div>
@@ -5143,8 +5153,8 @@
     </div>
 
     <div class="shell nav-overlay-bottom">
-      <span>Local time — <span id="overlay-live-time">9:41am</span> • Remote Worldwide</span>
-      <a href="https://wa.me/6282250561757" target="_blank" rel="noopener" class="overlay-start-link">Chat WhatsApp Langsung →</a>
+      <span>Local time â€” <span id="overlay-live-time">9:41am</span> â€¢ Remote Worldwide</span>
+      <a href="https://wa.me/6282250561757" target="_blank" rel="noopener" class="overlay-start-link">Chat WhatsApp Langsung â†’</a>
     </div>
   </div>
 
@@ -5222,7 +5232,7 @@
        ========================================================================== -->
   <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" data-lenis-prevent>
     <div class="modal-content" data-lenis-prevent>
-      <button class="modal-close" id="modal-close" aria-label="Close Case Study">✕</button>
+      <button class="modal-close" id="modal-close" aria-label="Close Case Study">âœ•</button>
       <div class="modal-body" id="modal-body-content" data-lenis-prevent>
         <!-- Content injected dynamically via portfolio.js -->
       </div>
@@ -5239,22 +5249,22 @@
         <span class="zoom-counter" id="zoom-image-counter">1 / 1</span>
       </div>
       <div class="zoom-controls">
-        <button class="zoom-btn" id="zoom-out-btn" title="Perkecil" aria-label="Perkecil gambar">−</button>
+        <button class="zoom-btn" id="zoom-out-btn" title="Perkecil" aria-label="Perkecil gambar">âˆ’</button>
         <button class="zoom-btn" id="zoom-reset-btn" title="Atur ulang zoom" aria-label="Atur ulang zoom">100%</button>
         <button class="zoom-btn" id="zoom-in-btn" title="Perbesar" aria-label="Perbesar gambar">+</button>
-        <button class="zoom-btn" id="zoom-open-btn" title="Buka gambar asli" aria-label="Buka gambar asli di tab baru">↗</button>
-        <button class="zoom-btn zoom-close-btn" id="zoom-close-btn" title="Tutup" aria-label="Tutup pratinjau">✕</button>
+        <button class="zoom-btn" id="zoom-open-btn" title="Buka gambar asli" aria-label="Buka gambar asli di tab baru">â†—</button>
+        <button class="zoom-btn zoom-close-btn" id="zoom-close-btn" title="Tutup" aria-label="Tutup pratinjau">âœ•</button>
       </div>
     </div>
     
-    <button class="zoom-nav-btn zoom-prev-btn" id="zoom-prev-btn" title="Karya sebelumnya" aria-label="Karya sebelumnya">‹</button>
-    <button class="zoom-nav-btn zoom-next-btn" id="zoom-next-btn" title="Karya berikutnya" aria-label="Karya berikutnya">›</button>
+    <button class="zoom-nav-btn zoom-prev-btn" id="zoom-prev-btn" title="Karya sebelumnya" aria-label="Karya sebelumnya">â€¹</button>
+    <button class="zoom-nav-btn zoom-next-btn" id="zoom-next-btn" title="Karya berikutnya" aria-label="Karya berikutnya">â€º</button>
 
     <div class="zoom-viewport" id="zoom-viewport">
       <img src="" alt="Zoomed Image" id="zoom-target-image" class="zoom-img">
     </div>
     
-    <div class="zoom-hint">Klik atau cubit untuk memperbesar · Gunakan tombol panah untuk berpindah karya</div>
+    <div class="zoom-hint">Klik atau cubit untuk memperbesar Â· Gunakan tombol panah untuk berpindah karya</div>
   </div>
 
   <!-- Portfolio Data & Render Script -->
@@ -5786,7 +5796,7 @@
         const email = document.getElementById('req-email').value.trim();
         const project = document.getElementById('req-project').value.trim();
 
-        if (submitBtnText) submitBtnText.textContent = 'Connecting WhatsApp…';
+        if (submitBtnText) submitBtnText.textContent = 'Connecting WhatsAppâ€¦';
 
         const waText = `Halo Wildan! Saya ${name} (${email}).%0A%0AProject Inquiry:%0A${encodeURIComponent(project)}`;
         const waUrl = `https://wa.me/6282250561757?text=${waText}`;
@@ -5844,17 +5854,17 @@
       const photos = [
         {
           src: 'assets/1.jpg',
-          alt: 'Wildan — Cafe Portrait (Foto 1)',
+          alt: 'Wildan â€” Cafe Portrait (Foto 1)',
           pos: 'center 20%'
         },
         {
           src: 'assets/2.jpg',
-          alt: 'Wildan Firdaus — Office Portrait (Foto 2)',
+          alt: 'Wildan Firdaus â€” Office Portrait (Foto 2)',
           pos: 'center 15%'
         },
         {
           src: 'assets/3.jpg',
-          alt: 'Wildan Firdaus — Outdoor Portrait (Foto 3)',
+          alt: 'Wildan Firdaus â€” Outdoor Portrait (Foto 3)',
           pos: 'center 20%'
         }
       ];
@@ -5983,7 +5993,7 @@
         }
       }, { passive: true });
 
-      // Click / Tap to flip: rotates by 180° to advance smoothly to the next photo
+      // Click / Tap to flip: rotates by 180Â° to advance smoothly to the next photo
       cardFlip.addEventListener('click', (e) => {
         if (justSwiped) return;
         isManualOverride = true;
@@ -6019,7 +6029,7 @@
         const runway = 550;
         const p = Math.min(Math.max(scrollY / runway, 0), 1);
         
-        // 0° -> 180° (Photo 2) -> 360° (Photo 3)
+        // 0Â° -> 180Â° (Photo 2) -> 360Â° (Photo 3)
         const newRot = p * 360;
         if (Math.abs(newRot - targetRotY) > 0.05) {
           targetRotY = newRot;
@@ -6065,7 +6075,7 @@
         updateFaces(currentRotY);
 
         const rad = (currentRotY * Math.PI) / 180;
-        // Sinusoidal Z-tilt peaking at 8° during transition angles
+        // Sinusoidal Z-tilt peaking at 8Â° during transition angles
         const tiltZ = Math.sin(rad * 2) * 8;
         // Subtle depth scale easing
         const scale = 1 - Math.abs(Math.sin(rad)) * 0.04;
@@ -6089,5 +6099,135 @@
     })();
 
   </script>
+
+<!-- ═══════════════════════════════════════════════════════
+     NARA CREATIVE THEME — UI Enhancements Script
+     Custom Cursor · Scroll Progress · Header Auto-hide
+     ════════════════════════════════════════════════════════ -->
+<script>
+(function () {
+  'use strict';
+
+  /* ── 1. CUSTOM CURSOR ── */
+  const dot  = document.getElementById('nc-cursor');
+  const ring = document.getElementById('nc-cursor-ring');
+
+  if (dot && ring && window.matchMedia('(hover:hover)').matches) {
+    let mx = window.innerWidth / 2;
+    let my = window.innerHeight / 2;
+    let rx = mx, ry = my;
+    let ticking = false;
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      dot.style.left = mx + 'px';
+      dot.style.top  = my + 'px';
+      if (!ticking) { ticking = true; requestAnimationFrame(moveRing); }
+    });
+
+    function moveRing() {
+      rx += (mx - rx) * 0.13;
+      ry += (my - ry) * 0.13;
+      ring.style.left = rx + 'px';
+      ring.style.top  = ry + 'px';
+      if (Math.abs(mx - rx) > 0.3 || Math.abs(my - ry) > 0.3) {
+        requestAnimationFrame(moveRing);
+      } else { ticking = false; }
+    }
+
+    document.addEventListener('mouseover', e => {
+      const h = e.target.closest('a, button, [role="button"], .project-card, .filter-btn, .service-row-trigger');
+      dot.classList.toggle('big',  !!h);
+      ring.classList.toggle('big', !!h);
+    });
+  }
+
+  /* ── 2. SCROLL PROGRESS BAR ── */
+  const bar = document.getElementById('nc-scroll-bar');
+  if (bar) {
+    window.addEventListener('scroll', () => {
+      const h = document.documentElement.scrollHeight - window.innerHeight;
+      if (h > 0) bar.style.width = (window.scrollY / h * 100).toFixed(2) + '%';
+    }, { passive: true });
+  }
+
+  /* ── 3. HEADER AUTO-HIDE (override existing behavior) ── */
+  const hdr = document.getElementById('main-header');
+  let prevY = 0;
+  if (hdr) {
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      hdr.classList.toggle('scrolled', y > 24);
+      if      (y > prevY + 10 && y > 200) hdr.classList.add('header-hidden');
+      else if (y < prevY - 6)             hdr.classList.remove('header-hidden');
+      prevY = y;
+    }, { passive: true });
+  }
+
+  /* ── 4. MOBILE NAV (Nara-Creative style) ── */
+  const menuBtn = document.getElementById('main-menu-btn') ||
+                  document.querySelector('.floating-menu-btn');
+  const mobileNav = document.getElementById('main-mobile-nav') ||
+                    document.querySelector('.mobile-nav, #mobile-nav');
+
+  if (menuBtn && mobileNav) {
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.contains('open');
+      mobileNav.classList.toggle('open', !isOpen);
+      menuBtn.setAttribute('aria-expanded', String(!isOpen));
+      document.body.style.overflow = isOpen ? '' : 'hidden';
+    });
+    mobileNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileNav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+
+  /* ── 5. SMOOTH ANCHOR SCROLL ── */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.getAttribute('href');
+      if (id === '#') {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      const target = document.querySelector(id);
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  /* ── 6. BACK TO TOP ── */
+  const backTop = document.querySelector('[id*="back-top"], [class*="back-top"]');
+  if (backTop) {
+    window.addEventListener('scroll', () => {
+      backTop.classList.toggle('show', window.scrollY > 450);
+    }, { passive: true });
+    backTop.addEventListener('click', () =>
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    );
+  }
+
+  /* ── 7. SCROLL REVEAL (IntersectionObserver) ── */
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(({ target, isIntersecting }) => {
+      if (isIntersecting) {
+        target.classList.add('in');
+        io.unobserve(target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.nc-reveal').forEach(el => io.observe(el));
+
+})();
+</script>
+
 </body>
 </html>
