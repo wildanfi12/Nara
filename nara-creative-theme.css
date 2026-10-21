@@ -1227,3 +1227,215 @@ section {
     gap: 16px !important;
   }
 }
+
+
+/* ══════════════════════════════════════════════════════════════════
+   HIGH CONTRAST & LEGIBILITY ENHANCEMENTS (Testimonials & Services)
+   ══════════════════════════════════════════════════════════════════ */
+
+/* 1. TESTIMONIALS SECTION - Crisp Contrast & Legibility */
+#testimonials {
+  background: #23221c !important;
+  color: #f5f1e9 !important;
+  padding-block: 5rem !important;
+}
+
+#testimonials h2,
+#testimonials .section-title {
+  color: #f5f1e9 !important;
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-size: clamp(2.2rem, 5vw, 3.4rem) !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.03em !important;
+}
+
+#testimonials .eyebrow {
+  color: #c9c3b8 !important;
+  border-color: rgba(245, 241, 233, 0.25) !important;
+}
+
+#testimonials .eyebrow-dot {
+  background: #c49a6c !important;
+}
+
+.testimonial-card {
+  background: #2e2c24 !important;
+  border: 1px solid rgba(220, 214, 203, 0.18) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
+}
+
+.testimonial-card:hover {
+  border-color: rgba(196, 154, 108, 0.45) !important;
+  transform: translateY(-4px) !important;
+}
+
+.testimonial-quote {
+  color: #ede8df !important;
+  font-size: 0.96rem !important;
+  line-height: 1.7 !important;
+  font-weight: 400 !important;
+  opacity: 0.95 !important;
+}
+
+.testimonial-card .stars-group svg,
+.testimonial-card .stars svg {
+  fill: #e5b078 !important;
+  color: #e5b078 !important;
+}
+
+.client-info {
+  border-top: 1px solid rgba(245, 241, 233, 0.12) !important;
+  margin-top: 0.5rem !important;
+  padding-top: 1rem !important;
+}
+
+.client-name {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 0.98rem !important;
+  letter-spacing: 0.01em !important;
+}
+
+.client-role {
+  color: #b5ada1 !important;
+  font-size: 0.82rem !important;
+  margin-top: 2px !important;
+}
+
+.client-avatar {
+  border: 1.5px solid rgba(245, 241, 233, 0.25) !important;
+}
+
+
+/* 2. SERVICES SECTION - Editorial Warm Outline & Prominent Arrows */
+#services {
+  background: #f5f1e9 !important;
+  border-top: 1px solid #dcd6cb !important;
+}
+
+.services-list {
+  border-top: 1px solid #dcd6cb !important;
+}
+
+.service-row-item {
+  border-bottom: 1px solid #dcd6cb !important;
+}
+
+.service-row-trigger {
+  padding-block: 1.6rem !important;
+  padding-inline: 0.5rem !important;
+  transition: all 0.3s ease !important;
+  border-radius: 8px !important;
+}
+
+.service-row-trigger:hover {
+  background: rgba(139, 104, 66, 0.06) !important;
+}
+
+.service-row-item.is-active .service-row-trigger {
+  background: rgba(139, 104, 66, 0.08) !important;
+}
+
+.service-index {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 11px !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 600 !important;
+  color: #8b6842 !important;
+}
+
+.service-title {
+  font-family: Georgia, 'Times New Roman', serif !important;
+  font-size: clamp(1.4rem, 2.5vw, 2.1rem) !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.02em !important;
+  color: #282821 !important;
+}
+
+.service-desc {
+  color: #5c5850 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Service Arrow Button: Nara Creative Pill Outline Style */
+.service-badge {
+  width: 44px !important;
+  height: 44px !important;
+  background: transparent !important;
+  border: 1px solid #282821 !important;
+  color: #282821 !important;
+  border-radius: 50% !important;
+  display: grid !important;
+  place-items: center !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.service-badge svg {
+  width: 18px !important;
+  height: 18px !important;
+  stroke: #282821 !important;
+  stroke-width: 2 !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.service-row-trigger:hover .service-badge {
+  background: #282821 !important;
+  color: #f5f1e9 !important;
+  transform: scale(1.05) !important;
+}
+
+.service-row-trigger:hover .service-badge svg {
+  stroke: #f5f1e9 !important;
+}
+
+.service-row-item.is-active .service-badge {
+  background: #282821 !important;
+  color: #f5f1e9 !important;
+}
+
+.service-row-item.is-active .service-badge svg {
+  stroke: #f5f1e9 !important;
+  transform: rotate(90deg) !important;
+}
+
+/* Expanded Service Detail Panel */
+.service-expand-inner {
+  padding-block: 0.5rem 2rem !important;
+  padding-inline: 0.5rem !important;
+}
+
+.service-expand-text {
+  color: #524f47 !important;
+  font-size: 1.02rem !important;
+  line-height: 1.75 !important;
+  max-width: 44rem !important;
+}
+
+.service-expand-label {
+  color: #8b6842 !important;
+  font-size: 11px !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 600 !important;
+}
+
+.service-focus-tag {
+  color: #6b6860 !important;
+  font-size: 11px !important;
+  letter-spacing: 1.2px !important;
+}
+
+.service-focus-items {
+  color: #282821 !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+}
+
+.service-explore-link {
+  color: #8b6842 !important;
+  font-size: 12px !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+}
