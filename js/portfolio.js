@@ -9,7 +9,6 @@ const PROJECTS = [
     id: 'ai-video-lolypoly',
     title: 'AI Video Editing — LOLYPOLY',
     category: 'ai-video',
-    secondaryCategory: ['video', 'ai'],
     categoryName: 'AI Video Editing',
     client: 'LOLYPOLY',
     metric: '9 AI Commercial Video Showcase • Bunny Stream',
@@ -88,7 +87,6 @@ const PROJECTS = [
   // --- AI Video Editing: Coca-Cola ---
   {
     id: 'video-editing-coca-cola',
-    secondaryCategory: 'video',
     title: 'Coca-Cola',
     category: 'ai-video',
     categoryName: 'AI Video Editing',
@@ -157,7 +155,6 @@ const PROJECTS = [
   // --- AI Video Editing: AI Video Bootcamp ---
   {
     id: 'video-editing-andrey-ai-video-bootcamp',
-    secondaryCategory: 'video',
     title: 'AI Video Bootcamp',
     category: 'ai-video',
     categoryName: 'AI Video Editing',
@@ -226,7 +223,6 @@ const PROJECTS = [
   // --- AI Video Editing: Lead Magnet Video Ads ---
   {
     id: 'video-editing-andrey-andreydigital-lead-magnet-ads',
-    secondaryCategory: 'video',
     title: 'Lead Magnet Video Ads',
     category: 'ai-video',
     categoryName: 'AI Video Editing',
@@ -271,7 +267,6 @@ const PROJECTS = [
   // --- AI Video Editing: Education Reels ---
   {
     id: 'video-editing-andrey-andreydigital-education-reels',
-    secondaryCategory: 'video',
     title: 'Education Reels',
     category: 'ai-video',
     categoryName: 'AI Video Editing',
@@ -2679,7 +2674,6 @@ const PROJECTS = [
 
   {
     id: 'video-editing-andrey-content-creator-ai',
-    secondaryCategory: 'ai-video',
     title: 'Conten Creator AI Vids',
     category: 'video',
     categoryName: 'Video Editing & Motion',
@@ -2827,7 +2821,6 @@ const PROJECTS = [
 
   {
     id: 'video-editing-andrey-food-vlog-ai',
-    secondaryCategory: 'ai-video',
     title: 'Food Vlog AI Video',
     category: 'video',
     categoryName: 'Video Editing & Motion',
@@ -3042,7 +3035,6 @@ const PROJECTS = [
 
   {
     id: 'video-editing-andrey-mixue-vlogger-ai',
-    secondaryCategory: 'ai-video',
     title: 'Mixue Vlogger AI Vids',
     category: 'video',
     categoryName: 'Video Editing & Motion',
@@ -4771,7 +4763,7 @@ function initPortfolio() {
       visibleCount = getInitialCount();
     }
 
-    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter || p.secondaryCategory === currentFilter || (Array.isArray(p.secondaryCategory) && p.secondaryCategory.includes(currentFilter)));
+    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter);
     const targetCount = Math.min(visibleCount, filtered.length);
 
     if (isCategoryChange || resetCount) {
