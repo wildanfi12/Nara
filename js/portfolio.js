@@ -8,8 +8,8 @@ const PROJECTS = [
   {
     id: 'ai-video-lolypoly',
     title: 'AI Video Editing — LOLYPOLY',
-    category: 'video',
-    secondaryCategory: 'ai',
+    category: 'ai-video',
+    secondaryCategory: ['video', 'ai'],
     categoryName: 'AI Video Editing',
     client: 'LOLYPOLY',
     metric: '9 AI Commercial Video Showcase • Bunny Stream',
@@ -2441,6 +2441,7 @@ const PROJECTS = [
   },
   {
     id: 'video-editing-andrey-ai-video-bootcamp',
+    secondaryCategory: 'ai-video',
     title: 'AI Video Bootcamp',
     category: 'video',
     categoryName: 'Video Editing',
@@ -2667,6 +2668,7 @@ const PROJECTS = [
 
   {
     id: 'video-editing-andrey-content-creator-ai',
+    secondaryCategory: 'ai-video',
     title: 'Conten Creator AI Vids',
     category: 'video',
     categoryName: 'Video Editing & Motion',
@@ -2814,6 +2816,7 @@ const PROJECTS = [
 
   {
     id: 'video-editing-andrey-food-vlog-ai',
+    secondaryCategory: 'ai-video',
     title: 'Food Vlog AI Video',
     category: 'video',
     categoryName: 'Video Editing & Motion',
@@ -3028,6 +3031,7 @@ const PROJECTS = [
 
   {
     id: 'video-editing-andrey-mixue-vlogger-ai',
+    secondaryCategory: 'ai-video',
     title: 'Mixue Vlogger AI Vids',
     category: 'video',
     categoryName: 'Video Editing & Motion',
@@ -4756,7 +4760,7 @@ function initPortfolio() {
       visibleCount = getInitialCount();
     }
 
-    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter || p.secondaryCategory === currentFilter);
+    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter || p.secondaryCategory === currentFilter || (Array.isArray(p.secondaryCategory) && p.secondaryCategory.includes(currentFilter)));
     const targetCount = Math.min(visibleCount, filtered.length);
 
     if (isCategoryChange || resetCount) {
