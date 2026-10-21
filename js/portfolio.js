@@ -4,6 +4,86 @@
    ========================================================================== */
 
 const PROJECTS = [
+  // --- AI VIDEO EDITING FOLDER (LOLYPOLY) ---
+  {
+    id: 'ai-video-lolypoly',
+    title: 'AI Video Editing — LOLYPOLY',
+    category: 'video',
+    secondaryCategory: 'ai',
+    categoryName: 'AI Video Editing',
+    client: 'LOLYPOLY',
+    metric: '9 AI Commercial Video Showcase • Bunny Stream',
+    thumbnail: 'assets/lolypoly/lolypoly_1.jpg',
+    bunnyVideoId: '5bce0255-916c-44d7-9f7f-c81f2b6edde8',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/5bce0255-916c-44d7-9f7f-c81f2b6edde8',
+    shortDesc: 'Folder Project LOLYPOLY — 9 Seri Video Komersial AI (AI Video Editing, UGC Product Showcase & Visual Motion) via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi video komersial AI untuk brand LOLYPOLY yang terhubung langsung ke Bunny Stream CDN. Menampilkan 9 video promosi produk gadget accessories dengan visual dynamic, sinematik AI motion, transisi dinamis, dan narasi visual yang engaging untuk audiens modern.',
+    challenge: 'Menciptakan rangkaian video komersial produk aksesoris gadget yang atraktif, trendy, dan berkonversi tinggi dengan ritme editing modern dan kualitas visual konsisten.',
+    solution: 'Penerapan integrasi generative AI tools, perancangan storyboard dinamis, efek motion visual presisi, serta penyelarasan color grading komersial yang di-hosting via Bunny Stream CDN bebas buffering.',
+    results: [
+      '9 Video Komersial AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk Kampanye TikTok Ads, Instagram Reels & E-Commerce Product Showcase'
+    ],
+    tools: ['AI Video Tools', 'Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    items: [
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #1',
+        img: 'assets/lolypoly/lolypoly_1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/5bce0255-916c-44d7-9f7f-c81f2b6edde8',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 1 — dynamic visual motion & product highlight.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #2',
+        img: 'assets/lolypoly/lolypoly_2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/1aaa3a92-1e8a-493c-a145-ce0ca2665454',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 2 — aesthetic styling & sleek accessories showcase.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #3',
+        img: 'assets/lolypoly/lolypoly_3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/82c51f96-f9e9-49c6-b946-9a1888f3ab1a',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 3 — energetic commercial pacing & creative motion.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #4',
+        img: 'assets/lolypoly/lolypoly_4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/1b6e9d7a-7925-43ae-8358-af861d3d23eb',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 4 — lifestyle angle & high-converting product features.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #5',
+        img: 'assets/lolypoly/lolypoly_5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/c8dfca7b-4a20-4bed-b20c-cee767de29e5',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 5 — futuristic product presentation & crisp detail.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #6',
+        img: 'assets/lolypoly/lolypoly_6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/cbde0e7b-6777-46c6-a577-97ab5c8c25c9',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 6 — commercial shortform cut & engaging hook.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #7',
+        img: 'assets/lolypoly/lolypoly_7.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/b9d1532e-8b74-472c-96e9-58de92b70e6d',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 7 — premium product aesthetics & creative AI visual.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #8',
+        img: 'assets/lolypoly/lolypoly_8.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/882899a3-9edb-40e6-9091-97f18ed9e265',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 8 — vibrant color grading & rhythmic beat-sync.'
+      },
+      {
+        name: 'LOLYPOLY — AI Commercial Video Showcase #9',
+        img: 'assets/lolypoly/lolypoly_9.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/e268035b-a5fc-4dee-85ca-486b867952d0',
+        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 9 — grand finale highlight & brand call-to-action.'
+      }
+    ]
+  },
   // --- GRAPHIC DESIGN FOLDER (PER-BRAND CARDS) ---
   {
     id: 'graphic-design-brand-logos',
@@ -4676,7 +4756,7 @@ function initPortfolio() {
       visibleCount = getInitialCount();
     }
 
-    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter);
+    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter || p.secondaryCategory === currentFilter);
     const targetCount = Math.min(visibleCount, filtered.length);
 
     if (isCategoryChange || resetCount) {
