@@ -84,6 +84,252 @@ const PROJECTS = [
       }
     ]
   },
+
+  // --- AI Video Editing: Coca-Cola ---
+  {
+    id: 'video-editing-coca-cola',
+    secondaryCategory: 'video',
+    title: 'Coca-Cola',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'Coca-Cola',
+    metric: '7 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/coca-cola/cover.jpg',
+    shortDesc: 'Folder Video Editing Coca-Cola — 7 Video Commercial Editing, Shorts/Reels & Sound Design via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi Video Editing untuk Coca-Cola yang terhubung langsung ke Bunny Stream CDN. Berisi 7 seri video komersial dengan fast-cut editing, kinetic titles, color grading merah krispi khas Coca-Cola, dan sound design profesional.',
+    challenge: 'Mengemas visual cerita & momen Coca-Cola menjadi video promosi berenergi tinggi dengan retensi penonton maksimal.',
+    solution: 'Editing video ritmis dengan potongan lagu trending, animasi teks kinetik, dan integrasi Bunny Stream CDN untuk streaming instan kualitas HD.',
+    results: [
+      '7 Aset Video Commercial Editing Resmi Terintegrasi di Folder Coca-Cola (Library ID: 756896)',
+      'Pemutaran Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Siap untuk Instagram Reels, TikTok Ads & YouTube Shorts'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
+    bunnyVideoId: '2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
+    items: [
+      {
+        name: 'Found_it_beat_202603221953.mp4',
+        img: 'assets/coca-cola/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
+        desc: 'Found_it_beat_202603221953.mp4 — Video komersial & editing ritmis Found It Beat.'
+      },
+      {
+        name: 'Fridge_door_opening_202603222021.mp4',
+        img: 'assets/coca-cola/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/32f63168-43bb-453b-8f93-107b7d27788d',
+        desc: 'Fridge_door_opening_202603222021.mp4 — Video komersial & editing ritmis Fridge Door Opening.'
+      },
+      {
+        name: 'Orang_bergerak_berjalan_202603222003.mp4',
+        img: 'assets/coca-cola/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/23dc7705-7780-4dff-817b-5ead4c978336',
+        desc: 'Orang_bergerak_berjalan_202603222003.mp4 — Video komersial & editing ritmis Outdoor Walking.'
+      },
+      {
+        name: 'Permintaan_Video_Sisca_Berpikir.mp4',
+        img: 'assets/coca-cola/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/c93541e8-469e-4fdb-a387-e5f89041ee75',
+        desc: 'Permintaan_Video_Sisca_Berpikir.mp4 — Video komersial & konsep iklan Sisca Berpikir.'
+      },
+      {
+        name: 'Person_holding_Coca-Cola_202603221957.mp4',
+        img: 'assets/coca-cola/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/3e38f5da-245b-4f7d-9edb-f0dddd71888d',
+        desc: 'Person_holding_Coca-Cola_202603221957.mp4 — Video komersial Person Holding Coca-Cola.'
+      },
+      {
+        name: 'Video_Generation_For_Hot_Woman.mp4',
+        img: 'assets/coca-cola/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/6bb493c4-0a3b-4653-8e65-0b8ba612680e',
+        desc: 'Video_Generation_For_Hot_Woman.mp4 — Video komersial konsep iklan sinematik.'
+      },
+      {
+        name: 'Video_Generation_Melting_Station.mp4',
+        img: 'assets/coca-cola/7.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/b2814029-f11c-43e6-9623-e23e1c078a45',
+        desc: 'Video_Generation_Melting_Station.mp4 — Video komersial & visual efek Melting Station.'
+      }
+    ]
+  },
+
+  // --- AI Video Editing: AI Video Bootcamp ---
+  {
+    id: 'video-editing-andrey-ai-video-bootcamp',
+    secondaryCategory: 'video',
+    title: 'AI Video Bootcamp',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'AI Video Bootcamp',
+    metric: '7 Video Showcase • Bunny Stream',
+    thumbnail: 'assets/ai-video-bootcamp/cover.jpg',
+    shortDesc: 'Folder Video Editing AI Video Bootcamp — 7 Koleksi Video AI, Motion Graphics & Prompt Engineering via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Bootcamp yang terintegrasi langsung dengan streaming Bunny Stream CDN. Berisi 7 video hasil karya & masterclass: Generative AI Video, prompt engineering, fast-cut editing, motion graphics visual, color grading, dan sound design.',
+    challenge: 'Menyajikan seluruh 7 video karya AI Video Bootcamp dalam kualitas HD/4K dengan streaming instan tanpa jeda buffer dan bebas watermark.',
+    solution: 'Integrasi player Bunny Stream CDN berkecepatan tinggi, navigasi playlist 7 video interaktif dalam modal, dan optimasi CDN global.',
+    results: [
+      '7 Video Showcase Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
+      'Tersedia Thumbnail Presisi & Player HD Bebas Iklan',
+      'Format Konten Siap untuk Media Sosial (Reels, TikTok, Shorts & Portofolio)'
+    ],
+    tools: ['Kling AI', 'Runway Gen-3', 'Midjourney', 'ElevenLabs', 'Premiere Pro', 'After Effects', 'Bunny Stream'],
+    bunnyVideoId: '12742592-91d2-462a-95a4-67b794b88ba7',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
+    items: [
+      {
+        name: '1. Phase 3 Homework',
+        img: 'assets/ai-video-bootcamp/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
+        desc: 'AI Video Assignment Phase 3 — Cinematic storytelling & motion visuals.'
+      },
+      {
+        name: '2. Phase 5 Homework',
+        img: 'assets/ai-video-bootcamp/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/2e18a091-16a4-42ff-89d7-40a0262415de',
+        desc: 'AI Video Assignment Phase 5 — Generative motion & dynamic camera angle.'
+      },
+      {
+        name: '3. Phase 6 Homework',
+        img: 'assets/ai-video-bootcamp/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/4c6b75a1-7dbf-4677-a8ae-4c4272159117',
+        desc: 'AI Video Assignment Phase 6 — Fast-cut editing & rhythmic sync visual.'
+      },
+      {
+        name: '4. Phase 7 Homework',
+        img: 'assets/ai-video-bootcamp/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/49a11ccd-9af0-4262-8a41-f699956cda98',
+        desc: 'AI Video Assignment Phase 7 — High-fidelity AI rendering and color grading.'
+      },
+      {
+        name: '5. Phase 6 Homework (Part 2)',
+        img: 'assets/ai-video-bootcamp/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/ebb9f145-ad0f-4163-994b-7d077dd4c3cb',
+        desc: 'AI Video Assignment Phase 6 Part 2 — Complex transitions & pacing harmony.'
+      },
+      {
+        name: '6. Prompting AI Masterclass',
+        img: 'assets/ai-video-bootcamp/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/fe7d4b1b-3817-4a34-ad79-e29a0d468b72',
+        desc: 'AI Prompt Engineering Masterclass — Text-to-video workflow & cinematic camera movements.'
+      },
+      {
+        name: '7. Food Vlogger Commercial',
+        img: 'assets/ai-video-bootcamp/7.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/8eb32311-11b6-4950-94ca-cb717c3e0fa0',
+        desc: 'Food Vlogger Promo — Dynamic culinary montage with AI voiceover integration.'
+      }
+    ]
+  },
+
+  // --- AI Video Editing: Lead Magnet Video Ads ---
+  {
+    id: 'video-editing-andrey-andreydigital-lead-magnet-ads',
+    secondaryCategory: 'video',
+    title: 'Lead Magnet Video Ads',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'andreydigital.id',
+    metric: '3 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/andreydigital/1.png',
+    shortDesc: 'Folder Video Editing Lead Magnet Video Ads — 3 Seri Video Ads Promosi & Konversi via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi Video Editing untuk Lead Magnet Video Ads andreydigital.id yang terhubung langsung ke Bunny Stream CDN. Berisi 3 varian video promosi berkonversi tinggi (Video Ads 1, Video Ads 2, dan Video Ads 3) dengan hook kuat, kinetic typography, dan sound design profesional.',
+    challenge: 'Membuat 3 variasi video iklan lead magnet dengan pacing cepat dan hook visual dinamis untuk memicu audiens mendaftar atau mengunduh lead magnet.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, transisi kinetik ritmis, call-to-action tegas, dan pemutaran responsif HD.',
+    results: [
+      '3 Video Iklan Lead Magnet Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Video Ads Siap untuk Meta Ads (Instagram & Facebook) serta TikTok Ads'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    bunnyVideoId: 'd5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/d5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
+    items: [
+      {
+        name: '1. Video Ads 1',
+        img: 'assets/andreydigital/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/d5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
+        desc: 'Video Ads 1 — Iklan promosi lead magnet dengan hook visual dramatis.'
+      },
+      {
+        name: '2. Video Ads 2',
+        img: 'assets/andreydigital/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/32baba50-0a00-4aaf-ba97-943f4650bab8',
+        desc: 'Video Ads 2 — Kinetic typography & dynamic value proposition.'
+      },
+      {
+        name: '3. Video Ads 3',
+        img: 'assets/andreydigital/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/c2ac5630-4ba1-4b25-9831-e3bc7dd9f2eb',
+        desc: 'Video Ads 3 — Fast-cut editing & call-to-action penawaran khusus.'
+      }
+    ]
+  },
+
+  // --- AI Video Editing: Education Reels ---
+  {
+    id: 'video-editing-andrey-andreydigital-education-reels',
+    secondaryCategory: 'video',
+    title: 'Education Reels',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'andreydigital.id',
+    metric: '6 Video Showcase • Bunny Stream',
+    thumbnail: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+    shortDesc: 'Folder Video Editing Education Reels — 6 Koleksi Video Edukasi & Reels Berkecepatan Tinggi via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi Video Editing untuk Education Reels andreydigital.id yang terhubung langsung ke Bunny Stream CDN. Berisi 6 seri video edukasi & reels komersial (Bisnis Usai Ngantor Capek, MARK 10, MARK 11, MARK 7, MARK 9, & Video Escape Roadmap) dalam kualitas streaming HD instan tanpa buffering.',
+    challenge: 'Menyajikan seluruh 6 video serial edukasi reels berdurasi penuh dalam kualitas streaming HD tercepat tanpa membebani bandwidth hosting.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, navigasi playlist interaktif di dalam modal, dan optimasi pengiriman CDN global.',
+    results: [
+      '6 Video Edukasi & Reels Resmi Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
+      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Edukasi Siap untuk Instagram Reels, TikTok & Portfolio'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    bunnyVideoId: '746f7ece-dc2c-4f62-a014-3983e1f2512b',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/746f7ece-dc2c-4f62-a014-3983e1f2512b',
+    items: [
+      {
+        name: '1. Bisnis Usai Ngantor Capek',
+        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/746f7ece-dc2c-4f62-a014-3983e1f2512b',
+        desc: 'Video Bisnis Usai Ngantor Capek — Editing edukasi interaktif & hook kuat.'
+      },
+      {
+        name: '2. MARK 10',
+        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/256f633f-63bb-4df5-8401-9102003b7fd1',
+        desc: 'MARK 10 — Seri video edukasi bisnis digital & visual storytelling.'
+      },
+      {
+        name: '3. MARK 11',
+        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/a67d0d14-9770-4054-b131-003f75bc77ab',
+        desc: 'MARK 11 — Kinetic typography & dynamic sound design.'
+      },
+      {
+        name: '4. MARK 7',
+        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/4c4a9a51-cf75-4e0c-9844-b008fc6cb8cb',
+        desc: 'MARK 7 — Fast-paced editing untuk konversi penonton ke pembeli.'
+      },
+      {
+        name: '5. MARK 9',
+        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/44bcd88f-d58e-4270-9971-5232460d02a0',
+        desc: 'MARK 9 — Rhythmic cut & color grading profesional.'
+      },
+      {
+        name: '6. Video Escape Roadmap Dibuat',
+        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
+        video: 'https://iframe.mediadelivery.net/embed/756896/15622f0d-153b-4e11-bd3a-fc367a702927',
+        desc: 'Video Escape Roadmap Dibuat — Edukasi roadmap step-by-step.'
+      }
+    ]
+  },
   // --- GRAPHIC DESIGN FOLDER (PER-BRAND CARDS) ---
   {
     id: 'graphic-design-brand-logos',
@@ -2338,73 +2584,7 @@ const PROJECTS = [
     ]
   },
 
-  {
-    id: 'video-editing-coca-cola',
-    title: 'Coca-Cola',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Coca-Cola',
-    metric: '7 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/coca-cola/cover.jpg',
-    shortDesc: 'Folder Video Editing Coca-Cola — 7 Video Commercial Editing, Shorts/Reels & Sound Design via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Coca-Cola yang terhubung langsung ke Bunny Stream CDN. Berisi 7 seri video komersial dengan fast-cut editing, kinetic titles, color grading merah krispi khas Coca-Cola, dan sound design profesional.',
-    challenge: 'Mengemas visual cerita & momen Coca-Cola menjadi video promosi berenergi tinggi dengan retensi penonton maksimal.',
-    solution: 'Editing video ritmis dengan potongan lagu trending, animasi teks kinetik, dan integrasi Bunny Stream CDN untuk streaming instan kualitas HD.',
-    results: [
-      '7 Aset Video Commercial Editing Resmi Terintegrasi di Folder Coca-Cola (Library ID: 756896)',
-      'Pemutaran Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Siap untuk Instagram Reels, TikTok Ads & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
-    items: [
-      {
-        name: 'Found_it_beat_202603221953.mp4',
-        img: 'assets/coca-cola/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
-        desc: 'Found_it_beat_202603221953.mp4 — Video komersial & editing ritmis Found It Beat.'
-      },
-      {
-        name: 'Fridge_door_opening_202603222021.mp4',
-        img: 'assets/coca-cola/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/32f63168-43bb-453b-8f93-107b7d27788d',
-        desc: 'Fridge_door_opening_202603222021.mp4 — Video komersial & editing ritmis Fridge Door Opening.'
-      },
-      {
-        name: 'Orang_bergerak_berjalan_202603222003.mp4',
-        img: 'assets/coca-cola/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/23dc7705-7780-4dff-817b-5ead4c978336',
-        desc: 'Orang_bergerak_berjalan_202603222003.mp4 — Video komersial & editing ritmis Outdoor Walking.'
-      },
-      {
-        name: 'Permintaan_Video_Sisca_Berpikir.mp4',
-        img: 'assets/coca-cola/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c93541e8-469e-4fdb-a387-e5f89041ee75',
-        desc: 'Permintaan_Video_Sisca_Berpikir.mp4 — Video komersial & konsep iklan Sisca Berpikir.'
-      },
-      {
-        name: 'Person_holding_Coca-Cola_202603221957.mp4',
-        img: 'assets/coca-cola/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/3e38f5da-245b-4f7d-9edb-f0dddd71888d',
-        desc: 'Person_holding_Coca-Cola_202603221957.mp4 — Video komersial Person Holding Coca-Cola.'
-      },
-      {
-        name: 'Video_Generation_For_Hot_Woman.mp4',
-        img: 'assets/coca-cola/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/6bb493c4-0a3b-4653-8e65-0b8ba612680e',
-        desc: 'Video_Generation_For_Hot_Woman.mp4 — Video komersial konsep iklan sinematik.'
-      },
-      {
-        name: 'Video_Generation_Melting_Station.mp4',
-        img: 'assets/coca-cola/7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/b2814029-f11c-43e6-9623-e23e1c078a45',
-        desc: 'Video_Generation_Melting_Station.mp4 — Video komersial & visual efek Melting Station.'
-      }
-    ]
-  },
-
+  
   {
     id: 'video-editing-lamis-resto',
     title: 'Lamis Resto',
@@ -2439,178 +2619,9 @@ const PROJECTS = [
       }
     ]
   },
-  {
-    id: 'video-editing-andrey-ai-video-bootcamp',
-    secondaryCategory: 'ai-video',
-    title: 'AI Video Bootcamp',
-    category: 'video',
-    categoryName: 'Video Editing',
-    client: 'AI Video Bootcamp',
-    metric: '7 Video Showcase • Bunny Stream',
-    thumbnail: 'assets/ai-video-bootcamp/cover.jpg',
-    shortDesc: 'Folder Video Editing AI Video Bootcamp — 7 Koleksi Video AI, Motion Graphics & Prompt Engineering via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Bootcamp yang terintegrasi langsung dengan streaming Bunny Stream CDN. Berisi 7 video hasil karya & masterclass: Generative AI Video, prompt engineering, fast-cut editing, motion graphics visual, color grading, dan sound design.',
-    challenge: 'Menyajikan seluruh 7 video karya AI Video Bootcamp dalam kualitas HD/4K dengan streaming instan tanpa jeda buffer dan bebas watermark.',
-    solution: 'Integrasi player Bunny Stream CDN berkecepatan tinggi, navigasi playlist 7 video interaktif dalam modal, dan optimasi CDN global.',
-    results: [
-      '7 Video Showcase Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
-      'Tersedia Thumbnail Presisi & Player HD Bebas Iklan',
-      'Format Konten Siap untuk Media Sosial (Reels, TikTok, Shorts & Portofolio)'
-    ],
-    tools: ['Kling AI', 'Runway Gen-3', 'Midjourney', 'ElevenLabs', 'Premiere Pro', 'After Effects', 'Bunny Stream'],
-    bunnyVideoId: '12742592-91d2-462a-95a4-67b794b88ba7',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
-    items: [
-      {
-        name: '1. Phase 3 Homework',
-        img: 'assets/ai-video-bootcamp/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
-        desc: 'AI Video Assignment Phase 3 — Cinematic storytelling & motion visuals.'
-      },
-      {
-        name: '2. Phase 5 Homework',
-        img: 'assets/ai-video-bootcamp/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2e18a091-16a4-42ff-89d7-40a0262415de',
-        desc: 'AI Video Assignment Phase 5 — Generative motion & dynamic camera angle.'
-      },
-      {
-        name: '3. Phase 6 Homework',
-        img: 'assets/ai-video-bootcamp/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/4c6b75a1-7dbf-4677-a8ae-4c4272159117',
-        desc: 'AI Video Assignment Phase 6 — Fast-cut editing & rhythmic sync visual.'
-      },
-      {
-        name: '4. Phase 7 Homework',
-        img: 'assets/ai-video-bootcamp/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/49a11ccd-9af0-4262-8a41-f699956cda98',
-        desc: 'AI Video Assignment Phase 7 — High-fidelity AI rendering and color grading.'
-      },
-      {
-        name: '5. Phase 6 Homework (Part 2)',
-        img: 'assets/ai-video-bootcamp/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/ebb9f145-ad0f-4163-994b-7d077dd4c3cb',
-        desc: 'AI Video Assignment Phase 6 Part 2 — Complex transitions & pacing harmony.'
-      },
-      {
-        name: '6. Prompting AI Masterclass',
-        img: 'assets/ai-video-bootcamp/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/fe7d4b1b-3817-4a34-ad79-e29a0d468b72',
-        desc: 'AI Prompt Engineering Masterclass — Text-to-video workflow & cinematic camera movements.'
-      },
-      {
-        name: '7. Food Vlogger Commercial',
-        img: 'assets/ai-video-bootcamp/7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/8eb32311-11b6-4950-94ca-cb717c3e0fa0',
-        desc: 'Food Vlogger Promo — Dynamic culinary montage with AI voiceover integration.'
-      }
-    ]
-  },
-
-  {
-    id: 'video-editing-andrey-andreydigital-education-reels',
-    title: 'Education Reels',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'andreydigital.id',
-    metric: '6 Video Showcase • Bunny Stream',
-    thumbnail: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-    shortDesc: 'Folder Video Editing Education Reels — 6 Koleksi Video Edukasi & Reels Berkecepatan Tinggi via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Education Reels andreydigital.id yang terhubung langsung ke Bunny Stream CDN. Berisi 6 seri video edukasi & reels komersial (Bisnis Usai Ngantor Capek, MARK 10, MARK 11, MARK 7, MARK 9, & Video Escape Roadmap) dalam kualitas streaming HD instan tanpa buffering.',
-    challenge: 'Menyajikan seluruh 6 video serial edukasi reels berdurasi penuh dalam kualitas streaming HD tercepat tanpa membebani bandwidth hosting.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, navigasi playlist interaktif di dalam modal, dan optimasi pengiriman CDN global.',
-    results: [
-      '6 Video Edukasi & Reels Resmi Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Edukasi Siap untuk Instagram Reels, TikTok & Portfolio'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: '746f7ece-dc2c-4f62-a014-3983e1f2512b',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/746f7ece-dc2c-4f62-a014-3983e1f2512b',
-    items: [
-      {
-        name: '1. Bisnis Usai Ngantor Capek',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/746f7ece-dc2c-4f62-a014-3983e1f2512b',
-        desc: 'Video Bisnis Usai Ngantor Capek — Editing edukasi interaktif & hook kuat.'
-      },
-      {
-        name: '2. MARK 10',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/256f633f-63bb-4df5-8401-9102003b7fd1',
-        desc: 'MARK 10 — Seri video edukasi bisnis digital & visual storytelling.'
-      },
-      {
-        name: '3. MARK 11',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/a67d0d14-9770-4054-b131-003f75bc77ab',
-        desc: 'MARK 11 — Kinetic typography & dynamic sound design.'
-      },
-      {
-        name: '4. MARK 7',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/4c4a9a51-cf75-4e0c-9844-b008fc6cb8cb',
-        desc: 'MARK 7 — Fast-paced editing untuk konversi penonton ke pembeli.'
-      },
-      {
-        name: '5. MARK 9',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/44bcd88f-d58e-4270-9971-5232460d02a0',
-        desc: 'MARK 9 — Rhythmic cut & color grading profesional.'
-      },
-      {
-        name: '6. Video Escape Roadmap Dibuat',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/15622f0d-153b-4e11-bd3a-fc367a702927',
-        desc: 'Video Escape Roadmap Dibuat — Edukasi roadmap step-by-step.'
-      }
-    ]
-  },
-
-  {
-    id: 'video-editing-andrey-andreydigital-lead-magnet-ads',
-    title: 'Lead Magnet Video Ads',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'andreydigital.id',
-    metric: '3 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/andreydigital/1.png',
-    shortDesc: 'Folder Video Editing Lead Magnet Video Ads — 3 Seri Video Ads Promosi & Konversi via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Lead Magnet Video Ads andreydigital.id yang terhubung langsung ke Bunny Stream CDN. Berisi 3 varian video promosi berkonversi tinggi (Video Ads 1, Video Ads 2, dan Video Ads 3) dengan hook kuat, kinetic typography, dan sound design profesional.',
-    challenge: 'Membuat 3 variasi video iklan lead magnet dengan pacing cepat dan hook visual dinamis untuk memicu audiens mendaftar atau mengunduh lead magnet.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, transisi kinetik ritmis, call-to-action tegas, dan pemutaran responsif HD.',
-    results: [
-      '3 Video Iklan Lead Magnet Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Video Ads Siap untuk Meta Ads (Instagram & Facebook) serta TikTok Ads'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'd5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/d5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
-    items: [
-      {
-        name: '1. Video Ads 1',
-        img: 'assets/andreydigital/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
-        desc: 'Video Ads 1 — Iklan promosi lead magnet dengan hook visual dramatis.'
-      },
-      {
-        name: '2. Video Ads 2',
-        img: 'assets/andreydigital/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/32baba50-0a00-4aaf-ba97-943f4650bab8',
-        desc: 'Video Ads 2 — Kinetic typography & dynamic value proposition.'
-      },
-      {
-        name: '3. Video Ads 3',
-        img: 'assets/andreydigital/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c2ac5630-4ba1-4b25-9831-e3bc7dd9f2eb',
-        desc: 'Video Ads 3 — Fast-cut editing & call-to-action penawaran khusus.'
-      }
-    ]
-  },
-
+  
+  
+  
   {
     id: 'video-editing-andrey-andreydigital-make-money-vads',
     title: 'Make Money with Digital Product Video Ads',
