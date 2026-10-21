@@ -703,9 +703,8 @@ section[id], footer {
 }
 .marquee-label,
 .marquee-eyebrow { color: #9b9488 !important; }
-.marquee-track img,
-.marquee-logo-item { filter: grayscale(1) opacity(.5) !important; }
-.marquee-logo-item:hover { filter: grayscale(0) opacity(1) !important; }
+.client-logo-item img, .marquee-track img, .marquee-logo-item { max-height: 2.75rem !important; max-width: 125px !important; object-fit: contain !important; filter: brightness(0) opacity(0.85) !important; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease !important; }
+.client-logo-item:hover img, .marquee-track img:hover, .marquee-logo-item:hover { filter: brightness(0) opacity(1) !important; transform: scale(1.08) !important; }
 
 /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
    § 14 — CONTACT / CTA SECTION

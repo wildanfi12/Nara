@@ -2420,20 +2420,21 @@
       100% { transform: translateX(-50%); }
     }
     .client-logo-item {
-      width: 6rem;
-      height: 3.5rem;
+      width: 7.5rem;
+      height: 3.8rem;
       display: grid;
       place-items: center;
-      filter: grayscale(1) opacity(0.5);
-      transition: filter 0.3s ease;
+      transition: transform 0.3s ease;
     }
     .client-logo-item:hover {
       filter: grayscale(0) opacity(1);
     }
     .client-logo-item img {
-      max-height: 2.2rem;
-      max-width: 100%;
+      max-height: 2.75rem;
+      max-width: 125px;
       object-fit: contain;
+      filter: brightness(0) opacity(0.85);
+      transition: filter 0.3s ease, transform 0.3s ease;
     }
 
     /* ==========================================================================
@@ -4858,6 +4859,11 @@
 
     <!-- CLIENT LOGOS RUNNING MARQUEE -->
     <section class="marquee-section" aria-label="Trusted client logos">
+      <div class="shell" style="margin-bottom: 1.25rem; text-align: center;">
+        <span class="marquee-eyebrow" style="font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 600; color: #635e54;">
+          Trusted by Innovative Brands & Partners
+        </span>
+      </div>
       <div class="marquee-track-wrap">
         <div class="marquee-track">
           <div class="client-logo-item"><img src="assets/logos/1.png" alt="Client Logo 1" loading="lazy"></div>
