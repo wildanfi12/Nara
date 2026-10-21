@@ -325,6 +325,299 @@ const PROJECTS = [
       }
     ]
   },
+    {
+    id: 'video-editing-andrey-content-creator-ai',
+    title: 'Content Creator AI Vids',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'Content Creator AI',
+    metric: '2 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/content-creator-ai/resep.jpg',
+    shortDesc: 'Folder AI Video Editing Content Creator AI Vids — Seri Video Commercial & Vlog Edukasi AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Conten Creator AI Vids yang terhubung langsung ke Bunny Stream CDN. Berisi video komersial dan vlog edukasi interaktif hasil prompt engineering, visual storytelling ceria, kinetic typography, dan sound design profesional.',
+    challenge: 'Mengemas konten vlog edukasi dan resep komersial bernuansa ceria dengan pacing dinamis dan visual hook penonton tinggi.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, cut dinamis, musik trending, dan pemutaran HD instan.',
+    results: [
+      '2 Video Komersial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Siap untuk YouTube Shorts, Instagram Reels & TikTok'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    bunnyVideoId: 'f3cf936c-9ba3-427b-b25f-5904143b5fc7',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
+    items: [
+      {
+        name: 'Resep_Vlog_Ala_Sunda_Ceria.mp4',
+        img: 'assets/content-creator-ai/resep.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
+        desc: 'Resep_Vlog_Ala_Sunda_Ceria.mp4 — Video komersial & vlog kuliner ceria.'
+      },
+      {
+        name: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4',
+        img: 'assets/content-creator-ai/evaluasi.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/dc62b648-fc78-4fad-acba-30aa68bad11a',
+        desc: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4 — Video vlog edukasi evaluasi prompt AI.'
+      }
+    ]
+  },
+
+    {
+    id: 'video-editing-andrey-fighting-style-ai',
+    title: 'Fighting Style AI Vids',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'Action AI Motion',
+    metric: '3 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/fighting-style/captain.jpg',
+    shortDesc: 'Folder AI Video Editing Fighting Style AI Vids — 3 Aset Video Aksi Generative AI & Sound Design via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Fighting Style AI Vids yang terhubung langsung ke Bunny Stream CDN. Menampilkan 3 seri video aksi pertarungan jarak dekat (hand-to-hand combat) berintensitas tinggi hasil generative AI visual (Kling & VEO) dengan sound design dinamis dan transisi ritmis.',
+    challenge: 'Menyajikan adegan koreografi laga dan pertarungan cepat bertenaga tinggi dengan detail gerakan fluid dan sinematik.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, penyelarasan efek suara hantaman (impact SFX), dan pemutaran HD instan.',
+    results: [
+      '3 Video Aksi Laga AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Pemutaran Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Siap untuk Instagram Reels, TikTok & YouTube Shorts'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    bunnyVideoId: 'f0b426ea-6494-41a1-949b-2b37a7b05445',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f0b426ea-6494-41a1-949b-2b37a7b05445',
+    items: [
+      {
+        name: 'High_Octane_Captain_America_Fight_Scene.mp4',
+        img: 'assets/fighting-style/captain.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f0b426ea-6494-41a1-949b-2b37a7b05445',
+        desc: 'High_Octane_Captain_America_Fight_Scene.mp4 — Video koreografi aksi laga Captain America bertenaga tinggi.'
+      },
+      {
+        name: 'Kling Hand to Hand Combat.mp4',
+        img: 'assets/fighting-style/kling.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/d6393043-d980-43f6-bf9d-a5699b58e254',
+        desc: 'Kling Hand to Hand Combat.mp4 — Video simulasi pertarungan jarak dekat hasil AI Kling.'
+      },
+      {
+        name: 'VEO Hand to Hand Combat.mp4',
+        img: 'assets/fighting-style/veo.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/90415c99-ee7a-4388-9768-5b89f2da22d8',
+        desc: 'VEO Hand to Hand Combat.mp4 — Video aksi sinematik hand-to-hand combat AI VEO.'
+      }
+    ]
+  },
+
+    {
+    id: 'video-editing-andrey-food-vlog-ai',
+    title: 'Food Vlog AI Video',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'Culinary AI',
+    metric: '6 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/food-vlog-ai/1.jpg',
+    shortDesc: 'Folder AI Video Editing Food Vlog AI Video — 6 Aset Video Kuliner Sinematik Generative AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Food Vlog AI Video yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video commercial & aesthetic food vlog berbasis generative AI visual dengan motion ritmis, appetizing color grading, dan sound design dinamis.',
+    challenge: 'Menyajikan visual presentasi kuliner generative AI yang menggugah selera dengan tempo editing cepat dan kualitas visual tinggi.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual presentasi makanan lezat, dan pemutaran responsif.',
+    results: [
+      '6 Video Komersial Kuliner AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
+    bunnyVideoId: '810784b8-a614-4c4e-bd9f-6dda718cf2de',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
+    items: [
+      {
+        name: '1.mp4',
+        img: 'assets/food-vlog-ai/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
+        desc: '1.mp4 — Video komersial kuliner Food Vlog AI Video seri 1.'
+      },
+      {
+        name: '2.mp4',
+        img: 'assets/food-vlog-ai/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/71192ca6-f8a3-4ab2-89d0-b0d406d19b7c',
+        desc: '2.mp4 — Video komersial kuliner Food Vlog AI Video seri 2.'
+      },
+      {
+        name: '3.mp4',
+        img: 'assets/food-vlog-ai/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/5bfe193f-3590-42f7-8ea4-02869816e4e0',
+        desc: '3.mp4 — Video komersial kuliner Food Vlog AI Video seri 3.'
+      },
+      {
+        name: '4.mp4',
+        img: 'assets/food-vlog-ai/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f0d38f6f-8700-4cc5-b4aa-aa5af30fdd3e',
+        desc: '4.mp4 — Video komersial kuliner Food Vlog AI Video seri 4.'
+      },
+      {
+        name: '5.mp4',
+        img: 'assets/food-vlog-ai/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f48a0dcc-6c21-4206-82fb-7e6d843df361',
+        desc: '5.mp4 — Video komersial kuliner Food Vlog AI Video seri 5.'
+      },
+      {
+        name: '6.mp4',
+        img: 'assets/food-vlog-ai/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/49ae9077-b747-479b-be51-d259c4aeb130',
+        desc: '6.mp4 — Video komersial kuliner Food Vlog AI Video seri 6.'
+      }
+    ]
+  },
+
+    {
+    id: 'video-editing-andrey-mixue-vlogger-ai',
+    title: 'Mixue Vlogger AI Vids',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'Mixue',
+    metric: '6 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/mixue-vlogger-ai/1.jpg',
+    shortDesc: 'Folder AI Video Editing Mixue Vlogger AI Vids — 6 Aset Video Promosi Es Krim & Vlogger AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Mixue Vlogger AI Vids yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video komersial brand Mixue dengan karakter AI presenter vlogger interaktif, animasi visual segar, dan motion editing dinamis.',
+    challenge: 'Mengemas daya tarik brand es krim & minuman viral Mixue ke dalam format vlogger AI yang menghibur dan meningkatkan konversi iklan.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, penyelarasan visual karakter presenter AI, dan ritme audio ceria.',
+    results: [
+      '6 Video Iklan Vlogger AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
+    bunnyVideoId: 'fb46d260-eee1-4c66-bb7d-b57730cbdb81',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/fb46d260-eee1-4c66-bb7d-b57730cbdb81',
+    items: [
+      {
+        name: '1.mp4',
+        img: 'assets/mixue-vlogger-ai/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/fb46d260-eee1-4c66-bb7d-b57730cbdb81',
+        desc: '1.mp4 — Video komersial Mixue Vlogger AI Vids seri 1.'
+      },
+      {
+        name: '2.mp4',
+        img: 'assets/mixue-vlogger-ai/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/6f312a89-daa2-464b-9996-ce6799a8d306',
+        desc: '2.mp4 — Video komersial Mixue Vlogger AI Vids seri 2.'
+      },
+      {
+        name: '3.mp4',
+        img: 'assets/mixue-vlogger-ai/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/dc8247a7-85c5-46bc-9b98-df99208d90d0',
+        desc: '3.mp4 — Video komersial Mixue Vlogger AI Vids seri 3.'
+      },
+      {
+        name: 'Video_Generation_Request_Mixue_Ad.mp4',
+        img: 'assets/mixue-vlogger-ai/ad.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/66150804-5ba0-40ad-9d0f-9f42363a8442',
+        desc: 'Video_Generation_Request_Mixue_Ad.mp4 — Video iklan komersial Mixue berbasis generative AI motion.'
+      },
+      {
+        name: 'Video_Mixue_Panas_Tanpa_Musik.mp4',
+        img: 'assets/mixue-vlogger-ai/panas.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/70369183-5e48-4d83-ac41-46669e350ff0',
+        desc: 'Video_Mixue_Panas_Tanpa_Musik.mp4 — Video adegan Mixue cuaca panas & kesegaran es krim viral.'
+      },
+      {
+        name: 'Woman_waves,_points_202603262023.mp4',
+        img: 'assets/mixue-vlogger-ai/woman.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/ce338136-b933-43d4-b1db-1c4f5511da6a',
+        desc: 'Woman_waves,_points_202603262023.mp4 — Video presenter vlogger AI merekomendasikan menu Mixue.'
+      }
+    ]
+  },
+
+    {
+    id: 'video-editing-andrey-ponds-acne-solution',
+    title: 'Ponds Acne Solution AI Clip',
+    category: 'ai-video',
+    categoryName: 'AI Video Editing',
+    client: 'Pond’s',
+    metric: '11 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/ponds-acne-solution/0.jpg',
+    shortDesc: 'Folder AI Video Editing Ponds Acne Solution AI Clip — 11 Aset Video Komersial Skincare AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Ponds Acne Solution AI Clip yang terhubung langsung ke Bunny Stream CDN. Menampilkan 11 klip video komersial perawatan kulit anti-jerawat dengan sinematografi beauty shoot premium, pergerakan kamera halus, dan color grading jernih.',
+    challenge: 'Mengemas pesan klinis dan visual estetik perawatan kulit jerawat menjadi konten video komersial beresolusi tinggi yang meyakinkan konsumen.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual kulit glowing & sehat, serta pemutaran responsif.',
+    results: [
+      '11 Video Komersial Skincare Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
+    ],
+    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
+    bunnyVideoId: '576dee0b-e400-4509-adf2-38e1accb32db',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
+    items: [
+      {
+        name: '0.mp4',
+        img: 'assets/ponds-acne-solution/0.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
+        desc: '0.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 0.'
+      },
+      {
+        name: '1.mp4',
+        img: 'assets/ponds-acne-solution/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/852874f1-1166-4a7a-b453-4a0e40f61e63',
+        desc: '1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 1.'
+      },
+      {
+        name: '1 (1).mp4',
+        img: 'assets/ponds-acne-solution/1_alt.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/bbd833ab-7ff9-4963-bc72-c6a86bd6beb8',
+        desc: '1 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 1.'
+      },
+      {
+        name: '2.mp4',
+        img: 'assets/ponds-acne-solution/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/a8dccfe4-a1f2-4c20-96d7-46da60784689',
+        desc: '2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.'
+      },
+      {
+        name: '2.1.mp4',
+        img: 'assets/ponds-acne-solution/2_1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f2669c28-5eea-4774-ac75-7a5da78f65a9',
+        desc: '2.1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.1.'
+      },
+      {
+        name: '2.2.mp4',
+        img: 'assets/ponds-acne-solution/2_2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/8356b238-780d-47c3-85af-e8e32076ec73',
+        desc: '2.2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.2.'
+      },
+      {
+        name: '3.mp4',
+        img: 'assets/ponds-acne-solution/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/d963468e-4f67-4981-8d7d-a6a636049bb4',
+        desc: '3.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 3.'
+      },
+      {
+        name: '3 (1).mp4',
+        img: 'assets/ponds-acne-solution/3_alt.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/e0613f7c-2c88-4b11-bbc9-da364ee07148',
+        desc: '3 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 3.'
+      },
+      {
+        name: '4.mp4',
+        img: 'assets/ponds-acne-solution/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/07291511-c2c3-4c19-90bf-794203a3fd24',
+        desc: '4.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 4.'
+      },
+      {
+        name: '5.mp4',
+        img: 'assets/ponds-acne-solution/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/0523294d-d7eb-4733-9c71-78c8ee9d1a9d',
+        desc: '5.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 5.'
+      },
+      {
+        name: '6.mp4',
+        img: 'assets/ponds-acne-solution/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/db9edec9-8bf3-4a91-a2fc-39d970dc1f1a',
+        desc: '6.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 6.'
+      }
+    ]
+  },
+
   // --- GRAPHIC DESIGN FOLDER (PER-BRAND CARDS) ---
   {
     id: 'graphic-design-brand-logos',
@@ -2673,148 +2966,6 @@ const PROJECTS = [
   },
 
   {
-    id: 'video-editing-andrey-content-creator-ai',
-    title: 'Conten Creator AI Vids',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Content Creator AI',
-    metric: '2 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/content-creator-ai/resep.jpg',
-    shortDesc: 'Folder Video Editing Conten Creator AI Vids — Seri Video Commercial & Vlog Edukasi AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Conten Creator AI Vids yang terhubung langsung ke Bunny Stream CDN. Berisi video komersial dan vlog edukasi interaktif hasil prompt engineering, visual storytelling ceria, kinetic typography, dan sound design profesional.',
-    challenge: 'Mengemas konten vlog edukasi dan resep komersial bernuansa ceria dengan pacing dinamis dan visual hook penonton tinggi.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, cut dinamis, musik trending, dan pemutaran HD instan.',
-    results: [
-      '2 Video Komersial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Siap untuk YouTube Shorts, Instagram Reels & TikTok'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'f3cf936c-9ba3-427b-b25f-5904143b5fc7',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
-    items: [
-      {
-        name: 'Resep_Vlog_Ala_Sunda_Ceria.mp4',
-        img: 'assets/content-creator-ai/resep.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
-        desc: 'Resep_Vlog_Ala_Sunda_Ceria.mp4 — Video komersial & vlog kuliner ceria.'
-      },
-      {
-        name: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4',
-        img: 'assets/content-creator-ai/evaluasi.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dc62b648-fc78-4fad-acba-30aa68bad11a',
-        desc: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4 — Video vlog edukasi evaluasi prompt AI.'
-      }
-    ]
-  },
-
-  {
-    id: 'video-editing-andrey-fighting-style-ai',
-    title: 'Fighting Style AI Vids',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Action AI Motion',
-    metric: '3 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/fighting-style/captain.jpg',
-    shortDesc: 'Folder Video Editing Fighting Style AI Vids — 3 Aset Video Aksi Generative AI & Sound Design via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Fighting Style AI Vids yang terhubung langsung ke Bunny Stream CDN. Menampilkan 3 seri video aksi pertarungan jarak dekat (hand-to-hand combat) berintensitas tinggi hasil generative AI visual (Kling & VEO) dengan sound design dinamis dan transisi ritmis.',
-    challenge: 'Menyajikan adegan koreografi laga dan pertarungan cepat bertenaga tinggi dengan detail gerakan fluid dan sinematik.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, penyelarasan efek suara hantaman (impact SFX), dan pemutaran HD instan.',
-    results: [
-      '3 Video Aksi Laga AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Siap untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'f0b426ea-6494-41a1-949b-2b37a7b05445',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f0b426ea-6494-41a1-949b-2b37a7b05445',
-    items: [
-      {
-        name: 'High_Octane_Captain_America_Fight_Scene.mp4',
-        img: 'assets/fighting-style/captain.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f0b426ea-6494-41a1-949b-2b37a7b05445',
-        desc: 'High_Octane_Captain_America_Fight_Scene.mp4 — Video koreografi aksi laga Captain America bertenaga tinggi.'
-      },
-      {
-        name: 'Kling Hand to Hand Combat.mp4',
-        img: 'assets/fighting-style/kling.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d6393043-d980-43f6-bf9d-a5699b58e254',
-        desc: 'Kling Hand to Hand Combat.mp4 — Video simulasi pertarungan jarak dekat hasil AI Kling.'
-      },
-      {
-        name: 'VEO Hand to Hand Combat.mp4',
-        img: 'assets/fighting-style/veo.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/90415c99-ee7a-4388-9768-5b89f2da22d8',
-        desc: 'VEO Hand to Hand Combat.mp4 — Video aksi sinematik hand-to-hand combat AI VEO.'
-      }
-    ]
-  },
-
-  {
-    id: 'video-editing-andrey-food-vlog-ai',
-    title: 'Food Vlog AI Video',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Culinary AI',
-    metric: '6 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/food-vlog-ai/1.jpg',
-    shortDesc: 'Folder Video Editing Food Vlog AI Video — 6 Aset Video Kuliner Sinematik Generative AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Food Vlog AI Video yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video commercial & aesthetic food vlog berbasis generative AI visual dengan motion ritmis, appetizing color grading, dan sound design dinamis.',
-    challenge: 'Menyajikan visual presentasi kuliner generative AI yang menggugah selera dengan tempo editing cepat dan kualitas visual tinggi.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual presentasi makanan lezat, dan pemutaran responsif.',
-    results: [
-      '6 Video Komersial Kuliner AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '810784b8-a614-4c4e-bd9f-6dda718cf2de',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
-    items: [
-      {
-        name: '1.mp4',
-        img: 'assets/food-vlog-ai/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
-        desc: '1.mp4 — Video komersial kuliner Food Vlog AI Video seri 1.'
-      },
-      {
-        name: '2.mp4',
-        img: 'assets/food-vlog-ai/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/71192ca6-f8a3-4ab2-89d0-b0d406d19b7c',
-        desc: '2.mp4 — Video komersial kuliner Food Vlog AI Video seri 2.'
-      },
-      {
-        name: '3.mp4',
-        img: 'assets/food-vlog-ai/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/5bfe193f-3590-42f7-8ea4-02869816e4e0',
-        desc: '3.mp4 — Video komersial kuliner Food Vlog AI Video seri 3.'
-      },
-      {
-        name: '4.mp4',
-        img: 'assets/food-vlog-ai/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f0d38f6f-8700-4cc5-b4aa-aa5af30fdd3e',
-        desc: '4.mp4 — Video komersial kuliner Food Vlog AI Video seri 4.'
-      },
-      {
-        name: '5.mp4',
-        img: 'assets/food-vlog-ai/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f48a0dcc-6c21-4206-82fb-7e6d843df361',
-        desc: '5.mp4 — Video komersial kuliner Food Vlog AI Video seri 5.'
-      },
-      {
-        name: '6.mp4',
-        img: 'assets/food-vlog-ai/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/49ae9077-b747-479b-be51-d259c4aeb130',
-        desc: '6.mp4 — Video komersial kuliner Food Vlog AI Video seri 6.'
-      }
-    ]
-  },
-
-
-  {
     id: 'video-editing-andrey-lamis-resto-reels',
     title: 'Lamis Resto Promotional Reels',
     category: 'video',
@@ -2868,160 +3019,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'video-editing-andrey-mixue-vlogger-ai',
-    title: 'Mixue Vlogger AI Vids',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Mixue',
-    metric: '6 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/mixue-vlogger-ai/1.jpg',
-    shortDesc: 'Folder Video Editing Mixue Vlogger AI Vids — 6 Aset Video Promosi Es Krim & Vlogger AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Mixue Vlogger AI Vids yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video komersial brand Mixue dengan karakter AI presenter vlogger interaktif, animasi visual segar, dan motion editing dinamis.',
-    challenge: 'Mengemas daya tarik brand es krim & minuman viral Mixue ke dalam format vlogger AI yang menghibur dan meningkatkan konversi iklan.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, penyelarasan visual karakter presenter AI, dan ritme audio ceria.',
-    results: [
-      '6 Video Iklan Vlogger AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: 'fb46d260-eee1-4c66-bb7d-b57730cbdb81',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/fb46d260-eee1-4c66-bb7d-b57730cbdb81',
-    items: [
-      {
-        name: '1.mp4',
-        img: 'assets/mixue-vlogger-ai/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/fb46d260-eee1-4c66-bb7d-b57730cbdb81',
-        desc: '1.mp4 — Video komersial Mixue Vlogger AI Vids seri 1.'
-      },
-      {
-        name: '2.mp4',
-        img: 'assets/mixue-vlogger-ai/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/6f312a89-daa2-464b-9996-ce6799a8d306',
-        desc: '2.mp4 — Video komersial Mixue Vlogger AI Vids seri 2.'
-      },
-      {
-        name: '3.mp4',
-        img: 'assets/mixue-vlogger-ai/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dc8247a7-85c5-46bc-9b98-df99208d90d0',
-        desc: '3.mp4 — Video komersial Mixue Vlogger AI Vids seri 3.'
-      },
-      {
-        name: 'Video_Generation_Request_Mixue_Ad.mp4',
-        img: 'assets/mixue-vlogger-ai/ad.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/66150804-5ba0-40ad-9d0f-9f42363a8442',
-        desc: 'Video_Generation_Request_Mixue_Ad.mp4 — Video iklan komersial Mixue berbasis generative AI motion.'
-      },
-      {
-        name: 'Video_Mixue_Panas_Tanpa_Musik.mp4',
-        img: 'assets/mixue-vlogger-ai/panas.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/70369183-5e48-4d83-ac41-46669e350ff0',
-        desc: 'Video_Mixue_Panas_Tanpa_Musik.mp4 — Video adegan Mixue cuaca panas & kesegaran es krim viral.'
-      },
-      {
-        name: 'Woman_waves,_points_202603262023.mp4',
-        img: 'assets/mixue-vlogger-ai/woman.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/ce338136-b933-43d4-b1db-1c4f5511da6a',
-        desc: 'Woman_waves,_points_202603262023.mp4 — Video presenter vlogger AI merekomendasikan menu Mixue.'
-      }
-    ]
-  },
-
-  {
-    id: 'video-editing-andrey-ponds-acne-solution',
-    title: 'Ponds Acne Solution AI Clip',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Pond’s',
-    metric: '11 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/ponds-acne-solution/0.jpg',
-    shortDesc: 'Folder Video Editing Ponds Acne Solution AI Clip — 11 Aset Video Komersial Skincare AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Ponds Acne Solution AI Clip yang terhubung langsung ke Bunny Stream CDN. Menampilkan 11 klip video komersial perawatan kulit anti-jerawat dengan sinematografi beauty shoot premium, pergerakan kamera halus, dan color grading jernih.',
-    challenge: 'Mengemas pesan klinis dan visual estetik perawatan kulit jerawat menjadi konten video komersial beresolusi tinggi yang meyakinkan konsumen.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual kulit glowing & sehat, serta pemutaran responsif.',
-    results: [
-      '11 Video Komersial Skincare Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '576dee0b-e400-4509-adf2-38e1accb32db',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
-    items: [
-      {
-        name: '0.mp4',
-        img: 'assets/ponds-acne-solution/0.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
-        desc: '0.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 0.'
-      },
-      {
-        name: '1.mp4',
-        img: 'assets/ponds-acne-solution/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/852874f1-1166-4a7a-b453-4a0e40f61e63',
-        desc: '1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 1.'
-      },
-      {
-        name: '1 (1).mp4',
-        img: 'assets/ponds-acne-solution/1_alt.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/bbd833ab-7ff9-4963-bc72-c6a86bd6beb8',
-        desc: '1 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 1.'
-      },
-      {
-        name: '2.mp4',
-        img: 'assets/ponds-acne-solution/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/a8dccfe4-a1f2-4c20-96d7-46da60784689',
-        desc: '2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.'
-      },
-      {
-        name: '2.1.mp4',
-        img: 'assets/ponds-acne-solution/2_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f2669c28-5eea-4774-ac75-7a5da78f65a9',
-        desc: '2.1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.1.'
-      },
-      {
-        name: '2.2.mp4',
-        img: 'assets/ponds-acne-solution/2_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/8356b238-780d-47c3-85af-e8e32076ec73',
-        desc: '2.2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.2.'
-      },
-      {
-        name: '3.mp4',
-        img: 'assets/ponds-acne-solution/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d963468e-4f67-4981-8d7d-a6a636049bb4',
-        desc: '3.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 3.'
-      },
-      {
-        name: '3 (1).mp4',
-        img: 'assets/ponds-acne-solution/3_alt.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/e0613f7c-2c88-4b11-bbc9-da364ee07148',
-        desc: '3 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 3.'
-      },
-      {
-        name: '4.mp4',
-        img: 'assets/ponds-acne-solution/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/07291511-c2c3-4c19-90bf-794203a3fd24',
-        desc: '4.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 4.'
-      },
-      {
-        name: '5.mp4',
-        img: 'assets/ponds-acne-solution/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/0523294d-d7eb-4733-9c71-78c8ee9d1a9d',
-        desc: '5.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 5.'
-      },
-      {
-        name: '6.mp4',
-        img: 'assets/ponds-acne-solution/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/db9edec9-8bf3-4a91-a2fc-39d970dc1f1a',
-        desc: '6.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 6.'
-      }
-    ]
-  },
-
-
 
   // --- AI DESIGN FOLDER (PER-BRAND CARDS) ---
   {
