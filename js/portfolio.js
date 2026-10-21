@@ -1,5 +1,5 @@
 /* ==========================================================================
-   WILDAN PORTFOLIO - BRAND PORTFOLIO HUBS & CASE STUDY LIGHTBOX
+   NARA CREATIVE AGENCY PORTFOLIO - BRAND PORTFOLIO HUBS & CASE STUDY LIGHTBOX
    Folder-Based Hierarchy: Category -> Brand Folder -> Assets Collection
    ========================================================================== */
 
