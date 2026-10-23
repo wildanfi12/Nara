@@ -27,6 +27,8 @@ jobs:
         run: |
           mkdir _site
           cp index.html nara-creative-theme.css portfolio-gallery.css _site/
+          [ -f CNAME ] && cp CNAME _site/ || true
+          [ -f favicon.ico ] && cp favicon.ico _site/ || true
           cp -R js _site/
           cp -R assets _site/
       - uses: actions/upload-pages-artifact@v3
