@@ -1,708 +1,196 @@
-/* ==========================================================================
+﻿/* ==========================================================================
    NARA CREATIVE AGENCY PORTFOLIO - BRAND PORTFOLIO HUBS & CASE STUDY LIGHTBOX
    Folder-Based Hierarchy: Category -> Brand Folder -> Assets Collection
    ========================================================================== */
 
 const PROJECTS = [
-  // --- AI VIDEO EDITING FOLDER (LOLYPOLY) ---
   {
-    id: 'ai-video-lolypoly',
-    title: 'AI Video Editing — LOLYPOLY',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'LOLYPOLY',
-    metric: '9 AI Commercial Video Showcase • Bunny Stream',
-    thumbnail: 'assets/lolypoly/lolypoly_1.jpg',
-    bunnyVideoId: '5bce0255-916c-44d7-9f7f-c81f2b6edde8',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/5bce0255-916c-44d7-9f7f-c81f2b6edde8',
-    shortDesc: 'Folder Project LOLYPOLY — 9 Seri Video Komersial AI (AI Video Editing, UGC Product Showcase & Visual Motion) via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi video komersial AI untuk brand LOLYPOLY yang terhubung langsung ke Bunny Stream CDN. Menampilkan 9 video promosi produk gadget accessories dengan visual dynamic, sinematik AI motion, transisi dinamis, dan narasi visual yang engaging untuk audiens modern.',
-    challenge: 'Menciptakan rangkaian video komersial produk aksesoris gadget yang atraktif, trendy, dan berkonversi tinggi dengan ritme editing modern dan kualitas visual konsisten.',
-    solution: 'Penerapan integrasi generative AI tools, perancangan storyboard dinamis, efek motion visual presisi, serta penyelarasan color grading komersial yang di-hosting via Bunny Stream CDN bebas buffering.',
+    id: "motion-graphics-howell",
+    title: "Howell",
+    category: "ai-motion",
+    categoryName: "AI Motion Videos",
+    client: "PT. Howell Niaga Indonesia",
+    metric: "26 Video Commercial & AI Motion • Bunny Stream",
+    thumbnail: "assets/motion-howell/howell_motion_16.jpg",
+    shortDesc: "Folder AI Motion Videos Howell — 26 Video Motion Commercial 3D/2D Product Showcase, Promo Megasale, Adapter & Cable Specs via Bunny Stream CDN.",
+    fullDesc: "Folder koleksi resmi AI Motion Videos untuk Howell (PT. Howell Niaga Indonesia) yang terhubung langsung ke Bunny Stream CDN (Collection: d22f13da-d9ff-4a24-b39d-2097295d3028). Di dalamnya berisi 26 aset video motion graphics komersial meliputi Poster Promo, Box Megasale, Spiderman Cinematic, HDMI 8K/4K, Headset HW05/HW07, Kabel Data 4in1 65W, Kabel LAN Cat 8/6, Microphone MIC001/002, Laptop Stand, DisplayPort, dan produk ekosistem Howell lainnya.",
+    challenge: "Mempresentasikan 26 seri produk elektronik premium Howell dalam format animasi video motion graphics 3D/2D kinetik dan showcase produk ber-retensi tinggi.",
+    solution: "Integrasi video streaming berkecepatan tinggi via Bunny Stream CDN, keyframing animasi produk After Effects, motion typography spesifikasi teknis, lighting neon dinamis, dan sound design profesional.",
     results: [
-      '9 Video Komersial AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Kampanye TikTok Ads, Instagram Reels & E-Commerce Product Showcase'
+      "26 Aset Video Motion Graphics Commercial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)",
+      "Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan",
+      "Optimal untuk materi promosi marketplace, display digital store, TikTok & Instagram Reels"
     ],
-    tools: ['AI Video Tools', 'Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    tools: [
+      "After Effects",
+      "Premiere Pro",
+      "Cinema 4D",
+      "Illustrator",
+      "Bunny Stream"
+    ],
+    bunnyVideoId: "fa856440-5d19-4913-945a-b37a30e24f81",
+    bunnyLibraryId: "756896",
+    embedVideo: "https://iframe.mediadelivery.net/embed/756896/fa856440-5d19-4913-945a-b37a30e24f81",
     items: [
-      {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #1',
-        img: 'assets/lolypoly/lolypoly_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/5bce0255-916c-44d7-9f7f-c81f2b6edde8',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 1 — dynamic visual motion & product highlight.'
+            {
+        name: "Kabel HDMI L CH0603 - Motion.mov",
+        img: "assets/motion-howell/howell_motion_16.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/fa856440-5d19-4913-945a-b37a30e24f81",
+        desc: "Kabel HDMI L CH0603 - Motion.mov — Video animasi motion graphics produk Kabel HDMI L CH0603 - Motion via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #2',
-        img: 'assets/lolypoly/lolypoly_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/1aaa3a92-1e8a-493c-a145-ce0ca2665454',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 2 — aesthetic styling & sleek accessories showcase.'
+        name: "Kabel LAN Cat 8 SFTP N8B03 - N8B08 - Motion.mp4",
+        img: "assets/motion-howell/howell_motion_15.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/5f31d596-d113-4b55-ab19-6ac356b486c5",
+        desc: "Kabel LAN Cat 8 SFTP N8B03 - N8B08 - Motion.mp4 — Video animasi motion graphics produk Kabel LAN Cat 8 SFTP N8B03 - N8B08 - Motion via Bunny Stream CDN."
+      },
+{
+        name: "Kabel HDMI to Type C CH0201.mp4",
+        img: "assets/motion-howell/howell_motion_4.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/a10f44cf-0963-44e5-8899-8c264e93fa5b",
+        desc: "Kabel HDMI to Type C CH0201.mp4 — Video animasi motion graphics produk Kabel HDMI to Type C CH0201 via Bunny Stream CDN."
+      },
+{
+        name: "Poster 1.1.mp4",
+        img: "assets/motion-howell/howell_motion_1.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/415addc4-e5bc-4e4a-9957-3b56659d5ff6",
+        desc: "Poster 1.1.mp4 — Video animasi motion graphics produk Poster 1.1 via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #3',
-        img: 'assets/lolypoly/lolypoly_3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/82c51f96-f9e9-49c6-b946-9a1888f3ab1a',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 3 — energetic commercial pacing & creative motion.'
+        name: "Promo Box 9.9 Megasale.mp4",
+        img: "assets/motion-howell/howell_motion_2.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/dc020273-edcf-4a87-bbb4-30306e5126b6",
+        desc: "Promo Box 9.9 Megasale.mp4 — Video animasi motion graphics produk Promo Box 9.9 Megasale via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #4',
-        img: 'assets/lolypoly/lolypoly_4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/1b6e9d7a-7925-43ae-8358-af861d3d23eb',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 4 — lifestyle angle & high-converting product features.'
+        name: "Spiderman (2).mp4",
+        img: "assets/motion-howell/howell_motion_3.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/43574ea1-08bd-46b5-a996-cf61113ace7e",
+        desc: "Spiderman (2).mp4 — Video animasi motion graphics produk Spiderman (2) via Bunny Stream CDN."
+      },
+            {
+        name: "Adapter HDMI 8K ADP008 - New (1).mp4",
+        img: "assets/motion-howell/howell_motion_5.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/a686afad-f4e2-47b7-8d78-760fe16d2151",
+        desc: "Adapter HDMI 8K ADP008 - New (1).mp4 — Video animasi motion graphics produk Adapter HDMI 8K ADP008 - New (1) via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #5',
-        img: 'assets/lolypoly/lolypoly_5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c8dfca7b-4a20-4bed-b20c-cee767de29e5',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 5 — futuristic product presentation & crisp detail.'
+        name: "Headset HW05.mp4",
+        img: "assets/motion-howell/howell_motion_6.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/c557bc81-a4c3-4b4b-b587-e272f1da5874",
+        desc: "Headset HW05.mp4 — Video animasi motion graphics produk Headset HW05 via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #6',
-        img: 'assets/lolypoly/lolypoly_6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/cbde0e7b-6777-46c6-a577-97ab5c8c25c9',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 6 — commercial shortform cut & engaging hook.'
+        name: "Kabel Data 4in1 65W AC01 - AI.mp4",
+        img: "assets/motion-howell/howell_motion_7.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/7291e84e-787f-4ee2-8abb-12a6c7a8c226",
+        desc: "Kabel Data 4in1 65W AC01 - AI.mp4 — Video animasi motion graphics produk Kabel Data 4in1 65W AC01 - AI via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #7',
-        img: 'assets/lolypoly/lolypoly_7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/b9d1532e-8b74-472c-96e9-58de92b70e6d',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 7 — premium product aesthetics & creative AI visual.'
+        name: "Kabel USB A to Type C AC03 - AI (1).mp4",
+        img: "assets/motion-howell/howell_motion_8.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/a21fbe22-c2a3-4eb4-b789-a938ff67a1a4",
+        desc: "Kabel USB A to Type C AC03 - AI (1).mp4 — Video animasi motion graphics produk Kabel USB A to Type C AC03 - AI (1) via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #8',
-        img: 'assets/lolypoly/lolypoly_8.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/882899a3-9edb-40e6-9091-97f18ed9e265',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 8 — vibrant color grading & rhythmic beat-sync.'
+        name: "Kabel LAN Cat 8 Flat N8A08 - AI (1).mp4",
+        img: "assets/motion-howell/howell_motion_9.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/fddaf1d0-3cbc-4877-9b72-adb242a074c8",
+        desc: "Kabel LAN Cat 8 Flat N8A08 - AI (1).mp4 — Video animasi motion graphics produk Kabel LAN Cat 8 Flat N8A08 - AI (1) via Bunny Stream CDN."
       },
       {
-        name: 'LOLYPOLY — AI Commercial Video Showcase #9',
-        img: 'assets/lolypoly/lolypoly_9.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/e268035b-a5fc-4dee-85ca-486b867952d0',
-        desc: 'Video komersial AI showcase produk LOLYPOLY edisi 9 — grand finale highlight & brand call-to-action.'
+        name: "Kabel Data Type C to C CC02.mp4",
+        img: "assets/motion-howell/howell_motion_10.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/5bc7b14f-9b6c-4e44-87a0-30d5e561f30c",
+        desc: "Kabel Data Type C to C CC02.mp4 — Video animasi motion graphics produk Kabel Data Type C to C CC02 via Bunny Stream CDN."
+      },
+      {
+        name: "Headset HW07 - Final.mp4",
+        img: "assets/motion-howell/howell_motion_11.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/13841cf4-4cab-42d3-8a6a-b20dececcc7e",
+        desc: "Headset HW07 - Final.mp4 — Video animasi motion graphics produk Headset HW07 - Final via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel HDMI to HDMI H0601 - AI (1).mp4",
+        img: "assets/motion-howell/howell_motion_12.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/95659605-f684-4836-a782-9ecc9f0517d7",
+        desc: "Kabel HDMI to HDMI H0601 - AI (1).mp4 — Video animasi motion graphics produk Kabel HDMI to HDMI H0601 - AI (1) via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel LAN Cat 6 N6A02 - AI.mp4",
+        img: "assets/motion-howell/howell_motion_13.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/8669d44e-5ec9-4ce1-a56f-3c54cb210387",
+        desc: "Kabel LAN Cat 6 N6A02 - AI.mp4 — Video animasi motion graphics produk Kabel LAN Cat 6 N6A02 - AI via Bunny Stream CDN."
+      },
+      {
+        name: "Adapter USB ADP035 - Motion (1).mov",
+        img: "assets/motion-howell/howell_motion_14.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/565b02b5-6be3-4f71-a12c-f1ce346043ad",
+        desc: "Adapter USB ADP035 - Motion (1).mov — Video animasi motion graphics produk Adapter USB ADP035 - Motion (1) via Bunny Stream CDN."
+      },
+      {
+        name: "Microphone MIC002 - Motion.mov",
+        img: "assets/motion-howell/howell_motion_17.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/d3e95003-65eb-48a4-b5b1-a1d0771fbf21",
+        desc: "Microphone MIC002 - Motion.mov — Video animasi motion graphics produk Microphone MIC002 - Motion via Bunny Stream CDN."
+      },
+      {
+        name: "Microphone MIC001 - Motion.mov",
+        img: "assets/motion-howell/howell_motion_18.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/b46ab92a-75a4-4855-808c-dd550bcc845a",
+        desc: "Microphone MIC001 - Motion.mov — Video animasi motion graphics produk Microphone MIC001 - Motion via Bunny Stream CDN."
+      },
+      {
+        name: "Laptop Stand LCP005 - Motion.mov",
+        img: "assets/motion-howell/howell_motion_19.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/f58add58-3010-451f-9d52-00d5ad3818fd",
+        desc: "Laptop Stand LCP005 - Motion.mov — Video animasi motion graphics produk Laptop Stand LCP005 - Motion via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel HDMI H3503 - Motion.mov",
+        img: "assets/motion-howell/howell_motion_20.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/ecb8e65b-b45c-4e87-85c1-169df05a6043",
+        desc: "Kabel HDMI H3503 - Motion.mov — Video animasi motion graphics produk Kabel HDMI H3503 - Motion via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel Audio AU0603 - Motion.mov",
+        img: "assets/motion-howell/howell_motion_21.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/978205ab-baf0-4bf5-a0b6-c39e59f08de3",
+        desc: "Kabel Audio AU0603 - Motion.mov — Video animasi motion graphics produk Kabel Audio AU0603 - Motion via Bunny Stream CDN."
+      },
+      {
+        name: "HDMI Spring DH0301.mov",
+        img: "assets/motion-howell/howell_motion_22.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/3a7248fe-56a8-43b2-bd3a-cdc5515b7ea6",
+        desc: "HDMI Spring DH0301.mov — Video animasi motion graphics produk HDMI Spring DH0301 via Bunny Stream CDN."
+      },
+      {
+        name: "HDMI H1703 motion.mov",
+        img: "assets/motion-howell/howell_motion_23.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/f54c7b63-c6a7-43d2-a7c7-ba7ccb650f05",
+        desc: "HDMI H1703 motion.mov — Video animasi motion graphics produk HDMI H1703 motion via Bunny Stream CDN."
+      },
+      {
+        name: "HDMI H3303.mov",
+        img: "assets/motion-howell/howell_motion_24.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/242ca04b-8207-414e-a70c-b1fa09216ab2",
+        desc: "HDMI H3303.mov — Video animasi motion graphics produk HDMI H3303 via Bunny Stream CDN."
+      },
+      {
+        name: "HDMI CH0703.mov",
+        img: "assets/motion-howell/howell_motion_25.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/3b1e8fb2-bb06-4aa9-a0f7-a20f81eddb59",
+        desc: "HDMI CH0703.mov — Video animasi motion graphics produk HDMI CH0703 via Bunny Stream CDN."
+      },
+      {
+        name: "DisplayPort 1.4 DP0403-motion.mov",
+        img: "assets/motion-howell/howell_motion_26.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/de486358-fd71-4534-8df4-4d63a6e955e4",
+        desc: "DisplayPort 1.4 DP0403-motion.mov — Video animasi motion graphics produk DisplayPort 1.4 DP0403-motion via Bunny Stream CDN."
       }
     ]
   },
-
-  // --- AI Video Editing: Coca-Cola ---
   {
-    id: 'video-editing-coca-cola',
-    title: 'Coca-Cola',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'Coca-Cola',
-    metric: '7 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/coca-cola/cover.jpg',
-    shortDesc: 'Folder Video Editing Coca-Cola — 7 Video Commercial Editing, Shorts/Reels & Sound Design via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Coca-Cola yang terhubung langsung ke Bunny Stream CDN. Berisi 7 seri video komersial dengan fast-cut editing, kinetic titles, color grading merah krispi khas Coca-Cola, dan sound design profesional.',
-    challenge: 'Mengemas visual cerita & momen Coca-Cola menjadi video promosi berenergi tinggi dengan retensi penonton maksimal.',
-    solution: 'Editing video ritmis dengan potongan lagu trending, animasi teks kinetik, dan integrasi Bunny Stream CDN untuk streaming instan kualitas HD.',
-    results: [
-      '7 Aset Video Commercial Editing Resmi Terintegrasi di Folder Coca-Cola (Library ID: 756896)',
-      'Pemutaran Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Siap untuk Instagram Reels, TikTok Ads & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
-    items: [
-      {
-        name: 'Found_it_beat_202603221953.mp4',
-        img: 'assets/coca-cola/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2479bf00-6cb8-4ca5-b07e-5bb6f5f75145',
-        desc: 'Found_it_beat_202603221953.mp4 — Video komersial & editing ritmis Found It Beat.'
-      },
-      {
-        name: 'Fridge_door_opening_202603222021.mp4',
-        img: 'assets/coca-cola/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/32f63168-43bb-453b-8f93-107b7d27788d',
-        desc: 'Fridge_door_opening_202603222021.mp4 — Video komersial & editing ritmis Fridge Door Opening.'
-      },
-      {
-        name: 'Orang_bergerak_berjalan_202603222003.mp4',
-        img: 'assets/coca-cola/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/23dc7705-7780-4dff-817b-5ead4c978336',
-        desc: 'Orang_bergerak_berjalan_202603222003.mp4 — Video komersial & editing ritmis Outdoor Walking.'
-      },
-      {
-        name: 'Permintaan_Video_Sisca_Berpikir.mp4',
-        img: 'assets/coca-cola/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c93541e8-469e-4fdb-a387-e5f89041ee75',
-        desc: 'Permintaan_Video_Sisca_Berpikir.mp4 — Video komersial & konsep iklan Sisca Berpikir.'
-      },
-      {
-        name: 'Person_holding_Coca-Cola_202603221957.mp4',
-        img: 'assets/coca-cola/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/3e38f5da-245b-4f7d-9edb-f0dddd71888d',
-        desc: 'Person_holding_Coca-Cola_202603221957.mp4 — Video komersial Person Holding Coca-Cola.'
-      },
-      {
-        name: 'Video_Generation_For_Hot_Woman.mp4',
-        img: 'assets/coca-cola/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/6bb493c4-0a3b-4653-8e65-0b8ba612680e',
-        desc: 'Video_Generation_For_Hot_Woman.mp4 — Video komersial konsep iklan sinematik.'
-      },
-      {
-        name: 'Video_Generation_Melting_Station.mp4',
-        img: 'assets/coca-cola/7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/b2814029-f11c-43e6-9623-e23e1c078a45',
-        desc: 'Video_Generation_Melting_Station.mp4 — Video komersial & visual efek Melting Station.'
-      }
-    ]
-  },
-
-  // --- AI Video Editing: AI Video Bootcamp ---
-  {
-    id: 'video-editing-andrey-ai-video-bootcamp',
-    title: 'AI Video Bootcamp',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'AI Video Bootcamp',
-    metric: '7 Video Showcase • Bunny Stream',
-    thumbnail: 'assets/ai-video-bootcamp/cover.jpg',
-    shortDesc: 'Folder Video Editing AI Video Bootcamp — 7 Koleksi Video AI, Motion Graphics & Prompt Engineering via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Bootcamp yang terintegrasi langsung dengan streaming Bunny Stream CDN. Berisi 7 video hasil karya & masterclass: Generative AI Video, prompt engineering, fast-cut editing, motion graphics visual, color grading, dan sound design.',
-    challenge: 'Menyajikan seluruh 7 video karya AI Video Bootcamp dalam kualitas HD/4K dengan streaming instan tanpa jeda buffer dan bebas watermark.',
-    solution: 'Integrasi player Bunny Stream CDN berkecepatan tinggi, navigasi playlist 7 video interaktif dalam modal, dan optimasi CDN global.',
-    results: [
-      '7 Video Showcase Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
-      'Tersedia Thumbnail Presisi & Player HD Bebas Iklan',
-      'Format Konten Siap untuk Media Sosial (Reels, TikTok, Shorts & Portofolio)'
-    ],
-    tools: ['Kling AI', 'Runway Gen-3', 'Midjourney', 'ElevenLabs', 'Premiere Pro', 'After Effects', 'Bunny Stream'],
-    bunnyVideoId: '12742592-91d2-462a-95a4-67b794b88ba7',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
-    items: [
-      {
-        name: '1. Phase 3 Homework',
-        img: 'assets/ai-video-bootcamp/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
-        desc: 'AI Video Assignment Phase 3 — Cinematic storytelling & motion visuals.'
-      },
-      {
-        name: '2. Phase 5 Homework',
-        img: 'assets/ai-video-bootcamp/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2e18a091-16a4-42ff-89d7-40a0262415de',
-        desc: 'AI Video Assignment Phase 5 — Generative motion & dynamic camera angle.'
-      },
-      {
-        name: '3. Phase 6 Homework',
-        img: 'assets/ai-video-bootcamp/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/4c6b75a1-7dbf-4677-a8ae-4c4272159117',
-        desc: 'AI Video Assignment Phase 6 — Fast-cut editing & rhythmic sync visual.'
-      },
-      {
-        name: '4. Phase 7 Homework',
-        img: 'assets/ai-video-bootcamp/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/49a11ccd-9af0-4262-8a41-f699956cda98',
-        desc: 'AI Video Assignment Phase 7 — High-fidelity AI rendering and color grading.'
-      },
-      {
-        name: '5. Phase 6 Homework (Part 2)',
-        img: 'assets/ai-video-bootcamp/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/ebb9f145-ad0f-4163-994b-7d077dd4c3cb',
-        desc: 'AI Video Assignment Phase 6 Part 2 — Complex transitions & pacing harmony.'
-      },
-      {
-        name: '6. Prompting AI Masterclass',
-        img: 'assets/ai-video-bootcamp/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/fe7d4b1b-3817-4a34-ad79-e29a0d468b72',
-        desc: 'AI Prompt Engineering Masterclass — Text-to-video workflow & cinematic camera movements.'
-      },
-      {
-        name: '7. Food Vlogger Commercial',
-        img: 'assets/ai-video-bootcamp/7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/8eb32311-11b6-4950-94ca-cb717c3e0fa0',
-        desc: 'Food Vlogger Promo — Dynamic culinary montage with AI voiceover integration.'
-      }
-    ]
-  },
-
-  // --- AI Video Editing: Lead Magnet Video Ads ---
-  {
-    id: 'video-editing-andrey-andreydigital-lead-magnet-ads',
-    title: 'Lead Magnet Video Ads',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'andreydigital.id',
-    metric: '3 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/andreydigital/1.png',
-    shortDesc: 'Folder Video Editing Lead Magnet Video Ads — 3 Seri Video Ads Promosi & Konversi via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Lead Magnet Video Ads andreydigital.id yang terhubung langsung ke Bunny Stream CDN. Berisi 3 varian video promosi berkonversi tinggi (Video Ads 1, Video Ads 2, dan Video Ads 3) dengan hook kuat, kinetic typography, dan sound design profesional.',
-    challenge: 'Membuat 3 variasi video iklan lead magnet dengan pacing cepat dan hook visual dinamis untuk memicu audiens mendaftar atau mengunduh lead magnet.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, transisi kinetik ritmis, call-to-action tegas, dan pemutaran responsif HD.',
-    results: [
-      '3 Video Iklan Lead Magnet Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Video Ads Siap untuk Meta Ads (Instagram & Facebook) serta TikTok Ads'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'd5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/d5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
-    items: [
-      {
-        name: '1. Video Ads 1',
-        img: 'assets/andreydigital/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d5cb96f7-6ba7-49ad-9f22-7b17d3d4fe16',
-        desc: 'Video Ads 1 — Iklan promosi lead magnet dengan hook visual dramatis.'
-      },
-      {
-        name: '2. Video Ads 2',
-        img: 'assets/andreydigital/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/32baba50-0a00-4aaf-ba97-943f4650bab8',
-        desc: 'Video Ads 2 — Kinetic typography & dynamic value proposition.'
-      },
-      {
-        name: '3. Video Ads 3',
-        img: 'assets/andreydigital/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c2ac5630-4ba1-4b25-9831-e3bc7dd9f2eb',
-        desc: 'Video Ads 3 — Fast-cut editing & call-to-action penawaran khusus.'
-      }
-    ]
-  },
-
-  // --- AI Video Editing: Education Reels ---
-  {
-    id: 'video-editing-andrey-andreydigital-education-reels',
-    title: 'Education Reels',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'andreydigital.id',
-    metric: '6 Video Showcase • Bunny Stream',
-    thumbnail: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-    shortDesc: 'Folder Video Editing Education Reels — 6 Koleksi Video Edukasi & Reels Berkecepatan Tinggi via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Education Reels andreydigital.id yang terhubung langsung ke Bunny Stream CDN. Berisi 6 seri video edukasi & reels komersial (Bisnis Usai Ngantor Capek, MARK 10, MARK 11, MARK 7, MARK 9, & Video Escape Roadmap) dalam kualitas streaming HD instan tanpa buffering.',
-    challenge: 'Menyajikan seluruh 6 video serial edukasi reels berdurasi penuh dalam kualitas streaming HD tercepat tanpa membebani bandwidth hosting.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, navigasi playlist interaktif di dalam modal, dan optimasi pengiriman CDN global.',
-    results: [
-      '6 Video Edukasi & Reels Resmi Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Edukasi Siap untuk Instagram Reels, TikTok & Portfolio'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: '746f7ece-dc2c-4f62-a014-3983e1f2512b',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/746f7ece-dc2c-4f62-a014-3983e1f2512b',
-    items: [
-      {
-        name: '1. Bisnis Usai Ngantor Capek',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/746f7ece-dc2c-4f62-a014-3983e1f2512b',
-        desc: 'Video Bisnis Usai Ngantor Capek — Editing edukasi interaktif & hook kuat.'
-      },
-      {
-        name: '2. MARK 10',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/256f633f-63bb-4df5-8401-9102003b7fd1',
-        desc: 'MARK 10 — Seri video edukasi bisnis digital & visual storytelling.'
-      },
-      {
-        name: '3. MARK 11',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/a67d0d14-9770-4054-b131-003f75bc77ab',
-        desc: 'MARK 11 — Kinetic typography & dynamic sound design.'
-      },
-      {
-        name: '4. MARK 7',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/4c4a9a51-cf75-4e0c-9844-b008fc6cb8cb',
-        desc: 'MARK 7 — Fast-paced editing untuk konversi penonton ke pembeli.'
-      },
-      {
-        name: '5. MARK 9',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/44bcd88f-d58e-4270-9971-5232460d02a0',
-        desc: 'MARK 9 — Rhythmic cut & color grading profesional.'
-      },
-      {
-        name: '6. Video Escape Roadmap Dibuat',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        video: 'https://iframe.mediadelivery.net/embed/756896/15622f0d-153b-4e11-bd3a-fc367a702927',
-        desc: 'Video Escape Roadmap Dibuat — Edukasi roadmap step-by-step.'
-      }
-    ]
-  },
-    {
-    id: 'video-editing-andrey-content-creator-ai',
-    title: 'Content Creator AI Vids',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'Content Creator AI',
-    metric: '2 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/content-creator-ai/resep.jpg',
-    shortDesc: 'Folder AI Video Editing Content Creator AI Vids — Seri Video Commercial & Vlog Edukasi AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Conten Creator AI Vids yang terhubung langsung ke Bunny Stream CDN. Berisi video komersial dan vlog edukasi interaktif hasil prompt engineering, visual storytelling ceria, kinetic typography, dan sound design profesional.',
-    challenge: 'Mengemas konten vlog edukasi dan resep komersial bernuansa ceria dengan pacing dinamis dan visual hook penonton tinggi.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, cut dinamis, musik trending, dan pemutaran HD instan.',
-    results: [
-      '2 Video Komersial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Siap untuk YouTube Shorts, Instagram Reels & TikTok'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'f3cf936c-9ba3-427b-b25f-5904143b5fc7',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
-    items: [
-      {
-        name: 'Resep_Vlog_Ala_Sunda_Ceria.mp4',
-        img: 'assets/content-creator-ai/resep.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
-        desc: 'Resep_Vlog_Ala_Sunda_Ceria.mp4 — Video komersial & vlog kuliner ceria.'
-      },
-      {
-        name: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4',
-        img: 'assets/content-creator-ai/evaluasi.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dc62b648-fc78-4fad-acba-30aa68bad11a',
-        desc: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4 — Video vlog edukasi evaluasi prompt AI.'
-      }
-    ]
-  },
-
-    {
-    id: 'video-editing-andrey-fighting-style-ai',
-    title: 'Fighting Style AI Vids',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'Action AI Motion',
-    metric: '3 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/fighting-style/captain.jpg',
-    shortDesc: 'Folder AI Video Editing Fighting Style AI Vids — 3 Aset Video Aksi Generative AI & Sound Design via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Fighting Style AI Vids yang terhubung langsung ke Bunny Stream CDN. Menampilkan 3 seri video aksi pertarungan jarak dekat (hand-to-hand combat) berintensitas tinggi hasil generative AI visual (Kling & VEO) dengan sound design dinamis dan transisi ritmis.',
-    challenge: 'Menyajikan adegan koreografi laga dan pertarungan cepat bertenaga tinggi dengan detail gerakan fluid dan sinematik.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, penyelarasan efek suara hantaman (impact SFX), dan pemutaran HD instan.',
-    results: [
-      '3 Video Aksi Laga AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Pemutaran Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Siap untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'f0b426ea-6494-41a1-949b-2b37a7b05445',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f0b426ea-6494-41a1-949b-2b37a7b05445',
-    items: [
-      {
-        name: 'High_Octane_Captain_America_Fight_Scene.mp4',
-        img: 'assets/fighting-style/captain.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f0b426ea-6494-41a1-949b-2b37a7b05445',
-        desc: 'High_Octane_Captain_America_Fight_Scene.mp4 — Video koreografi aksi laga Captain America bertenaga tinggi.'
-      },
-      {
-        name: 'Kling Hand to Hand Combat.mp4',
-        img: 'assets/fighting-style/kling.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d6393043-d980-43f6-bf9d-a5699b58e254',
-        desc: 'Kling Hand to Hand Combat.mp4 — Video simulasi pertarungan jarak dekat hasil AI Kling.'
-      },
-      {
-        name: 'VEO Hand to Hand Combat.mp4',
-        img: 'assets/fighting-style/veo.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/90415c99-ee7a-4388-9768-5b89f2da22d8',
-        desc: 'VEO Hand to Hand Combat.mp4 — Video aksi sinematik hand-to-hand combat AI VEO.'
-      }
-    ]
-  },
-
-    {
-    id: 'video-editing-andrey-food-vlog-ai',
-    title: 'Food Vlog AI Video',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'Culinary AI',
-    metric: '6 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/food-vlog-ai/1.jpg',
-    shortDesc: 'Folder AI Video Editing Food Vlog AI Video — 6 Aset Video Kuliner Sinematik Generative AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Food Vlog AI Video yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video commercial & aesthetic food vlog berbasis generative AI visual dengan motion ritmis, appetizing color grading, dan sound design dinamis.',
-    challenge: 'Menyajikan visual presentasi kuliner generative AI yang menggugah selera dengan tempo editing cepat dan kualitas visual tinggi.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual presentasi makanan lezat, dan pemutaran responsif.',
-    results: [
-      '6 Video Komersial Kuliner AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '810784b8-a614-4c4e-bd9f-6dda718cf2de',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
-    items: [
-      {
-        name: '1.mp4',
-        img: 'assets/food-vlog-ai/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
-        desc: '1.mp4 — Video komersial kuliner Food Vlog AI Video seri 1.'
-      },
-      {
-        name: '2.mp4',
-        img: 'assets/food-vlog-ai/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/71192ca6-f8a3-4ab2-89d0-b0d406d19b7c',
-        desc: '2.mp4 — Video komersial kuliner Food Vlog AI Video seri 2.'
-      },
-      {
-        name: '3.mp4',
-        img: 'assets/food-vlog-ai/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/5bfe193f-3590-42f7-8ea4-02869816e4e0',
-        desc: '3.mp4 — Video komersial kuliner Food Vlog AI Video seri 3.'
-      },
-      {
-        name: '4.mp4',
-        img: 'assets/food-vlog-ai/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f0d38f6f-8700-4cc5-b4aa-aa5af30fdd3e',
-        desc: '4.mp4 — Video komersial kuliner Food Vlog AI Video seri 4.'
-      },
-      {
-        name: '5.mp4',
-        img: 'assets/food-vlog-ai/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f48a0dcc-6c21-4206-82fb-7e6d843df361',
-        desc: '5.mp4 — Video komersial kuliner Food Vlog AI Video seri 5.'
-      },
-      {
-        name: '6.mp4',
-        img: 'assets/food-vlog-ai/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/49ae9077-b747-479b-be51-d259c4aeb130',
-        desc: '6.mp4 — Video komersial kuliner Food Vlog AI Video seri 6.'
-      }
-    ]
-  },
-
-    {
-    id: 'video-editing-andrey-mixue-vlogger-ai',
-    title: 'Mixue Vlogger AI Vids',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'Mixue',
-    metric: '6 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/mixue-vlogger-ai/1.jpg',
-    shortDesc: 'Folder AI Video Editing Mixue Vlogger AI Vids — 6 Aset Video Promosi Es Krim & Vlogger AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Mixue Vlogger AI Vids yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video komersial brand Mixue dengan karakter AI presenter vlogger interaktif, animasi visual segar, dan motion editing dinamis.',
-    challenge: 'Mengemas daya tarik brand es krim & minuman viral Mixue ke dalam format vlogger AI yang menghibur dan meningkatkan konversi iklan.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, penyelarasan visual karakter presenter AI, dan ritme audio ceria.',
-    results: [
-      '6 Video Iklan Vlogger AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: 'fb46d260-eee1-4c66-bb7d-b57730cbdb81',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/fb46d260-eee1-4c66-bb7d-b57730cbdb81',
-    items: [
-      {
-        name: '1.mp4',
-        img: 'assets/mixue-vlogger-ai/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/fb46d260-eee1-4c66-bb7d-b57730cbdb81',
-        desc: '1.mp4 — Video komersial Mixue Vlogger AI Vids seri 1.'
-      },
-      {
-        name: '2.mp4',
-        img: 'assets/mixue-vlogger-ai/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/6f312a89-daa2-464b-9996-ce6799a8d306',
-        desc: '2.mp4 — Video komersial Mixue Vlogger AI Vids seri 2.'
-      },
-      {
-        name: '3.mp4',
-        img: 'assets/mixue-vlogger-ai/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dc8247a7-85c5-46bc-9b98-df99208d90d0',
-        desc: '3.mp4 — Video komersial Mixue Vlogger AI Vids seri 3.'
-      },
-      {
-        name: 'Video_Generation_Request_Mixue_Ad.mp4',
-        img: 'assets/mixue-vlogger-ai/ad.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/66150804-5ba0-40ad-9d0f-9f42363a8442',
-        desc: 'Video_Generation_Request_Mixue_Ad.mp4 — Video iklan komersial Mixue berbasis generative AI motion.'
-      },
-      {
-        name: 'Video_Mixue_Panas_Tanpa_Musik.mp4',
-        img: 'assets/mixue-vlogger-ai/panas.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/70369183-5e48-4d83-ac41-46669e350ff0',
-        desc: 'Video_Mixue_Panas_Tanpa_Musik.mp4 — Video adegan Mixue cuaca panas & kesegaran es krim viral.'
-      },
-      {
-        name: 'Woman_waves,_points_202603262023.mp4',
-        img: 'assets/mixue-vlogger-ai/woman.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/ce338136-b933-43d4-b1db-1c4f5511da6a',
-        desc: 'Woman_waves,_points_202603262023.mp4 — Video presenter vlogger AI merekomendasikan menu Mixue.'
-      }
-    ]
-  },
-
-    {
-    id: 'video-editing-andrey-ponds-acne-solution',
-    title: 'Ponds Acne Solution AI Clip',
-    category: 'ai-video',
-    categoryName: 'AI Video Editing',
-    client: 'Pond’s',
-    metric: '11 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/ponds-acne-solution/0.jpg',
-    shortDesc: 'Folder AI Video Editing Ponds Acne Solution AI Clip — 11 Aset Video Komersial Skincare AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Ponds Acne Solution AI Clip yang terhubung langsung ke Bunny Stream CDN. Menampilkan 11 klip video komersial perawatan kulit anti-jerawat dengan sinematografi beauty shoot premium, pergerakan kamera halus, dan color grading jernih.',
-    challenge: 'Mengemas pesan klinis dan visual estetik perawatan kulit jerawat menjadi konten video komersial beresolusi tinggi yang meyakinkan konsumen.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual kulit glowing & sehat, serta pemutaran responsif.',
-    results: [
-      '11 Video Komersial Skincare Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '576dee0b-e400-4509-adf2-38e1accb32db',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
-    items: [
-      {
-        name: '0.mp4',
-        img: 'assets/ponds-acne-solution/0.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
-        desc: '0.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 0.'
-      },
-      {
-        name: '1.mp4',
-        img: 'assets/ponds-acne-solution/1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/852874f1-1166-4a7a-b453-4a0e40f61e63',
-        desc: '1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 1.'
-      },
-      {
-        name: '1 (1).mp4',
-        img: 'assets/ponds-acne-solution/1_alt.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/bbd833ab-7ff9-4963-bc72-c6a86bd6beb8',
-        desc: '1 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 1.'
-      },
-      {
-        name: '2.mp4',
-        img: 'assets/ponds-acne-solution/2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/a8dccfe4-a1f2-4c20-96d7-46da60784689',
-        desc: '2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.'
-      },
-      {
-        name: '2.1.mp4',
-        img: 'assets/ponds-acne-solution/2_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f2669c28-5eea-4774-ac75-7a5da78f65a9',
-        desc: '2.1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.1.'
-      },
-      {
-        name: '2.2.mp4',
-        img: 'assets/ponds-acne-solution/2_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/8356b238-780d-47c3-85af-e8e32076ec73',
-        desc: '2.2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.2.'
-      },
-      {
-        name: '3.mp4',
-        img: 'assets/ponds-acne-solution/3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d963468e-4f67-4981-8d7d-a6a636049bb4',
-        desc: '3.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 3.'
-      },
-      {
-        name: '3 (1).mp4',
-        img: 'assets/ponds-acne-solution/3_alt.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/e0613f7c-2c88-4b11-bbc9-da364ee07148',
-        desc: '3 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 3.'
-      },
-      {
-        name: '4.mp4',
-        img: 'assets/ponds-acne-solution/4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/07291511-c2c3-4c19-90bf-794203a3fd24',
-        desc: '4.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 4.'
-      },
-      {
-        name: '5.mp4',
-        img: 'assets/ponds-acne-solution/5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/0523294d-d7eb-4733-9c71-78c8ee9d1a9d',
-        desc: '5.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 5.'
-      },
-      {
-        name: '6.mp4',
-        img: 'assets/ponds-acne-solution/6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/db9edec9-8bf3-4a91-a2fc-39d970dc1f1a',
-        desc: '6.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 6.'
-      }
-    ]
-  },
-
-  // --- GRAPHIC DESIGN FOLDER (PER-BRAND CARDS) ---
-  {
-    id: 'graphic-design-brand-logos',
-    title: 'Brand Logos & Identity',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'Client Brands & Agencies',
-    metric: '10 Brand Logo Vector & Asset Collection',
-    thumbnail: 'assets/logos/1.png',
-    thumbBg: '#ffffff',
-    embedVideo: 'assets/logos/1.png',
-    embedBg: '#ffffff',
-    shortDesc: 'Folder Logo & Brand Identity — Koleksi Desain Logo Resmi (Vector Logos, Client Identity & Symbol Design).',
-    fullDesc: 'Folder koleksi resmi Desain Logo & Identitas Brand dari folder assets/Logo. Di dalamnya berisi 10 aset desain logo klien dan korporat resmi dengan berbagai gaya simbolis, tipografi modern, dan desain vektor presisi.',
-    challenge: 'Merancang simbol logo & identitas visual brand yang unik, modern, mudah diingat, dan dapat diaplikasikan fleksibel di berbagai media cetak & digital.',
-    solution: 'Eksplorasi bentuk geometris presisi, pemilihan warna psikologi brand yang kuat, serta pembuatan file vektor skala tinggi di Adobe Illustrator.',
-    results: [
-      '10 Aset Desain Logo Resmi Terintegrasi di Running Marquee & Portfolio',
-      'Digunakan untuk identitas visual utama, media branding, dan e-commerce klien'
-    ],
-    tools: ['Illustrator', 'Photoshop', 'CorelDRAW'],
-    items: [
-      {
-        name: 'Brand Logo 1 — FKDB 1 Dekade (10th Anniversary)',
-        img: 'assets/logos/1.png',
-        desc: 'Desain logo resmi peringatan 1 Dekade FKDB (Simbol 10th Kemandirian & Persatuan).',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 2 — MIDLAY',
-        img: 'assets/logos/2.png',
-        desc: 'Desain logo modern & emblem identitas brand MIDLAY.',
-        bg: '#111111'
-      },
-      {
-        name: 'Brand Logo 3 — Nadia Bakery',
-        img: 'assets/logos/3.png',
-        desc: 'Desain logo identitas korporat & bakery artisan Nadia Bakery (Est. 2005).',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 4 — JOURJOLI Creative Studio',
-        img: 'assets/logos/4.png',
-        desc: 'Desain logo tipografi elegan & modern studio kreatif JOURJOLI.',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 5 — jourjoli Made In Indonesia',
-        img: 'assets/logos/5.png',
-        desc: 'Desain logo lencana vektor brand fashion lokal jourjoli.',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 6 — DH TEKNIK',
-        img: 'assets/logos/6.png',
-        desc: 'Desain logo industri & teknik servis engineering DH TEKNIK.',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 7 — DIPPO DAY',
-        img: 'assets/logos/7.png',
-        desc: 'Desain logo ikonografi dan monogram tegas brand DIPPO DAY.',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 8 — CARI DIGITAL',
-        img: 'assets/logos/8.png',
-        desc: 'Desain logo agency pemasaran & solusi digital CARI DIGITAL.',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 9 — DH TOOLS',
-        img: 'assets/logos/9.png',
-        desc: 'Desain logo perkakas profesional & hardware tooling DH TOOLS.',
-        bg: '#ffffff'
-      },
-      {
-        name: 'Brand Logo 10 — cari! tofu',
-        img: 'assets/logos/10.png',
-        desc: 'Desain logo maskot ilustratif & identitas kuliner cari! tofu.',
-        bg: '#111111'
-      }
-    ]
-  },
-    {
     id: 'graphic-design-fkdb',
     title: 'FKDB',
     category: 'design',
@@ -719,7 +207,11 @@ const PROJECTS = [
       'Digunakan dalam Kampanye Publikasi Nasional FKDB',
       'Tingkat Interaksi & Simpan Media Sosial Meningkat'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva'
+    ],
     embedVideo: 'assets/fkdb-graphic-design/33.png',
     items: [
       {
@@ -1027,10 +519,608 @@ const PROJECTS = [
         img: 'assets/fkdb-graphic-design/62.png',
         desc: 'Desain grafis publikasi resmi FKDB: Twibbon Idul Fitri FKDB 2025.'
       }
-
     ]
   },
+  {
+    id: 'video-editing-howell-video-product',
+    title: 'Howell Video Product',
+    category: 'video',
+    categoryName: 'Video Editing',
+    client: 'PT. Howell Niaga Indonesia',
+    metric: '14 Video Product • Bunny Stream',
+    thumbnail: 'https://vz-6687b682-717.b-cdn.net/781b069d-d3ca-41df-a02a-cba6b8146885/thumbnail.jpg',
+    shortDesc: 'Koleksi 14 video product Howell.',
+    fullDesc: 'Koleksi video product Howell yang ditautkan ke Bunny Stream.',
+    challenge: 'Mengumpulkan 14 video product Howell dalam satu halaman proyek.',
+    solution: 'Setiap video diputar langsung dari Bunny Stream menggunakan ID yang diberikan.',
+    results: ['14 video product tersedia dalam galeri proyek.'],
+    tools: ['Bunny Stream'],
+    bunnyVideoId: '781b069d-d3ca-41df-a02a-cba6b8146885',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/781b069d-d3ca-41df-a02a-cba6b8146885',
+    items: [
+      {
+        name: 'Howell Video Product 01',
+        img: 'https://vz-6687b682-717.b-cdn.net/781b069d-d3ca-41df-a02a-cba6b8146885/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/781b069d-d3ca-41df-a02a-cba6b8146885',
+        desc: 'Video product Howell 01.'
+      },
+      {
+        name: 'Howell Video Product 02',
+        img: 'https://vz-6687b682-717.b-cdn.net/2a0eb4d4-4497-4650-94e0-e62d71428992/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/2a0eb4d4-4497-4650-94e0-e62d71428992',
+        desc: 'Video product Howell 02.'
+      },
+      {
+        name: 'Howell Video Product 03',
+        img: 'https://vz-6687b682-717.b-cdn.net/7994ef53-a6f8-4d7c-a2d4-3a44f1471608/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/7994ef53-a6f8-4d7c-a2d4-3a44f1471608',
+        desc: 'Video product Howell 03.'
+      },
+      {
+        name: 'Howell Video Product 04',
+        img: 'https://vz-6687b682-717.b-cdn.net/d73cc26d-dfff-45ba-b79f-d072cf997d81/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/d73cc26d-dfff-45ba-b79f-d072cf997d81',
+        desc: 'Video product Howell 04.'
+      },
+      {
+        name: 'Howell Video Product 05',
+        img: 'https://vz-6687b682-717.b-cdn.net/1ce75c08-f8c8-4b55-9e40-9b573d6a917a/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/1ce75c08-f8c8-4b55-9e40-9b573d6a917a',
+        desc: 'Video product Howell 05.'
+      },
+      {
+        name: 'Howell Video Product 06',
+        img: 'https://vz-6687b682-717.b-cdn.net/26adaee4-a404-4b7c-a575-7c7448f8338d/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/26adaee4-a404-4b7c-a575-7c7448f8338d',
+        desc: 'Video product Howell 06.'
+      },
+      {
+        name: 'Howell Video Product 07',
+        img: 'https://vz-6687b682-717.b-cdn.net/b342a549-2fa5-4d2a-9b64-2eb3739723ad/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/b342a549-2fa5-4d2a-9b64-2eb3739723ad',
+        desc: 'Video product Howell 07.'
+      },
+      {
+        name: 'Howell Video Product 08',
+        img: 'https://vz-6687b682-717.b-cdn.net/61134389-53f8-495a-839a-e708f8d5b0ea/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/61134389-53f8-495a-839a-e708f8d5b0ea',
+        desc: 'Video product Howell 08.'
+      },
+      {
+        name: 'Howell Video Product 09',
+        img: 'https://vz-6687b682-717.b-cdn.net/825172fe-666d-4cec-8b1c-5360bb6c6f48/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/825172fe-666d-4cec-8b1c-5360bb6c6f48',
+        desc: 'Video product Howell 09.'
+      },
+      {
+        name: 'Howell Video Product 10',
+        img: 'https://vz-6687b682-717.b-cdn.net/ab4c14b5-0573-4a3b-8a5a-f1eedf35d63b/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/ab4c14b5-0573-4a3b-8a5a-f1eedf35d63b',
+        desc: 'Video product Howell 10.'
+      },
+      {
+        name: 'Howell Video Product 11',
+        img: 'https://vz-6687b682-717.b-cdn.net/be49565c-e317-433c-8ceb-89b862e807a5/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/be49565c-e317-433c-8ceb-89b862e807a5',
+        desc: 'Video product Howell 11.'
+      },
+      {
+        name: 'Howell Video Product 12',
+        img: 'https://vz-6687b682-717.b-cdn.net/73f3b02c-ccf0-4c69-aa5d-76e871c9133e/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/73f3b02c-ccf0-4c69-aa5d-76e871c9133e',
+        desc: 'Video product Howell 12.'
+      },
+      {
+        name: 'Howell Video Product 13',
+        img: 'https://vz-6687b682-717.b-cdn.net/a1fe5c61-3b20-4493-b6ac-ee4e3bcac408/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/a1fe5c61-3b20-4493-b6ac-ee4e3bcac408',
+        desc: 'Video product Howell 13.'
+      },
+      {
+        name: 'Howell Video Product 14',
+        img: 'https://vz-6687b682-717.b-cdn.net/804012d5-2ddc-4be5-aa34-90eb4ed9cbaf/thumbnail.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/804012d5-2ddc-4be5-aa34-90eb4ed9cbaf',
+        desc: 'Video product Howell 14.'
+      }
+    ]
+  },
+  {
+    id: 'video-editing-mid-layer',
+    title: 'Mid Layer',
+    category: 'video',
+    categoryName: 'Video Editing',
+    client: 'Mid Layer',
+    metric: '9 Video Reels & Storytelling • Bunny Stream',
+    thumbnail: 'assets/mid-layer/thumbnail-mid-layer-4x3.jpg',
+    shortDesc: 'Folder Video Editing Mid Layer — 9 Video Reels Edukasi, Pop Culture, Storytelling & Animasi via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi Video Editing untuk Mid Layer yang terhubung langsung ke Bunny Stream CDN. Berisi 9 video reels bertema psikologi buku, motivasi, self-development, eksplorasi sains NASA, dan mini dokumenter musik & pop culture dengan dynamic motion, captions, dan sound design profesional.',
+    challenge: 'Mengolah topik edukasi, biografi, dan storytelling menjadi video format vertikal 9:16 yang engaging, cepat dipahami, dan mempertahankan retensi penonton tinggi.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, pacing editing dinamis, tipografi kinetik, animasi ilustrasi tematik, dan sound design immersive.',
+    results: [
+      '9 Aset Video Reels & Storytelling Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk TikTok, Instagram Reels, dan YouTube Shorts'
+    ],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'Bunny Stream'
+    ],
+    bunnyVideoId: '2db65fa0-a82b-4c10-bc04-c6efcf1b8a59',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/2db65fa0-a82b-4c10-bc04-c6efcf1b8a59',
+    items: [
+      {
+        name: 'XXXTentacion Bio & Facts.mp4',
+        img: 'assets/mid-layer/mid_8.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/2db65fa0-a82b-4c10-bc04-c6efcf1b8a59',
+        desc: 'XXXTentacion Bio & Facts — Video dokumenter hip-hop fakta resmi perjalanan karier.'
+      },
+      {
+        name: 'The Paradox of Choice — Barry Schwartz.mp4',
+        img: 'assets/mid-layer/mid_1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/a858712e-f57b-4df0-a5b5-4ec786052bfe',
+        desc: 'Review buku The Paradox of Choice — Video reels edukasi psikologi & pengambilan keputusan.'
+      },
+      {
+        name: 'Urban Commuter Storytelling.mp4',
+        img: 'assets/mid-layer/mid_2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/b70376b9-aea6-4466-a3fa-b99b0ae0d04d',
+        desc: 'Urban Commuter Storytelling — Video sinematik kehidupan urban & perjalanan harian.'
+      },
+      {
+        name: 'Office Routine 2D Animation.mp4',
+        img: 'assets/mid-layer/mid_3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/52829eea-0dbc-400c-8631-80616f330262',
+        desc: 'Office Routine — Animasi gerak 2D seputar dinamika kerja dan produktivitas kantor.'
+      },
+      {
+        name: 'Self Development — Kita Juga Lagi Berproses.mp4',
+        img: 'assets/mid-layer/mid_4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/60c55eed-dfe1-4969-8e6f-982fdbc81c7c',
+        desc: 'Self Development — Konten refleksi diri dan motivasi tentang menghargai proses hidup.'
+      },
+      {
+        name: 'Mindset & Final Thoughts — Overcoming Limits.mp4',
+        img: 'assets/mid-layer/mid_5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/b5ba9ab9-17ca-4645-9764-bc6514c2231f',
+        desc: 'Mindset & Final Thoughts — Video animasi seputar menembus batasan pola pikir sendiri.'
+      },
+      {
+        name: 'NASA Artemis & Orion Translunar Mission.mp4',
+        img: 'assets/mid-layer/mid_6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f5992c4a-f0e3-499d-985a-0909d89f745b',
+        desc: 'NASA Artemis & Orion — Dokumenter singkat sains & eksplorasi misi luar angkasa NASA.'
+      },
+      {
+        name: 'Kurt Cobain & Nirvana Storytelling.mp4',
+        img: 'assets/mid-layer/mid_7.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/c7553e73-cdf7-49df-81de-3133f7632640',
+        desc: 'Kurt Cobain Storytelling — Mini dokumenter biografi vokalis Nirvana & kultur musik 90an.'
+      },
 
+      {
+        name: 'Biographical Narrative & Relationship Journey.mp4',
+        img: 'assets/mid-layer/mid_9.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/e03e2010-69e2-4167-8003-8fccdd7ec10a',
+        desc: 'Biographical Narrative — Storytelling dokumenter perjalanan kisah nyata kehidupan.'
+      }
+    ]
+  },
+  {
+    id: "ai-ugc-howell",
+    title: "Howell UGC",
+    category: "ai-ugc",
+    categoryName: "AI UGC Videos",
+    client: "PT. Howell Niaga Indonesia",
+    metric: "15 Video Commercial & UGC Showcase • Bunny Stream",
+    thumbnail: "assets/howell-ugc/howell_ugc_12.jpg",
+    shortDesc: "Folder Howell UGC — 15 Video Commercial, Product Showcase & UGC Video Content via Bunny Stream CDN.",
+    fullDesc: "Folder koleksi resmi Howell UGC untuk PT. Howell Niaga Indonesia yang terhubung langsung ke Bunny Stream CDN (Collection: 9ff55e89-9bb3-46ae-a360-2702067281ce). Berisi 15 aset video komersial & user-generated content produk Howell meliputi Kabel LAN Cat 8, Earphone HW01/HW02, Kabel Data AC0501/AC04, Kabel Power POW-102, HDMI Extender, Headset HW05, Adapter USB ADP035, HDMI 4K/8K, USB HUB 8in1, dan Wall HP0101.",
+    challenge: "Membuat serangkaian video UGC dan video komersial produk elektronik Howell yang natural, meyakinkan, dan berkonversi tinggi untuk TikTok & Instagram Reels.",
+    solution: "Integrasi video streaming via Bunny Stream CDN berkecepatan tinggi, format visual UGC ber-retensi tinggi, pacing dinamis, demonstrasi fitur produk praktis, dan sound design jernih.",
+    results: [
+      "15 Aset Video UGC & Commercial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)",
+      "Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan",
+      "Format Optimal untuk Iklan TikTok Ads, Reels & Showcase E-Commerce"
+    ],
+    tools: [
+      "Premiere Pro",
+      "After Effects",
+      "CapCut Pro",
+      "Voice AI",
+      "Bunny Stream"
+    ],
+    bunnyVideoId: "1e98dad2-1939-4d9e-9ae0-d220e625cb07",
+    bunnyLibraryId: "756896",
+    embedVideo: "https://iframe.mediadelivery.net/embed/756896/1e98dad2-1939-4d9e-9ae0-d220e625cb07",
+    items: [
+      {
+        name: "Kabel HDMI 8K CH0703.mov",
+        img: "assets/howell-ugc/howell_ugc_12.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/1e98dad2-1939-4d9e-9ae0-d220e625cb07",
+        desc: "Kabel HDMI 8K CH0703.mov — Video UGC & product showcase Kabel HDMI 8K CH0703 via Bunny Stream CDN."
+      },
+{
+        name: "Kabel LAN Cat 8 - New (1).mp4",
+        img: "assets/howell-ugc/howell_ugc_1.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/0747555f-8a0d-4f7e-a234-5014a493ad2c",
+        desc: "Kabel LAN Cat 8 - New (1).mp4 — Video UGC & product showcase Kabel LAN Cat 8 - New (1) via Bunny Stream CDN."
+      },
+      {
+        name: "Earphone HW01 - AI New.mov",
+        img: "assets/howell-ugc/howell_ugc_2.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/c8fd3ee3-4047-41bf-bb8e-2d2f5ca1ef98",
+        desc: "Earphone HW01 - AI New.mov — Video UGC & product showcase Earphone HW01 - AI New via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel Data AC0501 - New.mp4",
+        img: "assets/howell-ugc/howell_ugc_3.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/54c7b49a-d900-4de8-8cd8-08e4be485338",
+        desc: "Kabel Data AC0501 - New.mp4 — Video UGC & product showcase Kabel Data AC0501 - New via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel Data USB A to C AC04 - New 2.mp4",
+        img: "assets/howell-ugc/howell_ugc_4.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/040cd5f9-cc88-4987-a735-05c10eeaa81f",
+        desc: "Kabel Data USB A to C AC04 - New 2.mp4 — Video UGC & product showcase Kabel Data USB A to C AC04 - New 2 via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel Power POW-102 - New.mp4",
+        img: "assets/howell-ugc/howell_ugc_5.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/b939ead2-cde4-41ac-9822-a6c8af545b3c",
+        desc: "Kabel Power POW-102 - New.mp4 — Video UGC & product showcase Kabel Power POW-102 - New via Bunny Stream CDN."
+      },
+      {
+        name: "HDMI Extender H1401.mov",
+        img: "assets/howell-ugc/howell_ugc_6.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/9a8b8234-2bca-4272-8493-bbcb53837d3d",
+        desc: "HDMI Extender H1401.mov — Video UGC & product showcase HDMI Extender H1401 via Bunny Stream CDN."
+      },
+      {
+        name: "Earphone HW01 - AI.mp4",
+        img: "assets/howell-ugc/howell_ugc_7.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/6458b288-66c1-44ac-b6bd-65295d8d9647",
+        desc: "Earphone HW01 - AI.mp4 — Video UGC & product showcase Earphone HW01 - AI via Bunny Stream CDN."
+      },
+      {
+        name: "Earphone HW02 (3).mp4",
+        img: "assets/howell-ugc/howell_ugc_8.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/a9063a19-d95e-4e51-b3e9-58d3f87ce3d4",
+        desc: "Earphone HW02 (3).mp4 — Video UGC & product showcase Earphone HW02 (3) via Bunny Stream CDN."
+      },
+      {
+        name: "Headset HW05 - Copy.mp4",
+        img: "assets/howell-ugc/howell_ugc_9.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/2eb73609-8735-465f-86a9-fb6151c80287",
+        desc: "Headset HW05 - Copy.mp4 — Video UGC & product showcase Headset HW05 - Copy via Bunny Stream CDN."
+      },
+      {
+        name: "Adapter USB ADP035.mov",
+        img: "assets/howell-ugc/howell_ugc_10.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/a39f9f9c-674e-4d61-aec7-bcb1c75d33e9",
+        desc: "Adapter USB ADP035.mov — Video UGC & product showcase Adapter USB ADP035 via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel HDMI 4K CH0403.mov",
+        img: "assets/howell-ugc/howell_ugc_11.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/e2d92dc7-3b28-48eb-a5a3-8d8ba2e17339",
+        desc: "Kabel HDMI 4K CH0403.mov — Video UGC & product showcase Kabel HDMI 4K CH0403 via Bunny Stream CDN."
+      },
+            {
+        name: "USB HUB 8in1 HUB801.mov",
+        img: "assets/howell-ugc/howell_ugc_13.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/567f9b70-b30b-4a00-948d-799921c72927",
+        desc: "USB HUB 8in1 HUB801.mov — Video UGC & product showcase USB HUB 8in1 HUB801 via Bunny Stream CDN."
+      },
+      {
+        name: "Wall HP0101.mov",
+        img: "assets/howell-ugc/howell_ugc_14.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/973e47fb-93a5-45b5-af5e-ebe3d286e37f",
+        desc: "Wall HP0101.mov — Video UGC & product showcase Wall HP0101 via Bunny Stream CDN."
+      },
+      {
+        name: "Kabel HDMI 8K CH0703.mov",
+        img: "assets/howell-ugc/howell_ugc_15.jpg",
+        video: "https://iframe.mediadelivery.net/embed/756896/b6d78290-b629-4e1a-af06-eced9e147f6f",
+        desc: "Kabel HDMI 8K CH0703.mov — Video UGC & product showcase Kabel HDMI 8K CH0703 via Bunny Stream CDN."
+      }
+    ]
+  },
+  {
+    id: 'ai-design-yuntea',
+    title: 'YUN’TEA',
+    category: 'ai-visual',
+    categoryName: 'AI Visual Design',
+    client: 'YUN’TEA',
+    metric: '5 Aset AI Visual',
+    thumbnail: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.32.png',
+    shortDesc: 'Folder AI Design YUN’TEA — Generative Beverage AI Artwork, ChatGPT Image Design & Tea Branding.',
+    fullDesc: 'Folder koleksi resmi AI Video & Digital Art untuk YUN’TEA dari folder YUN’TEA. Berisi 5 aset desain visual art buatan ChatGPT & AI modern untuk branding, poster promosi, dan visualisasi produk minuman teh estetik.',
+    challenge: 'Menciptakan visualisasi produk minuman teh yang menyegarkan, estetik, dan bernuansa modern menggunakan teknologi AI.',
+    solution: 'Generasi gambar AI ber-detail tinggi dengan prompt engineering pencahayaan alami dan komposisi minuman estetik.',
+    results: [
+      '5 Aset AI Beverage Art Resmi Terintegrasi di Folder YUN’TEA',
+      'Digunakan untuk media promosi & branding visual YUN’TEA'
+    ],
+    tools: [
+      'ChatGPT',
+      'Leonardo AI',
+      'Photoshop'
+    ],
+    embedVideo: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.32.png',
+    items: [
+      {
+        name: 'YUN’TEA — Beverage AI Visual Art 1',
+        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.32.png',
+        desc: 'Desain visual AI Beverage & Product Art utama YUN’TEA.'
+      },
+      {
+        name: 'YUN’TEA — Beverage AI Visual Art 2',
+        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.37.png',
+        desc: 'Desain poster promosi minuman teh menyegarkan buatan AI.'
+      },
+      {
+        name: 'YUN’TEA — Beverage AI Visual Art 3',
+        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.41.png',
+        desc: 'Visualisasi estetis produk minuman teh YUN’TEA.'
+      },
+      {
+        name: 'YUN’TEA — Beverage AI Visual Art 4',
+        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.51.06.png',
+        desc: 'Karya seni digital AI promosi kemasan YUN’TEA.'
+      },
+      {
+        name: 'YUN’TEA — Beverage AI Visual Art 5',
+        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.58.17.png',
+        desc: 'Aset visual branding media sosial YUN’TEA.'
+      }
+    ]
+  },
+  {
+    id: 'advertising-saratoga-landing-page',
+    title: 'Saratoga — Landing Page & Funnel Ads',
+    category: 'ads',
+    categoryName: 'Advertising',
+    client: 'Saratoga',
+    metric: '11 Landing Page Creatives',
+    thumbnail: 'assets/advertising-campaigns/saratoga-landing-page/1.png',
+    shortDesc: 'Folder Advertising Saratoga — Product Specification Graphics, How-It-Works Visuals & High-Conversion Landing Page Ads.',
+    fullDesc: 'Folder koleksi resmi Advertising untuk Saratoga dari folder assets/ADVERTISING/ANDREY/Saratoga Landing Page Visuals. Di dalamnya berisi 11 aset desain visual spesifikasi produk, diagram cara kerja, dan elemen landing page periklanan.',
+    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan Saratoga.',
+    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
+    results: [
+      '11 Aset Visual Advertising Resmi Terintegrasi di Folder Saratoga',
+      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
+    ],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Premiere Pro'
+    ],
+    embedVideo: 'assets/advertising-campaigns/saratoga-landing-page/1.png',
+    items: [
+      {
+        name: 'Saratoga — Creative Ad 1',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/1.png',
+        desc: 'Desain visual iklan periklanan 1.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 2',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/2.png',
+        desc: 'Desain visual iklan periklanan 2.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 3',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/3.1 Spesifikasi Produk.png',
+        desc: 'Desain visual iklan periklanan 3.1 Spesifikasi Produk.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 4',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/3.2.1 Cara kerja.png',
+        desc: 'Desain visual iklan periklanan 3.2.1 Cara kerja.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 5',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/3.png',
+        desc: 'Desain visual iklan periklanan 3.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 6',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/4.png',
+        desc: 'Desain visual iklan periklanan 4.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 7',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/5.png',
+        desc: 'Desain visual iklan periklanan 5.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 8',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/6.png',
+        desc: 'Desain visual iklan periklanan 6.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 9',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/7.png',
+        desc: 'Desain visual iklan periklanan 7.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 10',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/8.png',
+        desc: 'Desain visual iklan periklanan 8.png.'
+      },
+      {
+        name: 'Saratoga — Creative Ad 11',
+        img: 'assets/advertising-campaigns/saratoga-landing-page/9.png',
+        desc: 'Desain visual iklan periklanan 9.png.'
+      }
+    ]
+  },
+  {
+    id: 'video-editing-andrey-ai-video-bootcamp',
+    title: 'AI Video Bootcamp',
+    category: 'ai-motion',
+    categoryName: 'AI Motion Videos',
+    client: 'AI Video Bootcamp',
+    metric: '7 Video Showcase • Bunny Stream',
+    thumbnail: 'assets/ai-video-bootcamp/cover.jpg',
+    shortDesc: 'Folder Video Editing AI Video Bootcamp — 7 Koleksi Video AI, Motion Graphics & Prompt Engineering via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Bootcamp yang terintegrasi langsung dengan streaming Bunny Stream CDN. Berisi 7 video hasil karya & masterclass: Generative AI Video, prompt engineering, fast-cut editing, motion graphics visual, color grading, dan sound design.',
+    challenge: 'Menyajikan seluruh 7 video karya AI Video Bootcamp dalam kualitas HD/4K dengan streaming instan tanpa jeda buffer dan bebas watermark.',
+    solution: 'Integrasi player Bunny Stream CDN berkecepatan tinggi, navigasi playlist 7 video interaktif dalam modal, dan optimasi CDN global.',
+    results: [
+      '7 Video Showcase Terkoneksi Langsung ke Bunny Stream CDN (Library ID: 756896)',
+      'Tersedia Thumbnail Presisi & Player HD Bebas Iklan',
+      'Format Konten Siap untuk Media Sosial (Reels, TikTok, Shorts & Portofolio)'
+    ],
+    tools: [
+      'Kling AI',
+      'Runway Gen-3',
+      'Midjourney',
+      'ElevenLabs',
+      'Premiere Pro',
+      'After Effects',
+      'Bunny Stream'
+    ],
+    bunnyVideoId: '12742592-91d2-462a-95a4-67b794b88ba7',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
+    items: [
+      {
+        name: '1. Phase 3 Homework',
+        img: 'assets/ai-video-bootcamp/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/12742592-91d2-462a-95a4-67b794b88ba7',
+        desc: 'AI Video Assignment Phase 3 — Cinematic storytelling & motion visuals.'
+      },
+      {
+        name: '2. Phase 5 Homework',
+        img: 'assets/ai-video-bootcamp/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/2e18a091-16a4-42ff-89d7-40a0262415de',
+        desc: 'AI Video Assignment Phase 5 — Generative motion & dynamic camera angle.'
+      },
+      {
+        name: '3. Phase 6 Homework',
+        img: 'assets/ai-video-bootcamp/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/4c6b75a1-7dbf-4677-a8ae-4c4272159117',
+        desc: 'AI Video Assignment Phase 6 — Fast-cut editing & rhythmic sync visual.'
+      },
+      {
+        name: '4. Phase 7 Homework',
+        img: 'assets/ai-video-bootcamp/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/49a11ccd-9af0-4262-8a41-f699956cda98',
+        desc: 'AI Video Assignment Phase 7 — High-fidelity AI rendering and color grading.'
+      },
+      {
+        name: '5. Phase 6 Homework (Part 2)',
+        img: 'assets/ai-video-bootcamp/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/ebb9f145-ad0f-4163-994b-7d077dd4c3cb',
+        desc: 'AI Video Assignment Phase 6 Part 2 — Complex transitions & pacing harmony.'
+      },
+      {
+        name: '6. Prompting AI Masterclass',
+        img: 'assets/ai-video-bootcamp/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/fe7d4b1b-3817-4a34-ad79-e29a0d468b72',
+        desc: 'AI Prompt Engineering Masterclass — Text-to-video workflow & cinematic camera movements.'
+      },
+      {
+        name: '7. Food Vlogger Commercial',
+        img: 'assets/ai-video-bootcamp/7.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/8eb32311-11b6-4950-94ca-cb717c3e0fa0',
+        desc: 'Food Vlogger Promo — Dynamic culinary montage with AI voiceover integration.'
+      }
+    ]
+  },
+  {
+    id: 'graphic-design-brand-logos',
+    title: 'Brand Logos & Identity',
+    category: 'design',
+    categoryName: 'Graphic Design',
+    client: 'Client Brands & Agencies',
+    metric: '10 Brand Logo Vector & Asset Collection',
+    thumbnail: 'assets/logos/1.png',
+    thumbBg: '#ffffff',
+    embedVideo: 'assets/logos/1.png',
+    embedBg: '#ffffff',
+    shortDesc: 'Folder Logo & Brand Identity — Koleksi Desain Logo Resmi (Vector Logos, Client Identity & Symbol Design).',
+    fullDesc: 'Folder koleksi resmi Desain Logo & Identitas Brand dari folder assets/Logo. Di dalamnya berisi 10 aset desain logo klien dan korporat resmi dengan berbagai gaya simbolis, tipografi modern, dan desain vektor presisi.',
+    challenge: 'Merancang simbol logo & identitas visual brand yang unik, modern, mudah diingat, dan dapat diaplikasikan fleksibel di berbagai media cetak & digital.',
+    solution: 'Eksplorasi bentuk geometris presisi, pemilihan warna psikologi brand yang kuat, serta pembuatan file vektor skala tinggi di Adobe Illustrator.',
+    results: [
+      '10 Aset Desain Logo Resmi Terintegrasi di Running Marquee & Portfolio',
+      'Digunakan untuk identitas visual utama, media branding, dan e-commerce klien'
+    ],
+    tools: [
+      'Illustrator',
+      'Photoshop',
+      'CorelDRAW'
+    ],
+    items: [
+      {
+        name: 'Brand Logo 1 — FKDB 1 Dekade (10th Anniversary)',
+        img: 'assets/logos/1.png',
+        desc: 'Desain logo resmi peringatan 1 Dekade FKDB (Simbol 10th Kemandirian & Persatuan).',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 2 — MIDLAY',
+        img: 'assets/logos/2.png',
+        desc: 'Desain logo modern & emblem identitas brand MIDLAY.',
+        bg: '#111111'
+      },
+      {
+        name: 'Brand Logo 3 — Nadia Bakery',
+        img: 'assets/logos/3.png',
+        desc: 'Desain logo identitas korporat & bakery artisan Nadia Bakery (Est. 2005).',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 4 — JOURJOLI Creative Studio',
+        img: 'assets/logos/4.png',
+        desc: 'Desain logo tipografi elegan & modern studio kreatif JOURJOLI.',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 5 — jourjoli Made In Indonesia',
+        img: 'assets/logos/5.png',
+        desc: 'Desain logo lencana vektor brand fashion lokal jourjoli.',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 6 — DH TEKNIK',
+        img: 'assets/logos/6.png',
+        desc: 'Desain logo industri & teknik servis engineering DH TEKNIK.',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 7 — DIPPO DAY',
+        img: 'assets/logos/7.png',
+        desc: 'Desain logo ikonografi dan monogram tegas brand DIPPO DAY.',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 8 — CARI DIGITAL',
+        img: 'assets/logos/8.png',
+        desc: 'Desain logo agency pemasaran & solusi digital CARI DIGITAL.',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 9 — DH TOOLS',
+        img: 'assets/logos/9.png',
+        desc: 'Desain logo perkakas profesional & hardware tooling DH TOOLS.',
+        bg: '#ffffff'
+      },
+      {
+        name: 'Brand Logo 10 — cari! tofu',
+        img: 'assets/logos/10.png',
+        desc: 'Desain logo maskot ilustratif & identitas kuliner cari! tofu.',
+        bg: '#111111'
+      }
+    ]
+  },
   {
     id: 'graphic-design-eastern-depo',
     title: 'Eastern Depo',
@@ -1047,7 +1137,11 @@ const PROJECTS = [
       '6 Aset Desain Grafis Brosur & Poster Resmi Terintegrasi di Folder Eastern Depo',
       'Digunakan untuk media promosi, cetak brosur & publikasi media sosial CV. Eastern Depo'
     ],
-    tools: ['Photoshop', 'Illustrator', 'CorelDRAW'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'CorelDRAW'
+    ],
     embedVideo: 'assets/eastern-depo/1.png',
     items: [
       {
@@ -1082,7 +1176,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'graphic-design-elvorindo',
     title: 'Elvorindo',
@@ -1099,7 +1192,11 @@ const PROJECTS = [
       '11 Aset Desain Grafis Branding & Kemasan Resmi Terintegrasi di Folder Elvorindo',
       'Digunakan untuk pencetakan bando produk, stiker kemasan unboxing & promosi media sosial'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva'
+    ],
     embedVideo: 'assets/elvorindo-graphic-design/1.png',
     items: [
       {
@@ -1159,49 +1256,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'graphic-design-mind-mastery',
-    title: 'Mind Mastery Academy',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'Mind Mastery Academy',
-    metric: '4 Aset Desain',
-    thumbnail: 'assets/mind-mastery/1.png',
-    shortDesc: 'Folder Desain Grafis Mind Mastery Academy — Cover eBook 3D, Educational Course Assets & Promotional Mockups.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk Mind Mastery Academy. Mencakup desain cover eBook 3D, materi grafis kelas edukasi, dan poster rilis modul.',
-    challenge: 'Mendesain cover eBook digital berdaya pikat tinggi yang mendorong keputusan unduh/beli.',
-    solution: 'Desain 3D mockup buku dengan perpaduan warna neon kontras dan ilustrasi edukatif modern.',
-    results: [
-      '4 Aset Desain Cover eBook Resmi Terintegrasi di Folder Mind Mastery Academy',
-      'Meningkatkan angka unduh & penjualan modul digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva'],
-    embedVideo: 'assets/mind-mastery/1.png',
-    items: [
-      {
-        name: 'Mind Mastery — Cover eBook 3D Mockup 1',
-        img: 'assets/mind-mastery/1.png',
-        desc: 'Desain cover eBook 3D premium Mind Mastery Academy.'
-      },
-      {
-        name: 'Mind Mastery — Course Module Graphic 2',
-        img: 'assets/mind-mastery/2.png',
-        desc: 'Desain materi grafis & modul edukasi Mind Mastery.'
-      },
-      {
-        name: 'Mind Mastery — Educational Banner Art 3',
-        img: 'assets/mind-mastery/3.png',
-        desc: 'Desain banner promosi program edukasi online.'
-      },
-      {
-        name: 'Mind Mastery — eBook Release Promo 4',
-        img: 'assets/mind-mastery/4.png',
-        desc: 'Desain poster rilis & promosi eBook Mind Mastery.'
-      }
-    ]
-  },
-
   {
     id: 'graphic-design-howell',
     title: 'Howell Niaga Indonesia',
@@ -1218,7 +1272,11 @@ const PROJECTS = [
       '9 Aset Desain Resmi Terintegrasi di Folder Howell Niaga Indonesia',
       'Digunakan untuk komunikasi pemasaran B2B & pameran dagang'
     ],
-    tools: ['Photoshop', 'Illustrator', 'CorelDRAW'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'CorelDRAW'
+    ],
     embedVideo: 'assets/howell/12.png',
     items: [
       {
@@ -1268,7 +1326,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'graphic-design-lamis-resto',
     title: 'Lamis Resto',
@@ -1285,7 +1342,10 @@ const PROJECTS = [
       '3 Aset Desain Resmi Terintegrasi di Folder Lamis Resto',
       'Digunakan untuk promosi restoran & media sosial'
     ],
-    tools: ['Photoshop', 'Illustrator'],
+    tools: [
+      'Photoshop',
+      'Illustrator'
+    ],
     embedVideo: 'assets/lamis-resto/1.png',
     items: [
       {
@@ -1305,231 +1365,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'graphic-design-andrey-buddhis-indonesia',
-    title: 'Buddhis Indonesia — AI YouTube Thumbnail Design',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'Buddhis Indonesia',
-    metric: '5 Aset Desain Grafis',
-    thumbnail: 'assets/andrey-graphic-design/buddhis-indonesia/1.png',
-    shortDesc: 'Folder Desain Grafis Buddhis Indonesia — Aset Visual & Creative Design.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk Buddhis Indonesia dari folder Graphic Design/ANDREY DESIGN GRAPHIC. Berisi 5 aset desain visual art, banner promosi, dan materi media sosial.',
-    challenge: 'Menciptakan identitas visual dan komunikasi pemasaran Buddhis Indonesia yang konsisten dan menarik.',
-    solution: 'Desain grafis profesional dengan tata letak terstruktur, komposisi warna presisi, dan elemen visual modern.',
-    results: [
-      '5 Aset Desain Grafis Resmi Terintegrasi di Folder Buddhis Indonesia',
-      'Digunakan untuk media promosi & publikasi digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
-    embedVideo: 'assets/andrey-graphic-design/buddhis-indonesia/1.png',
-    items: [
-      {
-        name: 'Buddhis Indonesia — Visual Art 1',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/1.png',
-        desc: 'Desain visual art & materi promosi 1.png.'
-      },
-      {
-        name: 'Buddhis Indonesia — Visual Art 2',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/2.png',
-        desc: 'Desain visual art & materi promosi 2.png.'
-      },
-      {
-        name: 'Buddhis Indonesia — Visual Art 3',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/3.png',
-        desc: 'Desain visual art & materi promosi 3.png.'
-      },
-      {
-        name: 'Buddhis Indonesia — Visual Art 4',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/4.png',
-        desc: 'Desain visual art & materi promosi 4.png.'
-      },
-      {
-        name: 'Buddhis Indonesia — Visual Art 5',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/5.png',
-        desc: 'Desain visual art & materi promosi 5.png.'
-      }
-    ]
-  },
-
-  {
-    id: 'graphic-design-andrey-canva-course',
-    title: 'andreydigital.id — Canva Course Slide Presentation',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'andreydigital.id',
-    metric: '31 Aset Desain Grafis',
-    thumbnail: 'assets/andrey-graphic-design/canva-course/0.png',
-    shortDesc: 'Folder Desain Grafis andreydigital.id — Aset Visual & Creative Design.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk andreydigital.id dari folder Graphic Design/ANDREY DESIGN GRAPHIC. Berisi 31 aset desain visual art, banner promosi, dan materi media sosial.',
-    challenge: 'Menciptakan identitas visual dan komunikasi pemasaran andreydigital.id yang konsisten dan menarik.',
-    solution: 'Desain grafis profesional dengan tata letak terstruktur, komposisi warna presisi, dan elemen visual modern.',
-    results: [
-      '31 Aset Desain Grafis Resmi Terintegrasi di Folder andreydigital.id',
-      'Digunakan untuk media promosi & publikasi digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
-    embedVideo: 'assets/andrey-graphic-design/canva-course/0.png',
-    items: [
-      {
-        name: 'andreydigital.id — Visual Art 1',
-        img: 'assets/andrey-graphic-design/canva-course/0.png',
-        desc: 'Desain visual art & materi promosi 0.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 2',
-        img: 'assets/andrey-graphic-design/canva-course/00.png',
-        desc: 'Desain visual art & materi promosi 00.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 3',
-        img: 'assets/andrey-graphic-design/canva-course/1.png',
-        desc: 'Desain visual art & materi promosi 1.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 4',
-        img: 'assets/andrey-graphic-design/canva-course/10.png',
-        desc: 'Desain visual art & materi promosi 10.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 5',
-        img: 'assets/andrey-graphic-design/canva-course/11.png',
-        desc: 'Desain visual art & materi promosi 11.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 6',
-        img: 'assets/andrey-graphic-design/canva-course/12.png',
-        desc: 'Desain visual art & materi promosi 12.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 7',
-        img: 'assets/andrey-graphic-design/canva-course/13.png',
-        desc: 'Desain visual art & materi promosi 13.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 8',
-        img: 'assets/andrey-graphic-design/canva-course/14.png',
-        desc: 'Desain visual art & materi promosi 14.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 9',
-        img: 'assets/andrey-graphic-design/canva-course/15.png',
-        desc: 'Desain visual art & materi promosi 15.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 10',
-        img: 'assets/andrey-graphic-design/canva-course/16.png',
-        desc: 'Desain visual art & materi promosi 16.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 11',
-        img: 'assets/andrey-graphic-design/canva-course/17.png',
-        desc: 'Desain visual art & materi promosi 17.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 12',
-        img: 'assets/andrey-graphic-design/canva-course/18.png',
-        desc: 'Desain visual art & materi promosi 18.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 13',
-        img: 'assets/andrey-graphic-design/canva-course/19.png',
-        desc: 'Desain visual art & materi promosi 19.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 14',
-        img: 'assets/andrey-graphic-design/canva-course/2.png',
-        desc: 'Desain visual art & materi promosi 2.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 15',
-        img: 'assets/andrey-graphic-design/canva-course/20.png',
-        desc: 'Desain visual art & materi promosi 20.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 16',
-        img: 'assets/andrey-graphic-design/canva-course/21.png',
-        desc: 'Desain visual art & materi promosi 21.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 17',
-        img: 'assets/andrey-graphic-design/canva-course/22.png',
-        desc: 'Desain visual art & materi promosi 22.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 18',
-        img: 'assets/andrey-graphic-design/canva-course/23.png',
-        desc: 'Desain visual art & materi promosi 23.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 19',
-        img: 'assets/andrey-graphic-design/canva-course/24.png',
-        desc: 'Desain visual art & materi promosi 24.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 20',
-        img: 'assets/andrey-graphic-design/canva-course/25.png',
-        desc: 'Desain visual art & materi promosi 25.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 21',
-        img: 'assets/andrey-graphic-design/canva-course/26.png',
-        desc: 'Desain visual art & materi promosi 26.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 22',
-        img: 'assets/andrey-graphic-design/canva-course/27.png',
-        desc: 'Desain visual art & materi promosi 27.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 23',
-        img: 'assets/andrey-graphic-design/canva-course/28.png',
-        desc: 'Desain visual art & materi promosi 28.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 24',
-        img: 'assets/andrey-graphic-design/canva-course/29.png',
-        desc: 'Desain visual art & materi promosi 29.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 25',
-        img: 'assets/andrey-graphic-design/canva-course/3.png',
-        desc: 'Desain visual art & materi promosi 3.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 26',
-        img: 'assets/andrey-graphic-design/canva-course/4.png',
-        desc: 'Desain visual art & materi promosi 4.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 27',
-        img: 'assets/andrey-graphic-design/canva-course/5.png',
-        desc: 'Desain visual art & materi promosi 5.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 28',
-        img: 'assets/andrey-graphic-design/canva-course/6.png',
-        desc: 'Desain visual art & materi promosi 6.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 29',
-        img: 'assets/andrey-graphic-design/canva-course/7.png',
-        desc: 'Desain visual art & materi promosi 7.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 30',
-        img: 'assets/andrey-graphic-design/canva-course/8.png',
-        desc: 'Desain visual art & materi promosi 8.png.'
-      },
-      {
-        name: 'andreydigital.id — Visual Art 31',
-        img: 'assets/andrey-graphic-design/canva-course/9.png',
-        desc: 'Desain visual art & materi promosi 9.png.'
-      }
-    ]
-  },
-
   {
     id: 'graphic-design-andrey-juice-united',
     title: 'Juice United — Product Highlight & Promo Series',
@@ -1546,7 +1381,12 @@ const PROJECTS = [
       '12 Aset Desain Grafis Resmi Terintegrasi di Folder Juice United',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/juice-united/1 Juni.png',
     items: [
       {
@@ -1611,120 +1451,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'graphic-design-andrey-kalapa-klopo',
-    title: 'Kalapa Klopo — Social Media & Promo Visuals',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'Kalapa Klopo',
-    metric: '19 Aset Desain Grafis',
-    thumbnail: 'assets/kalapa-klopo/1.png',
-    shortDesc: 'Folder Desain Grafis Kalapa Klopo — 19 Aset Visual & Creative Design.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk Kalapa Klopo dari folder Graphic Design/ANDREY DESIGN GRAPHIC/Kalapa Klopo Social Media & Promo Visuals. Berisi 19 aset desain visual art, banner promosi, dan materi media sosial.',
-    challenge: 'Menciptakan identitas visual dan komunikasi pemasaran Kalapa Klopo yang konsisten dan menarik.',
-    solution: 'Desain grafis profesional dengan tata letak terstruktur, komposisi warna presisi, dan elemen visual modern.',
-    results: [
-      '19 Aset Desain Grafis Resmi Terintegrasi di Folder Kalapa Klopo',
-      'Digunakan untuk media promosi & publikasi digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
-    embedVideo: 'assets/kalapa-klopo/1.png',
-    items: [
-      {
-        name: 'Kalapa Klopo — Promo Visual 12 Juni',
-        img: 'assets/kalapa-klopo/1.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 12 Juni.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 13 Juli',
-        img: 'assets/kalapa-klopo/2.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 13 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 15 Juni',
-        img: 'assets/kalapa-klopo/3.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 15 Juni.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 16 Juli',
-        img: 'assets/kalapa-klopo/4.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 16 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 18 Juni',
-        img: 'assets/kalapa-klopo/5.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 18 Juni.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 2 Agustus',
-        img: 'assets/kalapa-klopo/6.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 2 Agustus.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 23 Juli Part 2',
-        img: 'assets/kalapa-klopo/7.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 23 Juli Part 2.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 23 Juli',
-        img: 'assets/kalapa-klopo/8.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 23 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 26 Juli',
-        img: 'assets/kalapa-klopo/9.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 26 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 26 Juni',
-        img: 'assets/kalapa-klopo/10.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 26 Juni.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 3 Juli Part 2',
-        img: 'assets/kalapa-klopo/11.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 3 Juli Part 2.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 3 Juli',
-        img: 'assets/kalapa-klopo/12.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 3 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 30 Juli',
-        img: 'assets/kalapa-klopo/13.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 30 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 30 Juni',
-        img: 'assets/kalapa-klopo/14.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 30 Juni.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 4 Agustus',
-        img: 'assets/kalapa-klopo/15.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 4 Agustus.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 5 Juli',
-        img: 'assets/kalapa-klopo/16.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 5 Juli.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 5 Juni',
-        img: 'assets/kalapa-klopo/17.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 5 Juni.'
-      },
-      {
-        name: 'Kalapa Klopo — Promo Visual 9 Juli',
-        name: 'Kalapa Klopo — Promo Visual 9 Juni',
-        img: 'assets/kalapa-klopo/19.png',
-        desc: 'Desain visual art & materi promosi Kalapa Klopo edisi 9 Juni.'
-      }
-    ]
-  },
-
   {
     id: 'graphic-design-andrey-kalceri-cafe',
     title: 'Kalceri Cafe — Menu & Promotional Visuals',
@@ -1741,7 +1467,12 @@ const PROJECTS = [
       '16 Aset Desain Grafis Resmi Terintegrasi di Folder Kalceri Cafe',
       'Digunakan untuk media promosi, daftar menu & publikasi media sosial'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/kalceri-cafe/1.png',
     items: [
       {
@@ -1826,7 +1557,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'graphic-design-andrey-lamis-resto',
     title: 'Lamis Resto — Image Suite',
@@ -1843,7 +1573,12 @@ const PROJECTS = [
       '9 Aset Desain Grafis Resmi Terintegrasi di Folder Lamis Resto',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/lamis-resto/1.png',
     items: [
       {
@@ -1893,7 +1628,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'graphic-design-andrey-mind-mastery-tiktok',
     title: 'Mind Mastery Academy — TikTok & Social Carousel',
@@ -1910,7 +1644,12 @@ const PROJECTS = [
       '14 Aset Desain Grafis Resmi Terintegrasi di Folder Mind Mastery Academy',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/mind-mastery-tiktok/154.png',
     items: [
       {
@@ -1985,7 +1724,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'graphic-design-andrey-mirini-skincare',
     title: 'Mirini Skincare — Product Promotion & Feeds',
@@ -2002,7 +1740,12 @@ const PROJECTS = [
       '2 Aset Desain Grafis Resmi Terintegrasi di Folder Mirini Skincare',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/mirini-skincare/5.png',
     items: [
       {
@@ -2017,7 +1760,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'graphic-design-andrey-onlymenjewellers',
     title: 'Onlymenjewellers — Luxury Product Suite & Ads',
@@ -2034,7 +1776,12 @@ const PROJECTS = [
       '16 Aset Desain Grafis Resmi Terintegrasi di Folder Onlymenjewellers',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/onlymenjewellers/23.png',
     items: [
       {
@@ -2119,121 +1866,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'graphic-design-andrey-orsentry',
-    title: 'Orsentry — Personal Care Promotion & Branding',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'Orsentry Personal Care',
-    metric: '3 Aset Desain Grafis',
-    thumbnail: 'assets/andrey-graphic-design/orsentry/3.png',
-    shortDesc: 'Folder Desain Grafis Orsentry Personal Care — 3 Aset Visual & Creative Design.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk Orsentry Personal Care dari folder Graphic Design/ANDREY DESIGN GRAPHIC. Berisi 3 aset desain visual art, banner promosi, dan materi media sosial.',
-    challenge: 'Menciptakan identitas visual dan komunikasi pemasaran Orsentry Personal Care yang konsisten dan menarik.',
-    solution: 'Desain grafis profesional dengan tata letak terstruktur, komposisi warna presisi, dan elemen visual modern.',
-    results: [
-      '3 Aset Desain Grafis Resmi Terintegrasi di Folder Orsentry Personal Care',
-      'Digunakan untuk media promosi & publikasi digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
-    embedVideo: 'assets/andrey-graphic-design/orsentry/3.png',
-    items: [
-      {
-        name: 'Orsentry Personal Care — Visual Art 1',
-        img: 'assets/andrey-graphic-design/orsentry/3.png',
-        desc: 'Desain visual art & materi promosi 3.png.'
-      },
-      {
-        name: 'Orsentry Personal Care — Visual Art 2',
-        img: 'assets/andrey-graphic-design/orsentry/4.png',
-        desc: 'Desain visual art & materi promosi 4.png.'
-      },
-      {
-        name: 'Orsentry Personal Care — Visual Art 3',
-        img: 'assets/andrey-graphic-design/orsentry/Pengenalan Produk.png',
-        desc: 'Desain visual art & materi promosi Pengenalan Produk.png.'
-      }
-    ]
-  },
-
-  {
-    id: 'graphic-design-andrey-rocket-academy',
-    title: 'Rocket Digital Academy — Educational Content',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'Rocket Digital Academy',
-    metric: '11 Aset Desain Grafis',
-    thumbnail: 'assets/andrey-graphic-design/rocket-academy/1.1.png',
-    shortDesc: 'Folder Desain Grafis Rocket Digital Academy — 11 Aset Visual & Creative Design.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk Rocket Digital Academy dari folder Graphic Design/ANDREY DESIGN GRAPHIC. Berisi 11 aset desain visual art, banner promosi, dan materi media sosial.',
-    challenge: 'Menciptakan identitas visual dan komunikasi pemasaran Rocket Digital Academy yang konsisten dan menarik.',
-    solution: 'Desain grafis profesional dengan tata letak terstruktur, komposisi warna presisi, dan elemen visual modern.',
-    results: [
-      '11 Aset Desain Grafis Resmi Terintegrasi di Folder Rocket Digital Academy',
-      'Digunakan untuk media promosi & publikasi digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
-    embedVideo: 'assets/andrey-graphic-design/rocket-academy/1.1.png',
-    items: [
-      {
-        name: 'Rocket Digital Academy — Visual Art 1',
-        img: 'assets/andrey-graphic-design/rocket-academy/1.1.png',
-        desc: 'Desain visual art & materi promosi 1.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 2',
-        img: 'assets/andrey-graphic-design/rocket-academy/10.1.png',
-        desc: 'Desain visual art & materi promosi 10.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 3',
-        img: 'assets/andrey-graphic-design/rocket-academy/12.1.png',
-        desc: 'Desain visual art & materi promosi 12.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 4',
-        img: 'assets/andrey-graphic-design/rocket-academy/13.1.png',
-        desc: 'Desain visual art & materi promosi 13.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 5',
-        img: 'assets/andrey-graphic-design/rocket-academy/14.1.png',
-        desc: 'Desain visual art & materi promosi 14.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 6',
-        img: 'assets/andrey-graphic-design/rocket-academy/17.1.png',
-        desc: 'Desain visual art & materi promosi 17.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 7',
-        img: 'assets/andrey-graphic-design/rocket-academy/18.1.png',
-        desc: 'Desain visual art & materi promosi 18.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 8',
-        img: 'assets/andrey-graphic-design/rocket-academy/2.1.png',
-        desc: 'Desain visual art & materi promosi 2.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 9',
-        img: 'assets/andrey-graphic-design/rocket-academy/4.1.png',
-        desc: 'Desain visual art & materi promosi 4.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 10',
-        img: 'assets/andrey-graphic-design/rocket-academy/6.1.png',
-        desc: 'Desain visual art & materi promosi 6.1.png.'
-      },
-      {
-        name: 'Rocket Digital Academy — Visual Art 11',
-        img: 'assets/andrey-graphic-design/rocket-academy/8.1.png',
-        desc: 'Desain visual art & materi promosi 8.1.png.'
-      }
-    ]
-  },
-
   {
     id: 'graphic-design-andrey-saren-indah-bali',
     title: 'Saren Indah Bali — Resort & Travel Promotion',
@@ -2250,7 +1882,12 @@ const PROJECTS = [
       '7 Aset Desain Grafis Resmi Terintegrasi di Folder Saren Indah Bali',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/saren-indah-bali/2.png',
     items: [
       {
@@ -2290,34 +1927,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'graphic-design-andrey-the-body-shop',
-    title: 'The Body Shop — Promotional Campaign Poster',
-    category: 'design',
-    categoryName: 'Graphic Design',
-    client: 'The Body Shop',
-    metric: '1 Aset Desain Grafis',
-    thumbnail: 'assets/andrey-graphic-design/the-body-shop/2.png',
-    shortDesc: 'Folder Desain Grafis The Body Shop — 1 Aset Visual & Creative Design.',
-    fullDesc: 'Folder koleksi resmi Desain Grafis untuk The Body Shop dari folder Graphic Design/ANDREY DESIGN GRAPHIC. Berisi 1 aset desain visual art, banner promosi, dan materi media sosial.',
-    challenge: 'Menciptakan identitas visual dan komunikasi pemasaran The Body Shop yang konsisten dan menarik.',
-    solution: 'Desain grafis profesional dengan tata letak terstruktur, komposisi warna presisi, dan elemen visual modern.',
-    results: [
-      '1 Aset Desain Grafis Resmi Terintegrasi di Folder The Body Shop',
-      'Digunakan untuk media promosi & publikasi digital'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
-    embedVideo: 'assets/andrey-graphic-design/the-body-shop/2.png',
-    items: [
-      {
-        name: 'The Body Shop — Visual Art 1',
-        img: 'assets/andrey-graphic-design/the-body-shop/2.png',
-        desc: 'Desain visual art & materi promosi 2.png.'
-      }
-    ]
-  },
-
   {
     id: 'graphic-design-andrey-uob-bank',
     title: 'UOB Bank — Instagram Feeds & Banking Carousel',
@@ -2334,7 +1943,12 @@ const PROJECTS = [
       '7 Aset Desain Grafis Resmi Terintegrasi di Folder UOB Bank',
       'Digunakan untuk media promosi & publikasi digital'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Figma'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Figma'
+    ],
     embedVideo: 'assets/andrey-graphic-design/uob-bank/1.png',
     items: [
       {
@@ -2374,12 +1988,11 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'video-editing-fkdb',
     title: 'FKDB',
     category: 'video',
-    categoryName: 'Video Editing & Motion',
+    categoryName: 'Video Editing',
     client: 'Forum Komunikasi Doa Bangsa (FKDB)',
     metric: '10 Video Dokumentasi & Liputan • Bunny Stream',
     thumbnail: 'assets/fkdb-video/fkdb_1.jpg',
@@ -2392,7 +2005,12 @@ const PROJECTS = [
       'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
       'Format Optimal untuk Publikasi Media Sosial, Dokumentasi Korporat & Arsip Resmi'
     ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'Bunny Stream'
+    ],
     bunnyVideoId: 'edaa2a09-729e-4523-987e-395b5f2e42c0',
     bunnyLibraryId: '756896',
     embedVideo: 'https://iframe.mediadelivery.net/embed/756896/edaa2a09-729e-4523-987e-395b5f2e42c0',
@@ -2459,169 +2077,11 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'video-editing-howell',
-    title: 'Howell',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'PT. Howell Niaga Indonesia',
-    metric: '22 Video Commercial & Product Showcase • Bunny Stream',
-    thumbnail: 'assets/howell-video/howell_1.jpg',
-    shortDesc: 'Folder Video Editing Howell — 22 Video Commercial, Product Showcase, Kunjungan Pabrik, Konten Komedi Kantor & Edukasi Kabel via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Howell (PT. Howell Niaga Indonesia) yang terhubung langsung ke Bunny Stream CDN. Di dalamnya berisi 22 aset video commercial & sosial media meliputi Product Showcase Adapter HDMI 8K, Adaptor ADP024, Kabel LAN CAT6, Charger 20W, Konten Komedi Kantor (Gen-Z Pulang Kerja, Ghibah, Lupa Absen, Kerja Jaman Batu), Kunjungan Pabrik Howell, serta Video Edukasi Perbedaan USB & HDMI.',
-    challenge: 'Memproduksi seri video produk elektronik Howell dan konten komedi kantor yang menghibur serta berkonversi tinggi untuk TikTok & Instagram Reels.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, editing video produk ritmis, transisi kinetik, animasi teks spesifikasi teknis, copywriting komedi relate, dan sound design profesional.',
-    results: [
-      '22 Aset Video Commercial & Social Media Reels Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Meningkatkan engagement penonton & jangkauan organik media sosial Howell'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'dad99ec4-89b5-4d66-bc61-15ff6ae57060',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/dad99ec4-89b5-4d66-bc61-15ff6ae57060',
-    items: [
-      {
-        name: 'Adapter HDMI 8K ADP006-3.mp4',
-        img: 'assets/howell-video/howell_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dad99ec4-89b5-4d66-bc61-15ff6ae57060',
-        desc: 'Adapter HDMI 8K ADP006-3.mp4 — Video showcase produk Adapter HDMI 8K ADP006.'
-      },
-      {
-        name: 'Adaptor adp 024 new 3.mp4',
-        img: 'assets/howell-video/howell_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dd2b3b3b-ac28-4ffe-b2d1-0f3a3f33bfe8',
-        desc: 'Adaptor adp 024 new 3.mp4 — Video commercial & product showcase Adaptor ADP 024.'
-      },
-      {
-        name: 'Cat 6 UTP Indoor 120M.mp4',
-        img: 'assets/howell-video/howell_3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/8123e8cc-d7d8-40df-8538-51399a89f114',
-        desc: 'Cat 6 UTP Indoor 120M.mp4 — Video product showcase Kabel LAN Cat 6 UTP Indoor 120M.'
-      },
-      {
-        name: 'Charger 20 watt (HW-C02A).mp4',
-        img: 'assets/howell-video/howell_4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/044065b7-bb35-492b-8984-acfcbf609b33',
-        desc: 'Charger 20 watt (HW-C02A).mp4 — Video commercial showcase Fast Charger 20W HW-C02A.'
-      },
-      {
-        name: 'Costumer datang.mp4',
-        img: 'assets/howell-video/howell_5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/83e9e094-2d80-4a9a-9664-e4596994ebd5',
-        desc: 'Costumer datang.mp4 — Video konten komedi kantor sketsa Customer Datang.'
-      },
-      {
-        name: 'genz pulang kerja2.mp4',
-        img: 'assets/howell-video/howell_6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c2d7710c-581f-4d93-a227-49353ed6aba6',
-        desc: 'genz pulang kerja2.mp4 — Video reels komedi kantor sketsa Gen-Z Pulang Kerja seri 2.'
-      },
-      {
-        name: 'Ghibah.mp4',
-        img: 'assets/howell-video/howell_7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/1aaab4ee-9824-424d-ba9d-0a2c1382a6df',
-        desc: 'Ghibah.mp4 — Video konten komedi kantor sketsa Ghibah.'
-      },
-      {
-        name: 'HDMI 4K H0203 New-.mp4',
-        img: 'assets/howell-video/howell_8.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/b5ae02c7-5b9d-41b5-bb30-5f13818ea49b',
-        desc: 'HDMI 4K H0203 New-.mp4 — Video commercial showcase Kabel HDMI 4K H0203.'
-      },
-      {
-        name: 'Headset HW 01 (1)(1).mp4',
-        img: 'assets/howell-video/howell_9.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/23aa64ec-f69a-440a-8917-1c3b917feab9',
-        desc: 'Headset HW 01 (1)(1).mp4 — Video komersial showcase Gaming Headset HW-01.'
-      },
-      {
-        name: 'Howell HW-C03-Voice-ai(1).mp4',
-        img: 'assets/howell-video/howell_10.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/06198824-ea5d-4576-9850-79b8af8ff71b',
-        desc: 'Howell HW-C03-Voice-ai(1).mp4 — Video komersial & voice AI showcase Howell HW-C03.'
-      },
-      {
-        name: 'Kabel data AC0501-ai.mp4',
-        img: 'assets/howell-video/howell_11.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c81f4734-0fc9-4998-af49-bb376e736f73',
-        desc: 'Kabel data AC0501-ai.mp4 — Video product showcase Kabel Data Fast Charging AC0501.'
-      },
-      {
-        name: 'Kabel LAN CAT6 Roll 305-Voice.mp4',
-        img: 'assets/howell-video/howell_12.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/81302d0d-12d3-4305-90d9-d8ba0312ccd6',
-        desc: 'Kabel LAN CAT6 Roll 305-Voice.mp4 — Video product showcase Kabel LAN CAT6 Roll 305M Voice.'
-      },
-      {
-        name: 'Kerja jaman batu.mp4',
-        img: 'assets/howell-video/howell_13.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/52d17d84-271f-4ab0-bb8c-759f9a2b735c',
-        desc: 'Kerja jaman batu.mp4 — Video konten komedi kantor sketsa Kerja Jaman Batu.'
-      },
-      {
-        name: 'Kerja kompak.mp4',
-        img: 'assets/howell-video/howell_14.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/0fd5cd4c-ce81-415a-99b8-98d06e4a62b8',
-        desc: 'Kerja kompak.mp4 — Video konten komedi kantor sketsa Kerja Kompak Tim.'
-      },
-      {
-        name: 'Konten 17 Agustus.mp4',
-        img: 'assets/howell-video/howell_15.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f37e31f2-9746-4ab1-85bd-3b2c35951c4f',
-        desc: 'Konten 17 Agustus.mp4 — Video konten kreasi HUT Kemerdekaan RI 17 Agustus.'
-      },
-      {
-        name: 'Kunjungan pabrik howell new.mp4',
-        img: 'assets/howell-video/howell_16.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/95c1f711-5ca1-4e45-a812-d2f16bca44ed',
-        desc: 'Kunjungan pabrik howell new.mp4 — Video liputan & event coverage Kunjungan Pabrik Howell New.'
-      },
-      {
-        name: 'Kunjungan pabrik howell- 2.mp4',
-        img: 'assets/howell-video/howell_17.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c152b05a-1fec-410b-a420-5c6128ee6c8e',
-        desc: 'Kunjungan pabrik howell- 2.mp4 — Video liputan & event coverage Kunjungan Pabrik Howell Part 2.'
-      },
-      {
-        name: 'Kunjungan pabrik howell-3.mov',
-        img: 'assets/howell-video/howell_18.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/6f73a42c-ad82-4b78-a1d0-70c5f7ee44d7',
-        desc: 'Kunjungan pabrik howell-3.mov — Video liputan & event coverage Kunjungan Pabrik Howell Part 3.'
-      },
-      {
-        name: 'Kunjungan pabrik howell-motion.mov',
-        img: 'assets/howell-video/howell_19.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/42635dbf-c6ba-4d61-a858-e1fbbecf74ad',
-        desc: 'Kunjungan pabrik howell-motion.mov — Video motion graphics dokumentasi Kunjungan Pabrik Howell.'
-      },
-      {
-        name: 'Mengenal Perbedaan USB.mp4',
-        img: 'assets/howell-video/howell_20.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/52e794ef-aa5a-44ae-8d48-b97051996dae',
-        desc: 'Mengenal Perbedaan USB.mp4 — Video edukasi & perbandingan tipe port USB.'
-      },
-      {
-        name: 'Pegel pegel.mp4',
-        img: 'assets/howell-video/howell_21.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/275875d8-b374-451e-ad4e-4d0487f7487e',
-        desc: 'Pegel pegel.mp4 — Video konten komedi kantor sketsa Pegel Pegel.'
-      },
-      {
-        name: 'Perbedaan Kabel HDMI(2).mp4',
-        img: 'assets/howell-video/howell_22.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/aa6990ec-c230-44e0-aab1-f185bde4d82f',
-        desc: 'Perbedaan Kabel HDMI(2).mp4 — Video edukasi & perbandingan versi kabel HDMI seri 2.'
-      }
-    ]
-  },
-
   {
     id: 'video-editing-cari-tofu',
     title: 'Cari Tofu',
     category: 'video',
-    categoryName: 'Video Editing & Motion',
+    categoryName: 'Video Editing',
     client: 'Cari Tofu',
     metric: '19 Video Reels & Animasi • Bunny Stream',
     thumbnail: 'assets/cari-tofu/tofu_1.jpg',
@@ -2634,7 +2094,13 @@ const PROJECTS = [
       'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
       'Meningkatkan engagement penonton & jangkauan organik media sosial'
     ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Blender', 'Bunny Stream'],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'Blender',
+      'Bunny Stream'
+    ],
     bunnyVideoId: 'ef3f0a98-8111-4a48-8ddb-1ecb017c230d',
     bunnyLibraryId: '756896',
     embedVideo: 'https://iframe.mediadelivery.net/embed/756896/ef3f0a98-8111-4a48-8ddb-1ecb017c230d',
@@ -2755,91 +2221,11 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'video-editing-mid-layer',
-    title: 'Mid Layer',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Mid Layer',
-    metric: '9 Video Reels & Storytelling • Bunny Stream',
-    thumbnail: 'assets/mid-layer/mid_1.jpg',
-    shortDesc: 'Folder Video Editing Mid Layer — 9 Video Reels Edukasi, Pop Culture, Storytelling & Animasi via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Mid Layer yang terhubung langsung ke Bunny Stream CDN. Berisi 9 video reels bertema psikologi buku, motivasi, self-development, eksplorasi sains NASA, dan mini dokumenter musik & pop culture dengan dynamic motion, captions, dan sound design profesional.',
-    challenge: 'Mengolah topik edukasi, biografi, dan storytelling menjadi video format vertikal 9:16 yang engaging, cepat dipahami, dan mempertahankan retensi penonton tinggi.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, pacing editing dinamis, tipografi kinetik, animasi ilustrasi tematik, dan sound design immersive.',
-    results: [
-      '9 Aset Video Reels & Storytelling Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk TikTok, Instagram Reels, dan YouTube Shorts'
-    ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
-    bunnyVideoId: 'a858712e-f57b-4df0-a5b5-4ec786052bfe',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/a858712e-f57b-4df0-a5b5-4ec786052bfe',
-    items: [
-      {
-        name: 'The Paradox of Choice — Barry Schwartz.mp4',
-        img: 'assets/mid-layer/mid_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/a858712e-f57b-4df0-a5b5-4ec786052bfe',
-        desc: 'Review buku The Paradox of Choice — Video reels edukasi psikologi & pengambilan keputusan.'
-      },
-      {
-        name: 'Urban Commuter Storytelling.mp4',
-        img: 'assets/mid-layer/mid_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/b70376b9-aea6-4466-a3fa-b99b0ae0d04d',
-        desc: 'Urban Commuter Storytelling — Video sinematik kehidupan urban & perjalanan harian.'
-      },
-      {
-        name: 'Office Routine 2D Animation.mp4',
-        img: 'assets/mid-layer/mid_3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/52829eea-0dbc-400c-8631-80616f330262',
-        desc: 'Office Routine — Animasi gerak 2D seputar dinamika kerja dan produktivitas kantor.'
-      },
-      {
-        name: 'Self Development — Kita Juga Lagi Berproses.mp4',
-        img: 'assets/mid-layer/mid_4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/60c55eed-dfe1-4969-8e6f-982fdbc81c7c',
-        desc: 'Self Development — Konten refleksi diri dan motivasi tentang menghargai proses hidup.'
-      },
-      {
-        name: 'Mindset & Final Thoughts — Overcoming Limits.mp4',
-        img: 'assets/mid-layer/mid_5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/b5ba9ab9-17ca-4645-9764-bc6514c2231f',
-        desc: 'Mindset & Final Thoughts — Video animasi seputar menembus batasan pola pikir sendiri.'
-      },
-      {
-        name: 'NASA Artemis & Orion Translunar Mission.mp4',
-        img: 'assets/mid-layer/mid_6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f5992c4a-f0e3-499d-985a-0909d89f745b',
-        desc: 'NASA Artemis & Orion — Dokumenter singkat sains & eksplorasi misi luar angkasa NASA.'
-      },
-      {
-        name: 'Kurt Cobain & Nirvana Storytelling.mp4',
-        img: 'assets/mid-layer/mid_7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/c7553e73-cdf7-49df-81de-3133f7632640',
-        desc: 'Kurt Cobain Storytelling — Mini dokumenter biografi vokalis Nirvana & kultur musik 90an.'
-      },
-      {
-        name: 'XXXTentacion Bio & Facts.mp4',
-        img: 'assets/mid-layer/mid_8.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2db65fa0-a82b-4c10-bc04-c6efcf1b8a59',
-        desc: 'XXXTentacion Bio & Facts — Video dokumenter hip-hop fakta resmi perjalanan karier.'
-      },
-      {
-        name: 'Biographical Narrative & Relationship Journey.mp4',
-        img: 'assets/mid-layer/mid_9.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/e03e2010-69e2-4167-8003-8fccdd7ec10a',
-        desc: 'Biographical Narrative — Storytelling dokumenter perjalanan kisah nyata kehidupan.'
-      }
-    ]
-  },
-
   {
     id: 'video-editing-elvorindo',
     title: 'Elvorindo',
     category: 'video',
-    categoryName: 'Video Editing & Motion',
+    categoryName: 'Video Editing',
     client: 'Elvorindo',
     metric: '2 Video Commercial & Motion • Bunny Stream',
     thumbnail: 'assets/elvorindo/gathering.jpg',
@@ -2852,7 +2238,12 @@ const PROJECTS = [
       'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
       'Digunakan untuk dokumentasi internal & publikasi media sosial Elvorindo'
     ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'Bunny Stream'
+    ],
     bunnyVideoId: '1cf27b72-e6ac-4332-843f-f0cb3a468d1e',
     bunnyLibraryId: '756896',
     embedVideo: 'https://iframe.mediadelivery.net/embed/756896/1cf27b72-e6ac-4332-843f-f0cb3a468d1e',
@@ -2871,50 +2262,11 @@ const PROJECTS = [
       }
     ]
   },
-
-  
-  {
-    id: 'video-editing-lamis-resto',
-    title: 'Lamis Resto',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Lamis Resto',
-    metric: '+650K Reach',
-    thumbnail: 'assets/lamis-resto/1.png',
-    shortDesc: 'Folder Video Editing Lamis Resto — Video Iklan Komersial Restaurant & Promotional Shorts.',
-    fullDesc: 'Video promosi komersial kuliner untuk Lamis Resto yang dioptimalkan untuk TikTok, Reels, dan Meta Ads.',
-    challenge: 'Membuat hook visual 3 detik pertama yang menarik calon pelanggan untuk melakukan reservasi.',
-    solution: 'Cut video berenergi tinggi, teks overlay menarik, dan pencahayaan makanan dramatis.',
-    results: ['650K Jangkauan Audiens'],
-    tools: ['Premiere Pro', 'After Effects'],
-    embedVideo: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
-    items: [
-      {
-        name: 'Lamis Resto — Video Iklan Komersial 1',
-        video: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
-        img: 'assets/lamis-resto/1.png',
-        desc: 'Video iklan komersial kuliner Lamis Resto untuk kampanye promosi digital.'
-      },
-      {
-        name: 'Lamis Resto — Culinary Highlight Reel',
-        img: 'assets/lamis-resto/2.png',
-        desc: 'Materi visual promo hidangan spesial & culinary branding.'
-      },
-      {
-        name: 'Lamis Resto — Social Media Campaign Asset',
-        img: 'assets/lamis-resto/3.png',
-        desc: 'Aset visual pendukung kampanye media sosial Lamis Resto.'
-      }
-    ]
-  },
-  
-  
-  
   {
     id: 'video-editing-andrey-andreydigital-make-money-vads',
     title: 'Make Money with Digital Product Video Ads',
     category: 'video',
-    categoryName: 'Video Editing & Motion',
+    categoryName: 'Video Editing',
     client: 'andreydigital.id',
     metric: '5 Video Commercial • Bunny Stream',
     thumbnail: 'assets/advertising-campaigns/andreydigital-make-money/MMDP Square.png',
@@ -2927,7 +2279,12 @@ const PROJECTS = [
       'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
       'Format Video Ads Siap untuk Instagram Reels, TikTok Ads & Facebook Ads'
     ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'Bunny Stream'],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'Bunny Stream'
+    ],
     bunnyVideoId: 'dc1f31c5-e84d-4d4c-9360-3d8e130a411e',
     bunnyLibraryId: '756896',
     embedVideo: 'https://iframe.mediadelivery.net/embed/756896/dc1f31c5-e84d-4d4c-9360-3d8e130a411e',
@@ -2964,68 +2321,214 @@ const PROJECTS = [
       }
     ]
   },
-
   {
-    id: 'video-editing-andrey-lamis-resto-reels',
-    title: 'Lamis Resto Promotional Reels',
-    category: 'video',
-    categoryName: 'Video Editing & Motion',
-    client: 'Lamis Resto',
-    metric: '5 Video Commercial • Bunny Stream',
-    thumbnail: 'assets/lamis-resto-reels/gathering.jpg',
-    shortDesc: 'Folder Video Editing Lamis Resto Promotional Reels — 5 Aset Video Promosi Kuliner & Restoran via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Video Editing untuk Lamis Resto Promotional Reels yang terhubung langsung ke Bunny Stream CDN. Menampilkan 5 seri video reels promosi kuliner, gathering acara, behind-the-scenes dapur, dan highlight menu best seller dengan sinematografi memikat serta sound design dinamis.',
-    challenge: 'Mengemas suasana restoran dan cita rasa hidangan kuliner menjadi konten video reels berenergi positif dengan retensi tinggi.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, color grading makanan yang appetizing, dan transisi ritmis.',
+    id: 'video-editing-andrey-content-creator-ai',
+    title: 'Content Creator AI Vids',
+    category: 'ai-ugc',
+    categoryName: 'AI UGC Videos',
+    client: 'Content Creator AI',
+    metric: '2 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/content-creator-ai/resep.jpg',
+    shortDesc: 'Folder AI Video Editing Content Creator AI Vids — Seri Video Commercial & Vlog Edukasi AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Content Creator AI Vids yang terhubung langsung ke Bunny Stream CDN. Berisi video komersial dan vlog edukasi interaktif hasil prompt engineering, visual storytelling ceria, kinetic typography, dan sound design profesional.',
+    challenge: 'Mengemas konten vlog edukasi dan resep komersial bernuansa ceria dengan pacing dinamis dan visual hook penonton tinggi.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, cut dinamis, musik trending, dan pemutaran HD instan.',
     results: [
-      '5 Video Reels Promosi Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
+      '2 Video Komersial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Pemutaran Instan Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Siap untuk YouTube Shorts, Instagram Reels & TikTok'
     ],
-    tools: ['Premiere Pro', 'After Effects', 'CapCut Pro', 'DaVinci Resolve', 'Bunny Stream'],
-    bunnyVideoId: '90057698-58f6-463b-a6d0-eeb75a07e47e',
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'Bunny Stream'
+    ],
+    bunnyVideoId: 'f3cf936c-9ba3-427b-b25f-5904143b5fc7',
     bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/90057698-58f6-463b-a6d0-eeb75a07e47e',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
     items: [
       {
-        name: 'Jumat - Gathering.mp4',
-        img: 'assets/lamis-resto-reels/gathering.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/90057698-58f6-463b-a6d0-eeb75a07e47e',
-        desc: 'Jumat - Gathering.mp4 — Video promosi event gathering & suasana hangat Lamis Resto.'
+        name: 'Resep_Vlog_Ala_Sunda_Ceria.mp4',
+        img: 'assets/content-creator-ai/resep.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f3cf936c-9ba3-427b-b25f-5904143b5fc7',
+        desc: 'Resep_Vlog_Ala_Sunda_Ceria.mp4 — Video komersial & vlog kuliner ceria.'
       },
       {
-        name: 'Kitchen - Lamis Resto.mp4',
-        img: 'assets/lamis-resto-reels/kitchen.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2dd51a9b-2ec0-4d30-9a11-4c5ee230caa1',
-        desc: 'Kitchen - Lamis Resto.mp4 — Video behind the scenes dapur & persiapan kuliner higienis.'
-      },
-      {
-        name: 'KONTEN REELS, 19 MARET.mp4',
-        img: 'assets/lamis-resto-reels/konten.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/1f97df11-2ce0-400c-90ed-3272befd7d09',
-        desc: 'KONTEN REELS, 19 MARET.mp4 — Video reels konten kreatif dan sajian favorit Lamis Resto.'
-      },
-      {
-        name: 'selasa_promotional_menu_best_seller.mp4',
-        img: 'assets/lamis-resto-reels/selasa.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/08eb686f-6189-4a9e-8ee7-eb4ddfb03690',
-        desc: 'selasa_promotional_menu_best_seller.mp4 — Video promo menu best seller dengan visual menggugah selera.'
-      },
-      {
-        name: 'Senin - Edukasi.mp4',
-        img: 'assets/lamis-resto-reels/senin.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/df5e16ef-9746-46d5-84db-7c9b687d867c',
-        desc: 'Senin - Edukasi.mp4 — Video edukasi kuliner & cerita bahan makanan berkualitas.'
+        name: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4',
+        img: 'assets/content-creator-ai/evaluasi.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/dc62b648-fc78-4fad-acba-30aa68bad11a',
+        desc: 'Video_Vlog_Evaluasi_Prompt_Ceria.mp4 — Video vlog edukasi evaluasi prompt AI.'
       }
     ]
   },
-
-  // --- AI DESIGN FOLDER (PER-BRAND CARDS) ---
+  {
+    id: 'video-editing-andrey-food-vlog-ai',
+    title: 'Food Vlog AI Video',
+    category: 'ai-ugc',
+    categoryName: 'AI UGC Videos',
+    client: 'Culinary AI',
+    metric: '6 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/food-vlog-ai/1.jpg',
+    shortDesc: 'Folder AI Video Editing Food Vlog AI Video — 6 Aset Video Kuliner Sinematik Generative AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi AI Video Editing untuk Food Vlog AI Video yang terhubung langsung ke Bunny Stream CDN. Menampilkan 6 seri video commercial & aesthetic food vlog berbasis generative AI visual dengan motion ritmis, appetizing color grading, dan sound design dinamis.',
+    challenge: 'Menyajikan visual presentasi kuliner generative AI yang menggugah selera dengan tempo editing cepat dan kualitas visual tinggi.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual presentasi makanan lezat, dan pemutaran responsif.',
+    results: [
+      '6 Video Komersial Kuliner AI Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
+    ],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'DaVinci Resolve',
+      'Bunny Stream'
+    ],
+    bunnyVideoId: '810784b8-a614-4c4e-bd9f-6dda718cf2de',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
+    items: [
+      {
+        name: '1.mp4',
+        img: 'assets/food-vlog-ai/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/810784b8-a614-4c4e-bd9f-6dda718cf2de',
+        desc: '1.mp4 — Video komersial kuliner Food Vlog AI Video seri 1.'
+      },
+      {
+        name: '2.mp4',
+        img: 'assets/food-vlog-ai/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/71192ca6-f8a3-4ab2-89d0-b0d406d19b7c',
+        desc: '2.mp4 — Video komersial kuliner Food Vlog AI Video seri 2.'
+      },
+      {
+        name: '3.mp4',
+        img: 'assets/food-vlog-ai/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/5bfe193f-3590-42f7-8ea4-02869816e4e0',
+        desc: '3.mp4 — Video komersial kuliner Food Vlog AI Video seri 3.'
+      },
+      {
+        name: '4.mp4',
+        img: 'assets/food-vlog-ai/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f0d38f6f-8700-4cc5-b4aa-aa5af30fdd3e',
+        desc: '4.mp4 — Video komersial kuliner Food Vlog AI Video seri 4.'
+      },
+      {
+        name: '5.mp4',
+        img: 'assets/food-vlog-ai/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f48a0dcc-6c21-4206-82fb-7e6d843df361',
+        desc: '5.mp4 — Video komersial kuliner Food Vlog AI Video seri 5.'
+      },
+      {
+        name: '6.mp4',
+        img: 'assets/food-vlog-ai/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/49ae9077-b747-479b-be51-d259c4aeb130',
+        desc: '6.mp4 — Video komersial kuliner Food Vlog AI Video seri 6.'
+      }
+    ]
+  },
+  {
+    id: 'video-editing-andrey-ponds-acne-solution',
+    title: 'Ponds Acne Solution AI Clip',
+    category: 'ai-ugc',
+    categoryName: 'AI UGC Videos',
+    client: 'Pond’s',
+    metric: '11 Video Commercial • Bunny Stream',
+    thumbnail: 'assets/ponds-acne-solution/0.jpg',
+    shortDesc: 'Folder Video Editing Ponds Acne Solution AI Clip — 11 Aset Video Komersial Skincare AI via Bunny Stream CDN.',
+    fullDesc: 'Folder koleksi resmi Video Editing untuk Ponds Acne Solution AI Clip yang terhubung langsung ke Bunny Stream CDN. Menampilkan 11 klip video komersial perawatan kulit anti-jerawat dengan sinematografi beauty shoot premium, pergerakan kamera halus, dan color grading jernih.',
+    challenge: 'Mengemas pesan klinis dan visual estetik perawatan kulit jerawat menjadi konten video komersial beresolusi tinggi yang meyakinkan konsumen.',
+    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, optimasi visual kulit glowing & sehat, serta pemutaran responsif.',
+    results: [
+      '11 Video Komersial Skincare Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
+      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
+      'Format Optimal untuk Instagram Reels, TikTok & YouTube Shorts'
+    ],
+    tools: [
+      'Premiere Pro',
+      'After Effects',
+      'CapCut Pro',
+      'DaVinci Resolve',
+      'Bunny Stream'
+    ],
+    bunnyVideoId: '576dee0b-e400-4509-adf2-38e1accb32db',
+    bunnyLibraryId: '756896',
+    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
+    items: [
+      {
+        name: '0.mp4',
+        img: 'assets/ponds-acne-solution/0.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/576dee0b-e400-4509-adf2-38e1accb32db',
+        desc: '0.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 0.'
+      },
+      {
+        name: '1.mp4',
+        img: 'assets/ponds-acne-solution/1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/852874f1-1166-4a7a-b453-4a0e40f61e63',
+        desc: '1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 1.'
+      },
+      {
+        name: '1 (1).mp4',
+        img: 'assets/ponds-acne-solution/1_alt.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/bbd833ab-7ff9-4963-bc72-c6a86bd6beb8',
+        desc: '1 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 1.'
+      },
+      {
+        name: '2.mp4',
+        img: 'assets/ponds-acne-solution/2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/a8dccfe4-a1f2-4c20-96d7-46da60784689',
+        desc: '2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.'
+      },
+      {
+        name: '2.1.mp4',
+        img: 'assets/ponds-acne-solution/2_1.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/f2669c28-5eea-4774-ac75-7a5da78f65a9',
+        desc: '2.1.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.1.'
+      },
+      {
+        name: '2.2.mp4',
+        img: 'assets/ponds-acne-solution/2_2.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/8356b238-780d-47c3-85af-e8e32076ec73',
+        desc: '2.2.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 2.2.'
+      },
+      {
+        name: '3.mp4',
+        img: 'assets/ponds-acne-solution/3.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/d963468e-4f67-4981-8d7d-a6a636049bb4',
+        desc: '3.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 3.'
+      },
+      {
+        name: '3 (1).mp4',
+        img: 'assets/ponds-acne-solution/3_alt.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/e0613f7c-2c88-4b11-bbc9-da364ee07148',
+        desc: '3 (1).mp4 — Video komersial kecantikan Pond’s Acne Solution variasi 3.'
+      },
+      {
+        name: '4.mp4',
+        img: 'assets/ponds-acne-solution/4.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/07291511-c2c3-4c19-90bf-794203a3fd24',
+        desc: '4.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 4.'
+      },
+      {
+        name: '5.mp4',
+        img: 'assets/ponds-acne-solution/5.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/0523294d-d7eb-4733-9c71-78c8ee9d1a9d',
+        desc: '5.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 5.'
+      },
+      {
+        name: '6.mp4',
+        img: 'assets/ponds-acne-solution/6.jpg',
+        video: 'https://iframe.mediadelivery.net/embed/756896/db9edec9-8bf3-4a91-a2fc-39d970dc1f1a',
+        desc: '6.mp4 — Video komersial kecantikan Pond’s Acne Solution seri 6.'
+      }
+    ]
+  },
   {
     id: 'ai-design-aussie-sawit',
     title: 'Aussie Sawit',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
+    category: 'ai-visual',
+    categoryName: 'AI Visual Design',
     client: 'Aussie Sawit',
     metric: '6 Aset AI Visual & Carousel',
     thumbnail: 'assets/aussie-sawit/1. 1.1 - Salin.png',
@@ -3037,7 +2540,12 @@ const PROJECTS = [
       '6 Aset AI Visual Single Image & Carousel Resmi Terintegrasi di Folder Aussie Sawit',
       'Digunakan untuk konten publikasi & edukasi media sosial Aussie Sawit'
     ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop', 'Canva'],
+    tools: [
+      'ChatGPT',
+      'Leonardo AI',
+      'Photoshop',
+      'Canva'
+    ],
     embedVideo: 'assets/aussie-sawit/1. 1.1 - Salin.png',
     items: [
       {
@@ -3073,37 +2581,10 @@ const PROJECTS = [
     ]
   },
   {
-    id: 'ai-design-andreydigital',
-    title: 'andreydigital.id Content Creation',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
-    client: 'andreydigital.id',
-    metric: 'AI Content Creation',
-    thumbnail: 'assets/andreydigital/1.png',
-    shortDesc: 'Folder AI Design andreydigital.id — AI-Assisted Digital Art, AI Video Production, & Creative Content Creation.',
-    fullDesc: 'Folder koleksi resmi AI Video & Digital Art untuk andreydigital.id Content Creation. Berisi aset visual buatan AI modern (ChatGPT, Gemini, Kling AI, Leonardo AI, ElevenLabs) untuk konten digital & branding.',
-    challenge: 'Meningkatkan estetika visual dan efisiensi produksi konten digital menggunakan alat AI terkini.',
-    solution: 'Generasi visual digital art presisi tinggi, pembuatan konten otomatis, dan animasi AI estetik.',
-    results: [
-      'Aset Digital Art & AI Content Resmi Terintegrasi di Folder andreydigital.id',
-      'Digunakan untuk kebutuhan konten digital & branding'
-    ],
-    tools: ['ChatGPT', 'Google Gemini', 'Kling AI', 'Leonardo AI', 'ElevenLabs'],
-    embedVideo: 'assets/andreydigital/1.png',
-    items: [
-      {
-        name: 'andreydigital.id — AI Content Creation 1',
-        img: 'assets/andreydigital/1.png',
-        desc: 'Desain visual AI Digital Art & Content Creation andreydigital.id.'
-      }
-    ]
-  },
-
-  {
     id: 'ai-design-belayang-food-bali',
     title: 'Belayang Food Bali',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
+    category: 'ai-visual',
+    categoryName: 'AI Visual Design',
     client: 'Belayang Food Bali',
     metric: '3 Aset AI Visual',
     thumbnail: 'assets/belayang-food-bali/ChatGPT Image 14 Jul 2026, 20.30.24.png',
@@ -3115,7 +2596,11 @@ const PROJECTS = [
       '3 Aset AI Culinary Art Resmi Terintegrasi di Folder Belayang Food Bali',
       'Digunakan untuk media promosi & branding visual Belayang Food Bali'
     ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop'],
+    tools: [
+      'ChatGPT',
+      'Leonardo AI',
+      'Photoshop'
+    ],
     embedVideo: 'assets/belayang-food-bali/ChatGPT Image 14 Jul 2026, 20.30.24.png',
     items: [
       {
@@ -3135,12 +2620,11 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'ai-design-bhakti-utama',
     title: 'Bhakti Utama Foundation',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
+    category: 'ai-visual',
+    categoryName: 'AI Visual Design',
     client: 'Bhakti Utama Foundation',
     metric: '6 Aset AI Visual',
     thumbnail: 'assets/bhakti-utama/ChatGPT Image 10 Jul 2026, 22.17.41.png',
@@ -3152,7 +2636,11 @@ const PROJECTS = [
       '6 Aset AI Digital Art Resmi Terintegrasi di Folder Bhakti Utama Foundation',
       'Digunakan untuk media publikasi sosial & kampanye kemanusiaan'
     ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop'],
+    tools: [
+      'ChatGPT',
+      'Leonardo AI',
+      'Photoshop'
+    ],
     embedVideo: 'assets/bhakti-utama/ChatGPT Image 10 Jul 2026, 22.17.41.png',
     items: [
       {
@@ -3187,39 +2675,11 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'ai-design-etawa-99',
-    title: 'F&B Etawa 99',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
-    client: 'F&B Etawa 99',
-    metric: 'AI Culinary Visual',
-    thumbnail: 'assets/etawa-99/ChatGPT Image 14 Jul 2026, 20.30.27.png',
-    shortDesc: 'Folder AI Design F&B Etawa 99 — Generative Culinary AI Artwork, ChatGPT Image Design & Product Visuals.',
-    fullDesc: 'Folder koleksi resmi AI Video & Digital Art untuk F&B Etawa 99 dari folder F&B Etawa 99. Berisi aset desain visual art buatan ChatGPT untuk branding, kemasan, dan pemasaran produk F&B susu kambing etawa.',
-    challenge: 'Membuat visualisasi produk F&B susu kambing etawa yang estetik, segar, dan sehat menggunakan kecerdasan buatan.',
-    solution: 'Generasi gambar AI ber-detail tinggi menggunakan ChatGPT & pencahayaan visual F&B alami.',
-    results: [
-      'Aset AI Culinary Visual Resmi Terintegrasi di Folder F&B Etawa 99',
-      'Digunakan untuk media promosi & branding produk F&B Etawa 99'
-    ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop'],
-    embedVideo: 'assets/etawa-99/ChatGPT Image 14 Jul 2026, 20.30.27.png',
-    items: [
-      {
-        name: 'F&B Etawa 99 — Culinary AI Visual Art 1',
-        img: 'assets/etawa-99/ChatGPT Image 14 Jul 2026, 20.30.27.png',
-        desc: 'Desain visual AI Culinary & Product Art F&B Etawa 99.'
-      }
-    ]
-  },
-
   {
     id: 'ai-design-freelancer-ecourse',
     title: 'Freelancer E-Course with Rio Ramadhan',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
+    category: 'ai-visual',
+    categoryName: 'AI Visual Design',
     client: 'Rio Ramadhan',
     metric: '3 Aset AI Visual',
     thumbnail: 'assets/freelancer-ecourse/ChatGPT Image 14 Jul 2026, 20.30.29.png',
@@ -3231,7 +2691,12 @@ const PROJECTS = [
       '3 Aset AI Digital Art Resmi Terintegrasi di Folder Freelancer E-Course',
       'Digunakan untuk media promosi & branding e-course Rio Ramadhan'
     ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop', 'Canva'],
+    tools: [
+      'ChatGPT',
+      'Leonardo AI',
+      'Photoshop',
+      'Canva'
+    ],
     embedVideo: 'assets/freelancer-ecourse/ChatGPT Image 14 Jul 2026, 20.30.29.png',
     items: [
       {
@@ -3251,12 +2716,11 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'ai-design-howell-flash-sale',
     title: 'Howell Flash Sale',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
+    category: 'ai-visual',
+    categoryName: 'AI Visual Design',
     client: 'PT. Howell Niaga Indonesia',
     metric: '12 Aset AI Visual & Banners',
     thumbnail: 'assets/howell-flash-sale/1.png',
@@ -3268,7 +2732,12 @@ const PROJECTS = [
       '12 Aset AI Visual & Banner Flash Sale Resmi Terintegrasi',
       'Digunakan untuk kampanye promosi e-commerce & media sosial Howell Flash Sale'
     ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop', 'Illustrator'],
+    tools: [
+      'ChatGPT',
+      'Leonardo AI',
+      'Photoshop',
+      'Illustrator'
+    ],
     embedVideo: 'assets/howell-flash-sale/1.png',
     items: [
       {
@@ -3313,7 +2782,7 @@ const PROJECTS = [
       },
       {
         name: 'Howell Flash Sale — AI Concept Artwork 9',
-        img: 'assets/howell-flash-sale/ChatGPT Image Jul 25, 2026, 10_57_08 AM.png',
+        img: 'assets/advertising-campaigns/howell-official-store/ChatGPT Image Jul 25, 2026, 10_57_08 AM.png',
         desc: 'Visualisasi estetis produk perkakas & teknik Howell.'
       },
       {
@@ -3328,115 +2797,16 @@ const PROJECTS = [
       },
       {
         name: 'Howell Flash Sale — AI Concept Artwork 12',
-        img: 'assets/howell-flash-sale/ChatGPT Image Jul 25, 2026, 11_19_41 AM.png',
+        img: 'assets/advertising-campaigns/howell-official-store/ChatGPT Image Jul 25, 2026, 11_19_41 AM.png',
         desc: 'Aset visual branding penutup kampanye Howell Flash Sale.'
       }
     ]
   },
-
-  {
-    id: 'ai-design-yuntea',
-    title: 'YUN’TEA',
-    category: 'ai',
-    categoryName: 'AI Video & Digital Art',
-    client: 'YUN’TEA',
-    metric: '5 Aset AI Visual',
-    thumbnail: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.32.png',
-    shortDesc: 'Folder AI Design YUN’TEA — Generative Beverage AI Artwork, ChatGPT Image Design & Tea Branding.',
-    fullDesc: 'Folder koleksi resmi AI Video & Digital Art untuk YUN’TEA dari folder YUN’TEA. Berisi 5 aset desain visual art buatan ChatGPT & AI modern untuk branding, poster promosi, dan visualisasi produk minuman teh estetik.',
-    challenge: 'Menciptakan visualisasi produk minuman teh yang menyegarkan, estetik, dan bernuansa modern menggunakan teknologi AI.',
-    solution: 'Generasi gambar AI ber-detail tinggi dengan prompt engineering pencahayaan alami dan komposisi minuman estetik.',
-    results: [
-      '5 Aset AI Beverage Art Resmi Terintegrasi di Folder YUN’TEA',
-      'Digunakan untuk media promosi & branding visual YUN’TEA'
-    ],
-    tools: ['ChatGPT', 'Leonardo AI', 'Photoshop'],
-    embedVideo: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.32.png',
-    items: [
-      {
-        name: 'YUN’TEA — Beverage AI Visual Art 1',
-        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.32.png',
-        desc: 'Desain visual AI Beverage & Product Art utama YUN’TEA.'
-      },
-      {
-        name: 'YUN’TEA — Beverage AI Visual Art 2',
-        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.37.png',
-        desc: 'Desain poster promosi minuman teh menyegarkan buatan AI.'
-      },
-      {
-        name: 'YUN’TEA — Beverage AI Visual Art 3',
-        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.48.41.png',
-        desc: 'Visualisasi estetis produk minuman teh YUN’TEA.'
-      },
-      {
-        name: 'YUN’TEA — Beverage AI Visual Art 4',
-        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.51.06.png',
-        desc: 'Karya seni digital AI promosi kemasan YUN’TEA.'
-      },
-      {
-        name: 'YUN’TEA — Beverage AI Visual Art 5',
-        img: 'assets/yuntea/ChatGPT Image 9 Jul 2026, 21.58.17.png',
-        desc: 'Aset visual branding media sosial YUN’TEA.'
-      }
-    ]
-  },
-
-  // --- MOTION GRAPHICS FOLDER (PER-BRAND CARDS) ---
-
-  {
-    id: 'motion-graphics-coca-cola',
-    title: 'Motion Coca-Cola Commercial Ads',
-    category: 'motion',
-    categoryName: 'Motion Graphics',
-    client: 'Coca-Cola',
-    metric: '4 Video Motion Commercial • Bunny Stream',
-    thumbnail: 'assets/motion-coca-cola/coca_cola_1.jpg',
-    shortDesc: 'Folder Motion Graphics Coca-Cola Commercial Ads — 4 Video Motion Ads (Kling 3.0, Dreamina Cold Intro, VEO 3.1) via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Motion Graphics untuk Motion Coca-Cola Commercial Ads yang terhubung langsung ke Bunny Stream CDN. Di dalamnya berisi 4 aset animasi video motion graphics komersial iklan minuman bersoda Coca-Cola menggunakan Kling 3.0, Dreamina Cold Intro, dan AI VEO 3.1.',
-    challenge: 'Membuat animasi iklan komersial Coca-Cola yang dinamis dengan elemen cairan menyegarkan, pencahayaan es krispi, dan motion ritmis.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, generasi video motion AI Kling 3.0 & VEO 3.1, penggabungan elemen efek komersial, dan penyelarasan warna brand Coca-Cola merah krispi.',
-    results: [
-      '4 Aset Video Motion Graphics Commercial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Digunakan untuk tayangan promosi kampanye periklanan digital Coca-Cola'
-    ],
-    tools: ['After Effects', 'Premiere Pro', 'Kling AI', 'VEO 3.1', 'Bunny Stream'],
-    bunnyVideoId: '2b2e4dd9-7006-4b95-9039-4f535b2bf61a',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/2b2e4dd9-7006-4b95-9039-4f535b2bf61a',
-    items: [
-      {
-        name: 'Kling 3.0 #2.mp4',
-        img: 'assets/motion-coca-cola/coca_cola_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/2b2e4dd9-7006-4b95-9039-4f535b2bf61a',
-        desc: 'Kling 3.0 #2.mp4 — Animasi motion graphics iklan komersial Coca-Cola Kling 3.0 edisi 2.'
-      },
-      {
-        name: 'Kling 3.0 #1.mp4',
-        img: 'assets/motion-coca-cola/coca_cola_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/ffd06187-495d-4367-802b-b2a9f9a14786',
-        desc: 'Kling 3.0 #1.mp4 — Animasi motion graphics iklan komersial Coca-Cola Kling 3.0 edisi 1.'
-      },
-      {
-        name: 'dreamina-2026-04-03-6623-[Detik 0–2] – TEMPTING INTRO (COLD FEEL)....mp4',
-        img: 'assets/motion-coca-cola/coca_cola_3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/f60f74ef-c15d-4dc3-a66f-284e00838f92',
-        desc: 'dreamina-2026-04-03-6623-[Detik 0–2] – TEMPTING INTRO (COLD FEEL)....mp4 — Animasi intro tempting cold refreshment iklan Coca-Cola Dreamina.'
-      },
-      {
-        name: 'VEO 3.1.mp4',
-        img: 'assets/motion-coca-cola/coca_cola_4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/0e71e3f0-8e13-41e7-b500-bc7613f91013',
-        desc: 'VEO 3.1.mp4 — Animasi motion graphics iklan komersial Coca-Cola generasi VEO 3.1.'
-      }
-    ]
-  },
-
   {
     id: 'motion-graphics-se-indonesia',
     title: 'Motion Se_Indonesia',
-    category: 'motion',
-    categoryName: 'Motion Graphics',
+    category: 'ai-motion',
+    categoryName: 'AI Motion Videos',
     client: 'Se_Indonesia',
     metric: '1 Video Motion Commercial • Bunny Stream',
     thumbnail: 'assets/motion-se-indonesia/se_indonesia_motion_1.jpg',
@@ -3449,7 +2819,12 @@ const PROJECTS = [
       'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
       'Digunakan untuk publikasi media sosial & kampanye promosi Se_Indonesia'
     ],
-    tools: ['After Effects', 'Premiere Pro', 'CapCut Pro', 'Bunny Stream'],
+    tools: [
+      'After Effects',
+      'Premiere Pro',
+      'CapCut Pro',
+      'Bunny Stream'
+    ],
     bunnyVideoId: '51314ab1-a392-4c5f-834a-549411e5e3d8',
     bunnyLibraryId: '756896',
     embedVideo: 'https://iframe.mediadelivery.net/embed/756896/51314ab1-a392-4c5f-834a-549411e5e3d8',
@@ -3462,242 +2837,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'motion-graphics-shoe-product',
-    title: 'Motion Shoe Product Beauty Shoots',
-    category: 'motion',
-    categoryName: 'Motion Graphics',
-    client: 'Shoe Product AI',
-    metric: '2 Video Motion Beauty Shoots • Bunny Stream',
-    thumbnail: 'assets/motion-shoe-product/shoe_motion_1.jpg',
-    shortDesc: 'Folder Motion Graphics Shoe Product Beauty Shoots — 2 Video Motion Beauty Shoots Footwear AI via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Motion Graphics untuk Motion Shoe Product Beauty Shoots yang terhubung langsung ke Bunny Stream CDN. Di dalamnya berisi 2 aset animasi video motion graphics komersial iklan produk sepatu dengan pergerakan kamera sinematik 3D dan generasi motion AI (Kling AI).',
-    challenge: 'Menciptakan animasi gerakan produk sepatu berestetika tinggi dengan efek pencahayaan studio dan dynamic camera roll.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, generasi video motion produk Kling AI, keyframing pergerakan kamera sinematik, dan sound design ritmis.',
-    results: [
-      '2 Aset Video Motion Graphics Commercial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Digunakan untuk promosi produk sepatu di media sosial & e-commerce'
-    ],
-    tools: ['After Effects', 'Kling AI', 'Premiere Pro', 'Bunny Stream'],
-    bunnyVideoId: '7aabeaf6-a16e-45af-b324-e15917b44695',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/7aabeaf6-a16e-45af-b324-e15917b44695',
-    items: [
-      {
-        name: 'Shoe_Product_Video_Generation.mp4',
-        img: 'assets/motion-shoe-product/shoe_motion_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/7aabeaf6-a16e-45af-b324-e15917b44695',
-        desc: 'Shoe_Product_Video_Generation.mp4 — Animasi 3D beauty shoots motion showcase produk sepatu footwear.'
-      },
-      {
-        name: 'kling_20260403_作品__00_00___0_5553_0.mp4',
-        img: 'assets/motion-shoe-product/shoe_motion_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/87a2c326-5fc6-4196-8c22-18a011c470a9',
-        desc: 'kling_20260403_作品__00_00___0_5553_0.mp4 — Animasi motion graphics commercial produk sepatu generasi Kling AI.'
-      }
-    ]
-  },
-  {
-    id: 'motion-graphics-howell',
-    title: 'Motion Howell',
-    category: 'motion',
-    categoryName: 'Motion Graphics',
-    client: 'PT. Howell Niaga Indonesia',
-    metric: '16 Video Motion Commercial • Bunny Stream',
-    thumbnail: 'assets/motion-howell/howell_motion_1.jpg',
-    shortDesc: 'Folder Motion Graphics Howell — 16 Video Motion Commercial 3D/2D Product Showcase, Promo Megasale, Adapter & Cable Specs via Bunny Stream CDN.',
-    fullDesc: 'Folder koleksi resmi Motion Graphics untuk Motion Howell yang terhubung langsung ke Bunny Stream CDN. Di dalamnya berisi 16 aset animasi video motion graphics komersial meliputi 3D Product Motion Adapter HDMI 8K, Microphone Audio MIC002, Cable HDMI H0103, USB A to Micro USB, Poster Promo, HDMI 4in1 Splitter, Spider-Man 2 Cinematic, Box 9.9 Megasale, HUB 8in1, Type C to DP, HDMI 8K Ultra HD, LAN Gigabit, dan ragam adaptor USB Howell.',
-    challenge: 'Menciptakan animasi motion graphics 3D/2D produk elektronik Howell yang dinamis, futuristik, dan menjelaskan spesifikasi teknis dengan visual menarik.',
-    solution: 'Integrasi video streaming melalui Bunny Stream CDN berkecepatan tinggi, keyframing animasi produk 3D/2D di After Effects, efek pencahayaan neon kinetik, motion typography spesifikasi produk, dan sound design futuristik.',
-    results: [
-      '16 Aset Video Motion Graphics Commercial Resmi Terkoneksi ke Bunny Stream CDN (Library ID: 756896)',
-      'Streaming Cepat Kualitas HD Bebas Buffering & Bebas Iklan',
-      'Digunakan untuk tayangan promosi marketplace, display toko fisik & kampanye digital Howell'
-    ],
-    tools: ['After Effects', 'Premiere Pro', 'Cinema 4D', 'Illustrator', 'Bunny Stream'],
-    bunnyVideoId: 'bfc74b4f-d82f-4107-8afb-12b7a6d87d18',
-    bunnyLibraryId: '756896',
-    embedVideo: 'https://iframe.mediadelivery.net/embed/756896/bfc74b4f-d82f-4107-8afb-12b7a6d87d18',
-    items: [
-      {
-        name: 'Adapter HDMI 8K Adapter HDMI 8K ADP008 new.mp4',
-        img: 'assets/motion-howell/howell_motion_1.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/bfc74b4f-d82f-4107-8afb-12b7a6d87d18',
-        desc: 'Adapter HDMI 8K Adapter HDMI 8K ADP008 new.mp4 — Animasi 3D motion graphics produk Adapter HDMI 8K ADP008.'
-      },
-      {
-        name: 'MIC002-Motion.mov',
-        img: 'assets/motion-howell/howell_motion_2.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/6d437386-d1d3-44d9-bb9b-732f68234a7b',
-        desc: 'MIC002-Motion.mov — Motion graphics showcase produk Microphone Audio MIC002.'
-      },
-      {
-        name: 'HDMI (H0103) ai(1).mp4',
-        img: 'assets/motion-howell/howell_motion_3.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/10b0b75b-54c1-4380-8790-ca1c2e558bd7',
-        desc: 'HDMI (H0103) ai(1).mp4 — Animasi motion graphics spesifikasi teknis kabel HDMI H0103.'
-      },
-      {
-        name: 'USB A to Micro USB (AC0601) ai.mp4',
-        img: 'assets/motion-howell/howell_motion_4.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/182fcb5b-8254-4f64-aba8-a425a912bac7',
-        desc: 'USB A to Micro USB (AC0601) ai.mp4 — Animasi motion graphics kabel USB A to Micro USB AC0601.'
-      },
-      {
-        name: 'Poster promo .mp4',
-        img: 'assets/motion-howell/howell_motion_5.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/650316bd-7369-4611-8349-8ad6e7eeb372',
-        desc: 'Poster promo .mp4 — Video poster animasi motion graphics promosi produk Howell.'
-      },
-      {
-        name: 'HDMI 4in1 H3203-Motion.mov',
-        img: 'assets/motion-howell/howell_motion_6.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/ba3f4191-56b6-499d-938b-abaf84131ca7',
-        desc: 'HDMI 4in1 H3203-Motion.mov — Motion graphics showcase produk HDMI 4in1 Splitter H3203.'
-      },
-      {
-        name: 'spiderman 2.mp4',
-        img: 'assets/motion-howell/howell_motion_7.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/093ebb36-c33a-45c0-a5af-aea9dd820803',
-        desc: 'spiderman 2.mp4 — Animasi motion graphics cinematic gaming Spider-Man 2 produk Howell.'
-      },
-      {
-        name: 'Box 9.9 Megasale.mp4',
-        img: 'assets/motion-howell/howell_motion_8.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/e058a690-f57e-43ec-bcf5-fd86059574ef',
-        desc: 'Box 9.9 Megasale.mp4 — Motion graphics iklan promosi campaign Box 9.9 Megasale Howell.'
-      },
-      {
-        name: 'HUB 8in1 HUB801-Motion.mov',
-        img: 'assets/motion-howell/howell_motion_9.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/92927adf-cefd-4ee0-8301-ce7d83e77b30',
-        desc: 'HUB 8in1 HUB801-Motion.mov — Motion graphics showcase fitur USB HUB 8in1 HUB801.'
-      },
-      {
-        name: 'Type C to DP CDP013-motion.mov',
-        img: 'assets/motion-howell/howell_motion_10.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d5f84043-aee7-4f4d-9f28-eb9353245757',
-        desc: 'Type C to DP CDP013-motion.mov — Motion graphics kabel konverter Type C to DisplayPort CDP013.'
-      },
-      {
-        name: 'HDMI 8K CH 0703-Motion.mov',
-        img: 'assets/motion-howell/howell_motion_11.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/dcd9c368-3a8c-4f02-90c7-25a9b2df920d',
-        desc: 'HDMI 8K CH 0703-Motion.mov — Motion graphics kabel premium HDMI 8K Ultra HD CH0703.'
-      },
-      {
-        name: 'LAN CEA001-motion(1).mov',
-        img: 'assets/motion-howell/howell_motion_12.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/da831289-6679-401f-86db-e34bd0c9241d',
-        desc: 'LAN CEA001-motion(1).mov — Motion graphics kecepatan transfer kabel LAN Gigabit CEA001.'
-      },
-      {
-        name: 'USB CEA004-Motion.mov',
-        img: 'assets/motion-howell/howell_motion_13.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/fe262244-ae02-4af0-a194-b0e5ddaaff8f',
-        desc: 'USB CEA004-Motion.mov — Motion graphics fitur dan durabilitas kabel USB CEA004.'
-      },
-      {
-        name: 'HDMI L CH0603-motion.mov',
-        img: 'assets/motion-howell/howell_motion_14.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/4b9d0c56-e47e-4db1-ba6d-9fe78e57b00d',
-        desc: 'HDMI L CH0603-motion.mov — Motion graphics siku sudut L kabel HDMI CH0603.'
-      },
-      {
-        name: 'USB A - LAN UEA001-motion.mov',
-        img: 'assets/motion-howell/howell_motion_15.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/9b3f683c-880b-498a-8501-05fdbe0dbf83',
-        desc: 'USB A - LAN UEA001-motion.mov — Motion graphics adapter USB-A to Ethernet LAN UEA001.'
-      },
-      {
-        name: 'USB UMF101- motion.mov',
-        img: 'assets/motion-howell/howell_motion_16.jpg',
-        video: 'https://iframe.mediadelivery.net/embed/756896/d9a6071e-bf5d-4582-ba79-f02ae90d241a',
-        desc: 'USB UMF101- motion.mov — Motion graphics kabel ekstensi USB UMF101.'
-      }
-    ]
-  },
-
-  // --- ADVERTISING FOLDER (PER-BRAND CARDS) ---
-  {
-    id: 'advertising-andreydigital-viewers-to-buyers',
-    title: 'andreydigital.id — From Viewers to Buyers',
-    category: 'ads',
-    categoryName: 'Advertising',
-    client: 'andreydigital.id',
-    metric: '11 Aset Visual Advertising',
-    thumbnail: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-    shortDesc: 'Folder Advertising andreydigital.id — High-Conversion Meta & TikTok Ads, Funnel Visuals & Promotional Creative Design.',
-    fullDesc: 'Folder koleksi resmi Advertising untuk andreydigital.id dari folder assets/ADVERTISING/ANDREY/andreydigital.id From Viewers to Buyers. Berisi 11 aset desain visual periklanan digital, banner penawaran ber-CTR tinggi, dan visual sales funnel dari penonton (viewers) menjadi pembeli (buyers).',
-    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan andreydigital.id.',
-    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
-    results: [
-      '11 Aset Visual Advertising Resmi Terintegrasi di Folder andreydigital.id',
-      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
-    embedVideo: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-    items: [
-      {
-        name: 'andreydigital.id — Creative Ad 1',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/1.png',
-        desc: 'Desain visual iklan periklanan 1.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 2',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/12.png',
-        desc: 'Desain visual iklan periklanan 12.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 3',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/13.png',
-        desc: 'Desain visual iklan periklanan 13.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 4',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/14.png',
-        desc: 'Desain visual iklan periklanan 14.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 5',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/16.png',
-        desc: 'Desain visual iklan periklanan 16.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 6',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/17.png',
-        desc: 'Desain visual iklan periklanan 17.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 7',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/22.png',
-        desc: 'Desain visual iklan periklanan 22.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 8',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/24.png',
-        desc: 'Desain visual iklan periklanan 24.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 9',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/7.png',
-        desc: 'Desain visual iklan periklanan 7.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 10',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/9.png',
-        desc: 'Desain visual iklan periklanan 9.png.'
-      },
-      {
-        name: 'andreydigital.id — Creative Ad 11',
-        img: 'assets/advertising-campaigns/andreydigital-viewers-to-buyers/Foto Profil WA Grup (1).png',
-        desc: 'Desain visual iklan periklanan Foto Profil WA Grup (1).png.'
-      }
-    ]
-  },
-
   {
     id: 'advertising-andreydigital-make-money',
     title: 'andreydigital.id — Make Money with Digital Product',
@@ -3714,7 +2853,12 @@ const PROJECTS = [
       '11 Aset Visual Advertising Resmi Terintegrasi di Folder andreydigital.id',
       'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Premiere Pro'
+    ],
     embedVideo: 'assets/advertising-campaigns/andreydigital-make-money/10.png',
     items: [
       {
@@ -3774,7 +2918,6 @@ const PROJECTS = [
       }
     ]
   },
-
   {
     id: 'advertising-aussie-sawit-ads',
     title: 'Aussie Sawit — High-CTR Image Ads',
@@ -3791,7 +2934,12 @@ const PROJECTS = [
       '6 Aset Visual Advertising Resmi Terintegrasi di Folder Aussie Sawit',
       'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Premiere Pro'
+    ],
     embedVideo: 'assets/advertising-campaigns/aussie-sawit-ads/1.2.png',
     items: [
       {
@@ -3826,310 +2974,6 @@ const PROJECTS = [
       }
     ]
   },
-
-  {
-    id: 'advertising-ikutkelas-free-class',
-    title: 'Ikutkelas.com — Free Class Campaign & Video Ads',
-    category: 'ads',
-    categoryName: 'Advertising',
-    client: 'Ikutkelas.com',
-    metric: '5 Video Ad Creatives',
-    thumbnail: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-    shortDesc: 'Folder Advertising Ikutkelas.com — 5 Video Iklan Komersial Free Class Campaign, Short-Form UGC Video & Conversion Creatives.',
-    fullDesc: 'Folder koleksi resmi Advertising untuk Ikutkelas.com dari folder assets/ADVERTISING/ANDREY/Ikutkelas.com Free Class Campaign. Di dalamnya berisi 5 aset video iklan komersial promosi kelas gratis ber-ROAS tinggi.',
-    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan Ikutkelas.com.',
-    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
-    results: [
-      '5 Aset Visual Advertising Resmi Terintegrasi di Folder Ikutkelas.com',
-      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
-    embedVideo: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-    items: [
-      {
-        name: 'Ikutkelas.com — Commercial Video Ad 1',
-        img: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-        video: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-        desc: 'Video iklan komersial direct-response Snaptik_7268543498389966086_ikutkelascom.mp4.'
-      },
-      {
-        name: 'Ikutkelas.com — Commercial Video Ad 2',
-        img: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-        video: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7273699563138059528_ikutkelascom.mp4',
-        desc: 'Video iklan komersial direct-response Snaptik_7273699563138059528_ikutkelascom.mp4.'
-      },
-      {
-        name: 'Ikutkelas.com — Commercial Video Ad 3',
-        img: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-        video: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7273797214412098817_ikutkelascom.mp4',
-        desc: 'Video iklan komersial direct-response Snaptik_7273797214412098817_ikutkelascom.mp4.'
-      },
-      {
-        name: 'Ikutkelas.com — Commercial Video Ad 4',
-        img: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-        video: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7277484550740069639_ikutkelascom.mp4',
-        desc: 'Video iklan komersial direct-response Snaptik_7277484550740069639_ikutkelascom.mp4.'
-      },
-      {
-        name: 'Ikutkelas.com — Commercial Video Ad 5',
-        img: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7268543498389966086_ikutkelascom.mp4',
-        video: 'assets/advertising-campaigns/ikutkelas-free-class/Snaptik_7282704146799627522_ikutkelascom.mp4',
-        desc: 'Video iklan komersial direct-response Snaptik_7282704146799627522_ikutkelascom.mp4.'
-      }
-    ]
-  },
-
-  {
-    id: 'advertising-nalanda-foundation-talkshow',
-    title: 'Nalanda Foundation — Talk Show Campaign Ads',
-    category: 'ads',
-    categoryName: 'Advertising',
-    client: 'Nalanda Foundation',
-    metric: '3 Talk Show Campaign Visuals',
-    thumbnail: 'assets/advertising-campaigns/nalanda-foundation-talkshow/294199811_1452207678553478_7526102703882915363_n.jpeg',
-    shortDesc: 'Folder Advertising Nalanda Foundation — Talk Show Campaign Posters, Event Promotion & Video Ads.',
-    fullDesc: 'Folder koleksi resmi Advertising untuk Nalanda Foundation dari folder assets/ADVERTISING/ANDREY/Nalanda Foundation Talk Show Campaign. Berisi 3 aset poster promosi event dan video iklan kampanye sosial.',
-    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan Nalanda Foundation.',
-    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
-    results: [
-      '3 Aset Visual Advertising Resmi Terintegrasi di Folder Nalanda Foundation',
-      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
-    embedVideo: 'assets/advertising-campaigns/nalanda-foundation-talkshow/290854438_400514885375990_233712435215491284_n.mp4',
-    items: [
-      {
-        name: 'Nalanda Foundation — Commercial Video Ad 1',
-        img: 'assets/advertising-campaigns/nalanda-foundation-talkshow/294199811_1452207678553478_7526102703882915363_n.jpeg',
-        video: 'assets/advertising-campaigns/nalanda-foundation-talkshow/290854438_400514885375990_233712435215491284_n.mp4',
-        desc: 'Video iklan komersial direct-response 290854438_400514885375990_233712435215491284_n.mp4.'
-      },
-      {
-        name: 'Nalanda Foundation — Creative Ad 2',
-        img: 'assets/advertising-campaigns/nalanda-foundation-talkshow/294199811_1452207678553478_7526102703882915363_n.jpeg',
-        desc: 'Desain visual iklan periklanan 294199811_1452207678553478_7526102703882915363_n.jpeg.'
-      },
-      {
-        name: 'Nalanda Foundation — Creative Ad 3',
-        img: 'assets/advertising-campaigns/nalanda-foundation-talkshow/299215669_634597721146956_7061920805457520612_n.jpeg',
-        desc: 'Desain visual iklan periklanan 299215669_634597721146956_7061920805457520612_n.jpeg.'
-      }
-    ]
-  },
-
-  {
-    id: 'advertising-saratoga-landing-page',
-    title: 'Saratoga — Landing Page & Funnel Ads',
-    category: 'ads',
-    categoryName: 'Advertising',
-    client: 'Saratoga',
-    metric: '11 Landing Page Creatives',
-    thumbnail: 'assets/advertising-campaigns/saratoga-landing-page/1.png',
-    shortDesc: 'Folder Advertising Saratoga — Product Specification Graphics, How-It-Works Visuals & High-Conversion Landing Page Ads.',
-    fullDesc: 'Folder koleksi resmi Advertising untuk Saratoga dari folder assets/ADVERTISING/ANDREY/Saratoga Landing Page Visuals. Di dalamnya berisi 11 aset desain visual spesifikasi produk, diagram cara kerja, dan elemen landing page periklanan.',
-    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan Saratoga.',
-    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
-    results: [
-      '11 Aset Visual Advertising Resmi Terintegrasi di Folder Saratoga',
-      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
-    embedVideo: 'assets/advertising-campaigns/saratoga-landing-page/1.png',
-    items: [
-      {
-        name: 'Saratoga — Creative Ad 1',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/1.png',
-        desc: 'Desain visual iklan periklanan 1.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 2',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/2.png',
-        desc: 'Desain visual iklan periklanan 2.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 3',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/3.1 Spesifikasi Produk.png',
-        desc: 'Desain visual iklan periklanan 3.1 Spesifikasi Produk.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 4',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/3.2.1 Cara kerja.png',
-        desc: 'Desain visual iklan periklanan 3.2.1 Cara kerja.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 5',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/3.png',
-        desc: 'Desain visual iklan periklanan 3.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 6',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/4.png',
-        desc: 'Desain visual iklan periklanan 4.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 7',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/5.png',
-        desc: 'Desain visual iklan periklanan 5.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 8',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/6.png',
-        desc: 'Desain visual iklan periklanan 6.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 9',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/7.png',
-        desc: 'Desain visual iklan periklanan 7.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 10',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/8.png',
-        desc: 'Desain visual iklan periklanan 8.png.'
-      },
-      {
-        name: 'Saratoga — Creative Ad 11',
-        img: 'assets/advertising-campaigns/saratoga-landing-page/9.png',
-        desc: 'Desain visual iklan periklanan 9.png.'
-      }
-    ]
-  },
-
-  {
-    id: 'advertising-say-no-to-overthinking',
-    title: 'Say No To Overthinking — E-Book Campaign Ads',
-    category: 'ads',
-    categoryName: 'Advertising',
-    client: 'Mind Mastery',
-    metric: '6 E-Book Lead Magnet Ads',
-    thumbnail: 'assets/advertising-campaigns/say-no-to-overthinking/18.png',
-    shortDesc: 'Folder Advertising Say No To Overthinking — E-Book Promo Banners, Teaser Graphics & Social Media Ads.',
-    fullDesc: 'Folder koleksi resmi Advertising untuk E-Book Say No To Overthinking dari folder assets/ADVERTISING/ANDREY/Say No To Overthinking Ebook Campaign. Di dalamnya berisi 6 aset banner promosi e-book, bocoran isi, dan visual iklan penarik prospek.',
-    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan Mind Mastery.',
-    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
-    results: [
-      '6 Aset Visual Advertising Resmi Terintegrasi di Folder Mind Mastery',
-      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
-    embedVideo: 'assets/advertising-campaigns/say-no-to-overthinking/18.png',
-    items: [
-      {
-        name: 'Mind Mastery — Creative Ad 1',
-        img: 'assets/advertising-campaigns/say-no-to-overthinking/18.png',
-        desc: 'Desain visual iklan periklanan 18.png.'
-      },
-      {
-        name: 'Mind Mastery — Creative Ad 2',
-        img: 'assets/advertising-campaigns/say-no-to-overthinking/19.png',
-        desc: 'Desain visual iklan periklanan 19.png.'
-      },
-      {
-        name: 'Mind Mastery — Creative Ad 3',
-        img: 'assets/advertising-campaigns/say-no-to-overthinking/Bocoran.png',
-        desc: 'Desain visual iklan periklanan Bocoran.png.'
-      },
-      {
-        name: 'Mind Mastery — Creative Ad 4',
-        img: 'assets/advertising-campaigns/say-no-to-overthinking/Daftar Isi.png',
-        desc: 'Desain visual iklan periklanan Daftar Isi.png.'
-      },
-      {
-        name: 'Mind Mastery — Creative Ad 5',
-        img: 'assets/advertising-campaigns/say-no-to-overthinking/Promo E-Book.png',
-        desc: 'Desain visual iklan periklanan Promo E-Book.png.'
-      },
-      {
-        name: 'Mind Mastery — Creative Ad 6',
-        img: 'assets/advertising-campaigns/say-no-to-overthinking/WhatsApp Image 2024-09-01 at 12.41.27.jpeg',
-        desc: 'Desain visual iklan periklanan WhatsApp Image 2024-09-01 at 12.41.27.jpeg.'
-      }
-    ]
-  },
-
-  {
-    id: 'advertising-the-art-of-letting-go',
-    title: 'The Art of Letting Go — E-Book & Funnel Campaign',
-    category: 'ads',
-    categoryName: 'Advertising',
-    client: 'E-Book Funnel',
-    metric: '12 Creative Ad & Video Visuals',
-    thumbnail: 'assets/advertising-campaigns/the-art-of-letting-go/COVER3.png',
-    shortDesc: 'Folder Advertising The Art of Letting Go — 3D Book Mockups, Bonus Cover Banners, Teaser Videos & Promo Graphics.',
-    fullDesc: 'Folder koleksi resmi Advertising untuk The Art of Letting Go & Hidup Itu Dinikmati Biar Hepi dari folder assets/ADVERTISING/ANDREY. Di dalamnya berisi 12 aset mockup 3D e-book, cover bonus, video teaser, dan poster kampanye periklanan.',
-    challenge: 'Meningkatkan CTR dan konversi penjualan kampanye periklanan E-Book Funnel.',
-    solution: 'Desain visual periklanan berkonversi tinggi dengan copywriting persuasif, komposisi warna bold, dan tata letak sales funnel.',
-    results: [
-      '12 Aset Visual Advertising Resmi Terintegrasi di Folder E-Book Funnel',
-      'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
-    ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
-    embedVideo: 'assets/advertising-campaigns/the-art-of-letting-go/COVER3.png',
-    items: [
-      {
-        name: 'E-Book Funnel — Commercial Video Ad 1',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/COVER3.png',
-        video: 'assets/advertising-campaigns/the-art-of-letting-go/40414C81C568B0465E830326FDF16B9F_video_dashinit.mp4',
-        desc: 'Video iklan komersial direct-response 40414C81C568B0465E830326FDF16B9F_video_dashinit.mp4.'
-      },
-      {
-        name: 'E-Book Funnel — Commercial Video Ad 2',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/40414C81C568B0465E830326FDF16B9F_video_dashinit.mp4',
-        video: 'assets/advertising-campaigns/the-art-of-letting-go/5543E4380E3D8BEB5E933DD66D658499_video_dashinit.mp4',
-        desc: 'Video iklan komersial direct-response 5543E4380E3D8BEB5E933DD66D658499_video_dashinit.mp4.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 3',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/COVER bonus 1.png',
-        desc: 'Desain visual iklan periklanan COVER bonus 1.png.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 4',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/COVER bonus 2.png',
-        desc: 'Desain visual iklan periklanan COVER bonus 2.png.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 5',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/COVER3.png',
-        desc: 'Desain visual iklan periklanan COVER3.png.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 6',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/mockup isi 2.png',
-        desc: 'Desain visual iklan periklanan mockup isi 2.png.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 7',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/mockup isi.png',
-        desc: 'Desain visual iklan periklanan mockup isi.png.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 8',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/WhatsApp Image 2023-04-24 at 12.47.25.jpeg',
-        desc: 'Desain visual iklan periklanan WhatsApp Image 2023-04-24 at 12.47.25.jpeg.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 9',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/WhatsApp Image 2023-04-25 at 11.42.33.jpeg',
-        desc: 'Desain visual iklan periklanan WhatsApp Image 2023-04-25 at 11.42.33.jpeg.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 10',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/WhatsApp Image 2023-04-25 at 13.11.30.jpeg',
-        desc: 'Desain visual iklan periklanan WhatsApp Image 2023-04-25 at 13.11.30.jpeg.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 11',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/WhatsApp Image 2023-04-26 at 13.03.40.jpeg',
-        desc: 'Desain visual iklan periklanan WhatsApp Image 2023-04-26 at 13.03.40.jpeg.'
-      },
-      {
-        name: 'E-Book Funnel — Creative Ad 12',
-        img: 'assets/advertising-campaigns/the-art-of-letting-go/WhatsApp Image 2023-04-26 at 13.03.52.jpeg',
-        desc: 'Desain visual iklan periklanan WhatsApp Image 2023-04-26 at 13.03.52.jpeg.'
-      }
-    ]
-  },
-
   {
     id: 'advertising-howell-official-store',
     title: 'Howell Official Store — E-Commerce Image Ads',
@@ -4146,7 +2990,12 @@ const PROJECTS = [
       '6 Aset Visual Advertising Resmi Terintegrasi di Folder PT. Howell Niaga Indonesia',
       'Digunakan untuk kampanye periklanan Meta Ads, TikTok Ads & Landing Page'
     ],
-    tools: ['Photoshop', 'Illustrator', 'Canva', 'Premiere Pro'],
+    tools: [
+      'Photoshop',
+      'Illustrator',
+      'Canva',
+      'Premiere Pro'
+    ],
     embedVideo: 'assets/advertising-campaigns/howell-official-store/11.png',
     items: [
       {
@@ -4181,14 +3030,11 @@ const PROJECTS = [
       }
     ]
   },
-
-
-    // --- YOUTUBE CONTENT FOLDER (PER-BRAND CARDS) ---
   {
     id: 'youtube-doa-bangsa-tv',
     title: 'Doa Bangsa TV',
     category: 'youtube',
-    categoryName: 'YouTube Content',
+    categoryName: 'YouTube',
     client: 'Doa Bangsa TV',
     metric: '▶ Channel YouTube Official',
     thumbnail: 'assets/Youtube/doa-bangsa-tv-thumb.png',
@@ -4201,7 +3047,12 @@ const PROJECTS = [
       'Saluran Resmi YouTube Doa Bangsa TV Aktif & Terintegrasi (80.1K+ Subs, 1.2K+ Video)',
       'Menyajikan Ratusan Video Edukasi & Inspirasi Nasional dengan Thumbnails 16:9 Konsisten'
     ],
-    tools: ['YouTube', 'Premiere Pro', 'Photoshop', 'After Effects'],
+    tools: [
+      'YouTube',
+      'Premiere Pro',
+      'Photoshop',
+      'After Effects'
+    ],
     embedVideo: 'assets/Youtube/doa-bangsa-tv-thumb.png',
     items: [
       {
@@ -4225,105 +3076,12 @@ const PROJECTS = [
     ]
   },
 
-  {
-    id: 'youtube-buddhis-indonesia',
-    title: 'Buddhis Indonesia',
-    category: 'youtube',
-    categoryName: 'YouTube Content',
-    client: 'Buddhis Indonesia',
-    metric: '▶ Channel YouTube Official',
-    thumbnail: 'assets/Youtube/buddhis-indonesia-thumb.png',
-    youtubeUrl: 'https://www.youtube.com/@buddhisindonesia2023/videos',
-    shortDesc: 'Official YouTube Channel Buddhis Indonesia — Video Edukasi, AI YouTube Thumbnails & Konten Keagamaan.',
-    fullDesc: 'Saluran Resmi YouTube Buddhis Indonesia (https://www.youtube.com/@buddhisindonesia2023/videos). Menyajikan konten video edukasi spiritual, ajaran kebaikan, pembahasan dharma, dan video pendek inspiratif dengan thumbnail AI beresolusi 1920x1080.',
-    challenge: 'Mendesain visual thumbnail YouTube ber-CTR tinggi dan mengemas video edukasi spiritual yang menarik bagi audiens luas.',
-    solution: 'Generasi gambar AI untuk thumbnail YouTube, editing video edukasi ritmis, dan integrasi ke Channel Resmi YouTube.',
-    results: [
-      'Saluran Resmi YouTube Buddhis Indonesia Aktif & Terintegrasi (9.9K+ Subs, 2.6K+ Video)',
-      'Menyajikan Video Edukasi & AI YouTube Thumbnails High-CTR Resolusi 1920x1080'
-    ],
-    tools: ['YouTube', 'Photoshop', 'Midjourney', 'Premiere Pro'],
-    embedVideo: 'assets/Youtube/buddhis-indonesia-thumb.png',
-    items: [
-      {
-        name: 'Buddhis Indonesia — Latihan Meditasi Mental Health Awareness (16:9 Thumbnail)',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/1.png',
-        desc: 'Desain thumbnail YouTube Series 1: Latihan Meditasi Untuk Meningkatkan Mental Health Awareness.',
-        url: 'https://www.youtube.com/@buddhisindonesia2023/videos'
-      },
-      {
-        name: 'Buddhis Indonesia — Cara Membuat Hati & Pikiran Tenang (16:9 Thumbnail)',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/2.png',
-        desc: 'Desain thumbnail YouTube Series 2: Cara Membuat Hati dan Pikiran Tenang Dari Seorang Meditator.',
-        url: 'https://www.youtube.com/@buddhisindonesia2023/videos'
-      },
-      {
-        name: 'Buddhis Indonesia — Rahasia Menghilangkan Stres (16:9 Thumbnail)',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/3.png',
-        desc: 'Desain thumbnail YouTube Series 3: Rahasia Menghilangkan Stres.',
-        url: 'https://www.youtube.com/@buddhisindonesia2023/videos'
-      },
-      {
-        name: 'Buddhis Indonesia — Atasi Stress Dengan Latihan Meditasi (16:9 Thumbnail)',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/4.png',
-        desc: 'Desain thumbnail YouTube Series 4: Atasi Stress Dengan Latihan Meditasi.',
-        url: 'https://www.youtube.com/@buddhisindonesia2023/videos'
-      },
-      {
-        name: 'Buddhis Indonesia — Meditasi Untuk Menenangkan Hati & Pikiran (16:9 Thumbnail)',
-        img: 'assets/andrey-graphic-design/buddhis-indonesia/5.png',
-        desc: 'Desain thumbnail YouTube Series 5: Meditasi Untuk Menenangkan Hati dan Pikiran.',
-        url: 'https://www.youtube.com/@buddhisindonesia2023/videos'
-      },
-      {
-        name: 'Buddhis Indonesia — Channel Official Hub',
-        img: 'assets/Youtube/buddhis-indonesia-cover.png',
-        desc: 'Tampilan saluran resmi YouTube Buddhis Indonesia (9.95 rb subscriber & 2,6 rb video).',
-        url: 'https://www.youtube.com/@buddhisindonesia2023/videos'
-      }
-    ]
-  },
-
-  {
-    id: 'youtube-coach-yanto',
-    title: 'Coach Yanto',
-    category: 'youtube',
-    categoryName: 'YouTube Content',
-    client: 'Coach Yanto',
-    metric: '▶ Channel YouTube Official',
-    thumbnail: 'assets/Youtube/coach-yanto-thumb.png',
-    youtubeUrl: 'https://www.youtube.com/@coachyanto/videos',
-    shortDesc: 'Official YouTube Channel Coach Yanto — Video Coaching Bisnis, Development Mentoring & Mindset Shorts.',
-    fullDesc: 'Saluran Resmi YouTube Coach Yanto (https://www.youtube.com/@coachyanto/videos). Menyajikan konten video coaching bisnis, strategi pengembangan diri, tips kepemimpinan, dan sesi mentoring interaktif dengan thumbnail high-CTR berkarakter kepemimpinan kuat.',
-    challenge: 'Mengemas sesi coaching bisnis & personal growth durasi panjang menjadi video edukasi berretensi tinggi dan thumbnail profesional.',
-    solution: 'Editing video webinar & coaching dinamis, judul teks kinetik, thumbnail branding tebal ber-CTR tinggi, dan integrasi langsung ke Channel YouTube.',
-    results: [
-      'Saluran Resmi YouTube Coach Yanto Aktif & Terintegrasi (26.4K+ Subs, 565+ Video)',
-      'Menyajikan Video Coaching Bisnis & Pengembangan Diri dengan High Engagement'
-    ],
-    tools: ['YouTube', 'Premiere Pro', 'Photoshop', 'CapCut Pro'],
-    embedVideo: 'assets/Youtube/coach-yanto-thumb.png',
-    items: [
-      {
-        name: 'Coach Yanto — Tenangkan Akar Overthinking (Official 16:9 Thumbnail)',
-        img: 'assets/Youtube/coach-yanto-thumb.png',
-        desc: 'Desain thumbnail resmi YouTube: Tenangkan Akar Overthinking — Mental Clarity & Mindset.',
-        url: 'https://www.youtube.com/@coachyanto/videos'
-      },
-      {
-        name: 'Coach Yanto — Success & Happiness Official Channel',
-        img: 'assets/Youtube/coach-yanto-cover.png',
-        desc: 'Tampilan saluran resmi YouTube Coach Yanto: Executive Mentor & Leadership Expert.',
-        url: 'https://www.youtube.com/@coachyanto/videos'
-      }
-    ]
-  },
 
   {
     id: 'youtube-mind-mastery',
     title: 'Mind Mastery Academy',
     category: 'youtube',
-    categoryName: 'YouTube Content',
+    categoryName: 'YouTube',
     client: 'Mind Mastery Academy',
     metric: '+500K Views • Official Thumbnail',
     thumbnail: 'assets/Youtube/mind-mastery-thumb.png',
@@ -4336,7 +3094,11 @@ const PROJECTS = [
       '500K+ Total Penayangan YouTube',
       'Desain Visual Thumbnail 16:9 High-CTR & Cover E-Learning Komprehensif'
     ],
-    tools: ['Premiere Pro', 'Photoshop', 'Illustrator'],
+    tools: [
+      'Premiere Pro',
+      'Photoshop',
+      'Illustrator'
+    ],
     embedVideo: 'assets/Youtube/mind-mastery-thumb.png',
     items: [
       {
@@ -4365,6 +3127,134 @@ const PROJECTS = [
         desc: 'Desain visual paket promo bundling Mind Mastery Academy.'
       }
     ]
+  },
+  {
+    id: 'web-howell-stockflow',
+    title: 'Stockflow',
+    category: 'web',
+    categoryName: 'Website & Landing Pages',
+    client: 'PT. Howell Niaga Indonesia',
+    metric: 'Internal cashier & sales system',
+    thumbnail: 'assets/web-projects/howell-stockflow.png',
+    websitePreviewImage: 'assets/web-projects/howell-stockflow.png',
+    embedVideo: 'assets/web-projects/howell-stockflow.png',
+    internalProject: true,
+    shortDesc: 'Aplikasi internal Howell untuk transaksi kasir, pemindaian barcode/SKU, dan penerbitan invoice.',
+    fullDesc: 'Stockflow adalah aplikasi operasional internal Howell. Layar kasir mendukung pemindaian barcode atau SKU, keranjang belanja, pengaturan diskon, metode pembayaran, data pelanggan, dan penerbitan invoice. Data aplikasi berjalan di VPS perusahaan.',
+    challenge: 'Menyatukan pemindaian produk, pencatatan transaksi, pembayaran, dan invoice dalam satu alur kasir.',
+    solution: 'Menyediakan antarmuka kasir yang menggabungkan scan barcode/SKU, keranjang belanja, data pelanggan, pembayaran, dan ringkasan transaksi.',
+    role: 'Web Developer',
+    stack: ['HTML', 'CSS', 'Vanilla JavaScript', 'VPS API'],
+    deployment: 'Internal • VPS data',
+    results: []
+  },
+  {
+    id: 'web-howell-inventory',
+    title: 'Inventory',
+    category: 'web',
+    categoryName: 'Website & Landing Pages',
+    client: 'PT. Howell Niaga Indonesia',
+    metric: 'Internal inventory management system',
+    thumbnail: 'assets/web-projects/howell-inventory.png',
+    websitePreviewImage: 'assets/web-projects/howell-inventory.png',
+    embedVideo: 'assets/web-projects/howell-inventory.png',
+    internalProject: true,
+    shortDesc: 'Dashboard internal Howell untuk persediaan, produk, cabang, pengiriman, dan aktivitas gudang.',
+    fullDesc: 'Inventory adalah aplikasi internal Howell untuk melihat ringkasan stok, master produk, pengiriman, cabang, posisi persediaan, stok menipis, performa penjualan, dan aktivitas gudang. Data aplikasi berjalan di VPS perusahaan.',
+    challenge: 'Menyajikan posisi persediaan dan aktivitas operasional gudang Howell dalam satu dashboard.',
+    solution: 'Dashboard merangkum total stok, pengiriman, master produk, persediaan per lokasi, stok menipis, performa penjualan, dan transaksi gudang.',
+    role: 'Web Developer',
+    stack: ['HTML', 'CSS', 'Vanilla JavaScript', 'VPS API'],
+    deployment: 'Internal • VPS data',
+    results: []
+  },
+  {
+    "id": "web-howell-spin-win",
+    "websitePreviewImage": "assets/web-projects/howell-spin-win-screenshot.jpg",    "title": "Howell Spin & Win",
+    "category": "web",
+    "categoryName": "Website & Landing Pages",
+    "role": "Website design & development",
+    "stack": ["React", "JavaScript", "CSS"],
+    "client": "PT. Howell Niaga Indonesia",
+    "metric": "Interactive Campaign Website",
+    "thumbnail": "assets/web-projects/howell-spin-win-screenshot.jpg",
+    "embedVideo": "assets/web-projects/howell-spin-win-screenshot.jpg",
+    "websiteUrl": "https://spin.howellcable.site/",
+    "shortDesc": "Website campaign interaktif Spin & Win untuk Howell, dibuat dari perancangan hingga siap digunakan.",
+    "fullDesc": "Website aktivasi Howell dengan roda hadiah interaktif, kontrol suara, simulasi spin, histori, dan tampilan layar penuh. Seluruh proyek dirancang dan dikembangkan dari nol hingga siap digunakan oleh Wildan Firdaus.",
+    "challenge": "Membuat pengalaman promosi yang terasa seperti permainan dan mudah diakses pengunjung acara.",
+    "solution": "Membangun halaman campaign interaktif dengan roda hadiah, kontrol permainan, serta panel pendukung yang terhubung dalam satu pengalaman.",
+    "results": [
+      "Roda hadiah interaktif dengan mode simulasi",
+      "Kontrol suara, histori, dan tampilan layar penuh",
+      "Perancangan dan pengembangan end-to-end oleh Wildan Firdaus"
+    ]
+  },
+  {
+    "id": "web-howell-catch-win",    "title": "Howell Catch & Win",
+    "category": "web",
+    "categoryName": "Website & Landing Pages",
+    "role": "Website design & development",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "client": "PT. Howell Niaga Indonesia",
+    "metric": "Interactive Mini Game",
+    "thumbnail": "assets/web-projects/howell-catch-win.jpg",
+    "embedVideo": "assets/web-projects/howell-catch-win.jpg",
+    "websiteUrl": "https://game.howellcable.site/",
+    "shortDesc": "Game web Catch & Win bertema Howell, dikembangkan dari konsep hingga siap dimainkan.",
+    "fullDesc": "Game browser interaktif Catch & Win untuk Howell dengan tantangan 30 detik, papan skor, koleksi skin, serta elemen produk. Halaman live menandai permainan dan hadiah sebagai simulasi. Proyek dibuat dari nol hingga jadi oleh Wildan Firdaus.",
+    "challenge": "Mengemas interaksi brand dalam permainan singkat yang mudah dipahami pengunjung dan berjalan langsung di browser.",
+    "solution": "Membuat game 30 detik dengan alur mulai, papan skor, koleksi skin, elemen produk, serta antarmuka yang responsif.",
+    "results": [
+      "Game Catch & Win berbasis browser",
+      "Papan skor dan koleksi skin",
+      "Mode demo dengan hadiah simulasi",
+      "Perancangan dan pengembangan end-to-end oleh Wildan Firdaus"
+    ]
+  },
+  {
+    "id": "web-nadia-bakery",    "title": "Nadia Bakery",
+    "category": "web",
+    "categoryName": "Website & Landing Pages",
+    "role": "Website design & development",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "client": "Nadia Bakery",
+    "metric": "Business Website & Product Catalog",
+    "thumbnail": "assets/web-projects/nadia-bakery.jpg",
+    "embedVideo": "assets/web-projects/nadia-bakery.jpg",
+    "websiteUrl": "https://wildanfi12.github.io/Nadia-Bakery/",
+    "shortDesc": "Website bisnis dan katalog Nadia Bakery dengan alur pemesanan langsung melalui WhatsApp.",
+    "fullDesc": "Website Nadia Bakery menampilkan cerita brand, katalog Roti Original, Roti Kering, Brownies, dan Pia, galeri, filter kategori, FAQ, serta ajakan pemesanan melalui WhatsApp. Seluruh proses dari awal hingga website jadi dikerjakan oleh Wildan Firdaus.",
+    "challenge": "Menyajikan informasi produk bakery rumahan dengan hangat, jelas, dan mudah diakses calon pelanggan.",
+    "solution": "Membangun website responsif dengan narasi brand, katalog produk yang dapat difilter, galeri visual, FAQ, dan tautan WhatsApp.",
+    "results": [
+      "Katalog empat kategori produk dengan filter",
+      "Cerita brand, galeri, dan FAQ",
+      "Alur pertanyaan dan pemesanan lewat WhatsApp",
+      "Perancangan dan pengembangan end-to-end oleh Wildan Firdaus"
+    ]
+  },
+  {
+    "id": "web-howell-indocomtech-registration",    "title": "Howell — Indocomtech Visitor Registration",
+    "category": "web",
+    "categoryName": "Website & Landing Pages",
+    "role": "Website design & development",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "client": "PT. Howell Niaga Indonesia",
+    "metric": "Event Registration Website",
+    "thumbnail": "assets/web-projects/howell-indocomtech-registration.jpg",
+    "embedVideo": "assets/web-projects/howell-indocomtech-registration.jpg",
+    "websiteUrl": "https://registrasi.howellcable.site/",
+    "shortDesc": "Halaman registrasi pengunjung Howell untuk Indocomtech 2026, dibuat dari nol hingga siap digunakan.",
+    "fullDesc": "Website formulir registrasi pengunjung Indocomtech 2026 untuk Howell. Formulir mencakup data diri, kategori pengunjung, nama perusahaan, serta pilihan kebutuhan produk. Perancangan dan pengembangan dari awal sampai selesai dilakukan oleh Wildan Firdaus.",
+    "challenge": "Membuat formulir event yang menampung informasi pengunjung dan kebutuhan produk dalam satu alur yang jelas.",
+    "solution": "Menyusun formulir responsif dengan kelompok field data diri, profil bisnis, kategori pengunjung, dan kebutuhan produk Howell.",
+    "results": [
+      "Form registrasi pengunjung Indocomtech 2026",
+      "Kategori pengunjung dan pilihan kebutuhan produk",
+      "Tampilan terstruktur untuk desktop dan ponsel",
+      "Perancangan dan pengembangan end-to-end oleh Wildan Firdaus"
+    ]
   }
 ];
 
@@ -4379,10 +3269,8 @@ function initPortfolio() {
 
   // Dynamic Breakpoint-aware initial & increment count
   function getInitialCount() {
-    const w = window.innerWidth;
-    if (w >= 1200) return 12;   // Desktop: >=1200px -> 12 projects initially
-    if (w >= 768) return 8;     // Tablet: 768px-1199px -> 8 projects initially
-    return 6;                   // Mobile: <=767px -> 6 projects initially
+    // Render the complete collection; image payloads stay lazy-loaded below the fold.
+    return PROJECTS.length;
   }
 
   let visibleCount = getInitialCount();
@@ -4539,12 +3427,77 @@ function initPortfolio() {
   }
 
   function itemDisplayLabel(item, client, isVideo) {
-    const preferredCopy = isVideo && item.desc ? item.desc : item.name;
-    return artworkLabel(preferredCopy, client);
+    if (!item) return 'Karya';
+    let s = item.name || '';
+    s = s.replace(/\.(?:mp4|mov|webm|jpe?g|png|webp|gif|pdf)$/i, '');
+    s = s.replace(/\s*-\s*Voice.*$/i, '');
+    s = s.replace(/\s*\(\d+\)\s*\(\d+\)/g, '');
+    s = s.replace(/\s*\(\d+\)$/g, '');
+    s = s.replace(/\s+new\s*\d*$/i, '');
+    s = s.replace(/\s+New-?$/i, '');
+    s = s.replace(/[_-]+/g, ' ');
+    s = s.replace(/^\d+[\s._-]+/, '');
+    s = s.replace(/\s{2,}/g, ' ').trim();
+
+    if (/^genz pulang kerja/i.test(s)) s = 'Gen-Z Pulang Kerja';
+    if (/^ghibah/i.test(s)) s = 'Ghibah Kantor';
+    if (/^costumer datang/i.test(s)) s = 'Customer Datang';
+    if (/^pegel pegel/i.test(s)) s = 'Pegel-Pegel';
+    if (/^kerja jaman batu/i.test(s)) s = 'Kerja Jaman Batu';
+    if (/^kerja kompak/i.test(s)) s = 'Kerja Kompak';
+    if (/^found it beat/i.test(s)) s = 'Found It Beat';
+    if (/^fridge door opening/i.test(s)) s = 'Fridge Door Opening';
+    if (/^orang bergerak berjalan/i.test(s)) s = 'Outdoor Walking';
+    if (/^permintaan video sisca/i.test(s)) s = 'Sisca Berpikir';
+    if (/^agak laen/i.test(s)) s = 'Parodi Agak Laen';
+    if (/^bisnis usai ngantor/i.test(s)) s = 'Bisnis Usai Ngantor';
+    if (/^kling hand to hand/i.test(s)) s = 'Kling Hand to Hand';
+    if (/captain america fight/i.test(s)) s = 'Captain America Fight';
+    if (/evaluasi prompt/i.test(s)) s = 'Vlog Evaluasi Prompt AI';
+    if (/resep vlog ala sunda/i.test(s)) s = 'Resep Vlog Ala Sunda';
+    if (/veo hand to hand/i.test(s)) s = 'VEO Hand to Hand';
+
+    if (/^\d+$/.test(s) || s.length <= 2) {
+      if (item.desc) {
+        let d = item.desc;
+        const sepIdx = d.indexOf('—');
+        if (sepIdx !== -1) d = d.substring(sepIdx + 1).trim();
+        else {
+          const hIdx = d.indexOf(' - ');
+          if (hIdx !== -1) d = d.substring(hIdx + 3).trim();
+        }
+        const m = d.match(/seri\s*(\d+(?:\.\d+)?)/i) || d.match(/part\s*(\d+)/i) || d.match(/(\d+)/);
+        const num = m ? ('Seri ' + m[1]) : '';
+        if (/mixue/i.test(d)) s = ('Mixue AI Vlogger ' + num).trim();
+        else if (/pond/i.test(d)) s = ("Pond's Acne Solution " + num).trim();
+        else if (/cari tofu/i.test(d) || /tofu/i.test(d)) s = ('Cari Tofu ' + num).trim();
+        else if (/food vlog/i.test(d) || /food-vlog/i.test(d)) s = ('Food Vlog AI ' + num).trim();
+        else {
+          s = d.split('.')[0].replace(/^(?:Video|Koleksi|Animasi)\s+(?:commercial|reels|promosi|edukasi|dokumentasi)?\s*/i, '').trim();
+        }
+      }
+    }
+
+    if (/^Video komersial Mixue/i.test(s)) {
+      const m = (item.desc || s).match(/seri\s*(\d+)/i);
+      s = m ? ('Mixue AI Vlogger Seri ' + m[1]) : 'Mixue AI Vlogger';
+    }
+    if (/^Video komersial kecantikan Pond/i.test(s)) {
+      const m = (item.desc || s).match(/seri\s*(\d+(?:\.\d+)?)/i);
+      s = m ? ("Pond's Acne Solution Seri " + m[1]) : "Pond's Acne Solution";
+    }
+    if (/^Video animasi kilas balik 2025/i.test(s)) s = 'Kilas Balik 2025';
+    if (/^Video animasi refleksi/i.test(s)) s = 'Refleksi 2026 (Part 2)';
+
+    // Keep it short: max 45 characters
+    if (s.length > 45) {
+      s = s.split(' ').slice(0, 5).join(' ');
+    }
+
+    return s || 'Karya';
   }
 
-  // Helper to create a single project card DOM node
-  function createProjectCard(p, idx) {
+    function createProjectCard(p, idx) {
     const card = document.createElement('div');
     card.className = 'project-card';
     card.tabIndex = 0;
@@ -4554,33 +3507,56 @@ function initPortfolio() {
       if (e.target === card && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openModal(p); }
     });
     const isCardVid = p.thumbnail.endsWith('.mp4') || p.thumbnail.endsWith('.mov');
+    const isWebsitePreview = Boolean(p.websiteUrl || p.websitePreviewImage);
     const thumbBgStyle = p.thumbBg ? ` style="background: ${p.thumbBg};"` : '';
     const thumbImgStyle = p.thumbBg ? ' style="object-fit: contain; padding: 1.25rem;"' : '';
-    const isInitialBatch = idx < 12;
-    const loadingAttr = isInitialBatch ? 'loading="eager"' : 'loading="lazy"';
-    const fetchPriorityAttr = idx < 8 ? ' fetchpriority="high"' : '';
-    // Use sync decoding for initially visible cards to prevent WebKit flashing empty/black background on mobile
-    const decodingAttr = isInitialBatch ? 'decoding="sync"' : 'decoding="async"';
+    const loadingAttr = 'loading="lazy"';
+    // Portfolio cards sit below the hero; lazy decode keeps first paint focused on visible content.
+    const decodingAttr = 'decoding="async"';
 
     card.innerHTML = `
       <div class="project-thumb"${thumbBgStyle}>
-        ${isCardVid ? `
+        ${isWebsitePreview ? `
+          <div class="website-preview-window">
+            ${p.websitePreviewImage ? `
+              <img class="website-preview-still" src="${p.websitePreviewImage}" alt="Screenshot asli ${projectTitle(p.title)}" loading="lazy" decoding="async">
+              <span class="website-preview-label" aria-hidden="true">SCREENSHOT WEBSITE</span>
+            ` : `
+              <iframe class="website-preview-frame" src="${p.websiteUrl}" loading="lazy" title="Website live ${projectTitle(p.title)}" referrerpolicy="strict-origin-when-cross-origin" aria-hidden="true" tabindex="-1"></iframe>
+              <span class="website-preview-label" aria-hidden="true">WEBSITE LIVE</span>
+            `}
+          </div>
+        ` : isCardVid ? `
           <div class="video-poster-fallback">
             <div class="video-poster-icon">▶</div>
             <span class="video-poster-badge">${p.client} • ${p.categoryName}</span>
           </div>
           <video data-src="${p.thumbnail.includes('#t=') ? p.thumbnail : p.thumbnail + '#t=0.5'}" class="card-video-thumb" loop muted playsinline preload="none"></video>
         ` : `
-          <img src="${p.thumbnail}" alt="Pratinjau ${projectTitle(p.title)}" ${loadingAttr}${fetchPriorityAttr} ${decodingAttr}${thumbImgStyle}>
+          <img src="${p.thumbnail}" alt="Pratinjau ${projectTitle(p.title)}" ${loadingAttr} ${decodingAttr}${thumbImgStyle}>
         `}
         <span class="collection-open" aria-hidden="true">↗</span>
       </div>
       <div class="project-content">
-        <div class="collection-meta"><span>${p.categoryName}</span><span>${p.items?.length ? p.items.length + ' karya' : 'Lihat proyek'}</span></div>
+        <div class="collection-meta"><span>${p.categoryName}</span><span>${p.items?.length ? p.items.length + ' karya' : (p.internalProject ? 'Internal • VPS' : (p.websiteUrl ? 'Website live' : 'Lihat proyek'))}</span></div>
         <h3 class="project-title">${projectTitle(p.title)}</h3>
         <p class="project-desc">${p.client}</p>
       </div>
     `;
+
+    const thumb = card.querySelector('.project-thumb');
+    const thumbImg = thumb?.querySelector('img');
+    if (thumbImg) {
+      thumbImg.addEventListener('error', () => {
+        const fallback = document.createElement('div');
+        fallback.className = 'project-thumb-load-fallback';
+        fallback.textContent = projectTitle(p.title);
+        fallback.setAttribute('role', 'img');
+        fallback.setAttribute('aria-label', 'Pratinjau tidak tersedia: ' + projectTitle(p.title));
+        thumb.appendChild(fallback);
+        thumbImg.remove();
+      }, { once: true });
+    }
 
     card.addEventListener('click', () => {
       openModal(p);
@@ -4596,7 +3572,22 @@ function initPortfolio() {
       visibleCount = getInitialCount();
     }
 
-    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => p.category === currentFilter);
+    const filtered = currentFilter === 'all' ? PROJECTS : PROJECTS.filter(p => Array.isArray(p.category) ? p.category.includes(currentFilter) : p.category === currentFilter);
+    if (currentFilter === 'design') {
+      const designPriority = [
+        'graphic-design-howell',
+        'graphic-design-fkdb',
+        'graphic-design-eastern-depo',
+        'graphic-design-elvorindo'
+      ];
+      filtered.sort((a, b) => {
+        const aPriority = designPriority.indexOf(a.id);
+        const bPriority = designPriority.indexOf(b.id);
+        if (aPriority === -1) return bPriority === -1 ? 0 : 1;
+        if (bPriority === -1) return -1;
+        return aPriority - bPriority;
+      });
+    }
     const targetCount = Math.min(visibleCount, filtered.length);
 
     if (isCategoryChange || resetCount) {
@@ -4672,6 +3663,7 @@ function initPortfolio() {
       window.savedScrollPosition = curY;
     }
     
+    const isLiveWebsite = !!project.websiteUrl && !project.websitePreviewImage;
     const isBunny = !!project.bunnyVideoId || (project.embedVideo && (project.embedVideo.includes('iframe.mediadelivery.net') || project.embedVideo.includes('player.mediadelivery.net') || project.embedVideo.includes('bunny') || project.embedVideo.includes('mediadelivery')));
     const isVideo = !isBunny && project.embedVideo && (project.embedVideo.endsWith('.mp4') || project.embedVideo.endsWith('.mov'));
     const isVideoCollection = !!(project.items && project.items.some(item => {
@@ -4693,9 +3685,11 @@ function initPortfolio() {
     }
 
     modalBody.innerHTML = `
-      <div class="collection-intro"><span>${project.categoryName} / ${project.client}</span><h2 class="modal-project-title" id="collection-title">${projectTitle(project.title)}</h2><p>${project.items?.length ? project.items.length + ' karya dalam koleksi' : 'Ringkasan proyek'}</p></div>
-      <div class="modal-media" id="modal-main-media" style="position:relative; background:${initialEmbedBg};" onclick="${(!isVideo && !isBunny) ? `window.openZoomViewerForProject('${project.id}', 0)` : ''}">
-        ${isBunny ? `
+      <div class="collection-intro"><span>${project.categoryName} / ${project.client}</span><h2 class="modal-project-title" id="collection-title">${projectTitle(project.title)}</h2><p>${project.items?.length ? project.items.length + ' karya dalam koleksi' : (project.internalProject ? 'Aplikasi internal • VPS' : (project.websiteUrl ? 'Website live' : 'Ringkasan proyek'))}</p></div>
+      <div class="modal-media" id="modal-main-media" style="position:relative; background:${initialEmbedBg};" onclick="${(!isVideo && !isBunny && !isLiveWebsite) ? `window.openZoomViewerForProject('${project.id}', 0)` : ''}">
+        ${isLiveWebsite ? `
+          <iframe src="${project.websiteUrl}" title="Website live ${projectTitle(project.title)}" loading="eager" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute; inset:0; width:100%; height:100%; border:0;" allowfullscreen></iframe>
+        ` : isBunny ? `
           <div class="bunny-player-box" style="position:relative; width:100%; aspect-ratio:16/9; border-radius:14px; overflow:hidden; background:#000; box-shadow:0 8px 32px rgba(0,0,0,0.5);">
             <iframe src="${bunnyEmbedSrc}" loading="lazy" style="border:0; position:absolute; top:0; left:0; height:100%; width:100%;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe>
           </div>
@@ -4707,7 +3701,7 @@ function initPortfolio() {
         `}
       </div>
       <div class="modal-header-text" style="margin-bottom: 1.5rem;">
-        <p class="collection-summary">${collectionSummary(project)}</p>
+        <p class="collection-summary" id="modal-active-caption" style="font-size: 1.15rem; font-weight: 600; color: #1a1a1a; margin-bottom: 0.5rem; letter-spacing: -0.01em;">${project.items && project.items[0] ? itemDisplayLabel(project.items[0], project.client, isVideo) : collectionSummary(project)}</p>
         ${project.youtubeUrl ? `
           <div>
             <a href="${project.youtubeUrl}" target="_blank" class="btn btn-primary" style="background:#ff0000; border-color:#ff0000; color:#fff; font-weight:700; font-size:0.95rem; padding:0.7rem 1.3rem; display:inline-flex; align-items:center; gap:0.6rem; text-decoration:none; border-radius:12px; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3); max-width:100%; word-break:break-word;">
@@ -4766,12 +3760,21 @@ function initPortfolio() {
         </div>
       </div>
 
-      <div style="margin-bottom: 0.5rem;">
-        <h4 style="margin-bottom: 0.75rem; font-size: 1rem; font-weight: 600; color: #202020;">Hasil proyek</h4>
-        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
-          ${project.results.map(r => `<li style="display: flex; align-items: flex-start; gap: 0.6rem; color: #525252; font-size: 0.9rem; line-height:1.6;"><span style="color: #555; font-weight: 700;">✓</span> ${cleanPortfolioCopy(r)}</li>`).join('')}
-        </ul>
-      </div>
+      ${project.category === 'web' ? `
+        <section class="website-project-meta" aria-label="Ringkasan proyek website">
+          <div class="website-project-meta__item"><span>ROLE</span><strong>${cleanPortfolioCopy(project.role || 'Website development')}</strong></div>
+          <div class="website-project-meta__item"><span>STACK</span><div class="website-project-stack">${(project.stack || []).map(technology => `<span class="website-project-stack__tag">${cleanPortfolioCopy(technology)}</span>`).join('')}</div></div>
+          <div class="website-project-meta__item"><span>DEPLOYMENT</span><strong>${cleanPortfolioCopy(project.deployment || (project.websiteUrl ? 'Public website' : 'Internal'))}</strong></div>
+          <div class="website-project-meta__item"><span>LINK</span>${project.websiteUrl ? `<a class="website-project-meta__link" href="${project.websiteUrl}" target="_blank" rel="noopener noreferrer">Open <span aria-hidden="true">↗</span></a>` : `<strong class="website-project-meta__private">${project.internalProject ? 'Private' : 'No public link'}</strong>`}</div>
+        </section>
+      ` : `
+        <div style="margin-bottom: 0.5rem;">
+          <h4 style="margin-bottom: 0.75rem; font-size: 1rem; font-weight: 600; color: #202020;">Hasil proyek</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
+            ${project.results.map(r => `<li style="display: flex; align-items: flex-start; gap: 0.6rem; color: #525252; font-size: 0.9rem; line-height:1.6;"><span style="color: #555; font-weight: 700;">✓</span> ${cleanPortfolioCopy(r)}</li>`).join('')}
+          </ul>
+        </div>
+      `}
     `;
 
     modalBackdrop.setAttribute('aria-labelledby', 'collection-title');
@@ -4836,6 +3839,10 @@ function initPortfolio() {
     const project = PROJECTS.find(p => p.id === projectId);
     if (!project || !project.items || !project.items[itemIndex]) return;
     const item = project.items[itemIndex];
+    const captionEl = document.getElementById('modal-active-caption');
+    if (captionEl) {
+      captionEl.textContent = itemDisplayLabel(item, project.client, isVideo);
+    }
     if (isVideo) {
       window.viewMediaPreview(item.video || item.img, itemDisplayLabel(item, project.client, true), true);
     } else {
