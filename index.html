@@ -5675,7 +5675,6 @@
     const menuOpenBtn = document.getElementById('menu-open-btn');
     const menuCloseBtn = document.getElementById('menu-close-btn');
     const overlayBrandBtn = document.querySelector('.overlay-brand-btn');
-    const brandHomeBtn = document.getElementById('brand-home-btn');
 
     function openNavMenu() {
       if (!navOverlay) return;
@@ -5707,9 +5706,6 @@
         closeNavMenu();
         smoothScrollTo('home');
       });
-    }
-    if (brandHomeBtn) {
-      brandHomeBtn.addEventListener('click', closeNavMenu);
     }
     if (navOverlay) {
       navOverlay.addEventListener('click', (e) => {
@@ -5833,7 +5829,10 @@
        ========================================================================== */
     const brandHomeBtn = document.getElementById('brand-home-btn');
     if (brandHomeBtn) {
-      brandHomeBtn.addEventListener('click', () => smoothScrollTo('home'));
+      brandHomeBtn.addEventListener('click', () => {
+        closeNavMenu();
+        smoothScrollTo('home');
+      });
     }
 
     document.querySelectorAll('[data-target]').forEach(btn => {
